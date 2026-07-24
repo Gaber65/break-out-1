@@ -1,0 +1,2024 @@
+{
+  "restaurantName": "Breakout Cafe",
+  "currency": "EGP",
+  "categories": [
+    {
+      "id": "espresso_and_coffee",
+      "name": "Espresso & Coffee",
+      "name_ar": "إسبريسو وقهوة",
+      "icon": "coffee",
+      "coverImage": "/menu/categories/espresso_and_coffee.jpg",
+      "sortOrder": 1,
+      "items": [
+        {
+          "id": "turkish_coffee",
+          "name": "Turkish Coffee",
+          "name_ar": "قهوه تركي",
+          "description": "Classic Turkish coffee brewed slowly with a rich layer of foam.",
+          "prices": [30],
+          "image": "/menu/espresso_and_coffee/turkish_coffee.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 1
+        },
+        {
+          "id": "french_coffee",
+          "name": "French Coffee",
+          "name_ar": "قهوه فرنساوي",
+          "description": "Smooth French-style coffee blended with rich, creamy milk.",
+          "prices": [40, 55],
+          "image": "/menu/espresso_and_coffee/french_coffee.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 2
+        },
+        {
+          "id": "hazelnut_coffee",
+          "name": "Hazelnut Coffee",
+          "name_ar": "بندق",
+          "description": "Traditional coffee infused with hazelnut flavor, available with real hazelnut pieces.",
+          "prices": [45, 60],
+          "image": "/menu/espresso_and_coffee/hazelnut_coffee.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 3
+        },
+        {
+          "id": "caramel_macchiato",
+          "name": "Caramel Macchiato",
+          "name_ar": "كراميل مكياتو",
+          "description": "Freshly steamed milk with vanilla syrup, marked with espresso and drizzled with caramel.",
+          "prices": [75],
+          "image": "/menu/espresso_and_coffee/caramel_macchiato.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["hot", "popular"],
+          "sortOrder": 4
+        },
+        {
+          "id": "espresso_decaf",
+          "name": "Espresso (Decaf)",
+          "name_ar": "أسبريسو (ديكاف)",
+          "description": "Rich and bold decaffeinated espresso shot with a smooth golden crema.",
+          "prices": [40, 60],
+          "image": "/menu/espresso_and_coffee/espresso_decaf.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 5
+        },
+        {
+          "id": "cortado",
+          "name": "Cortado",
+          "name_ar": "كورتادو",
+          "description": "Equal parts bold espresso and warm, velvety textured steamed milk.",
+          "prices": [60],
+          "image": "/menu/espresso_and_coffee/cortado.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 6
+        },
+        {
+          "id": "flat_white",
+          "name": "Flat White",
+          "name_ar": "فلات وايت",
+          "description": "Double ristretto espresso combined with velvety microfoam milk.",
+          "prices": [70],
+          "image": "/menu/espresso_and_coffee/flat_white.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["hot", "popular"],
+          "sortOrder": 7
+        },
+        {
+          "id": "macchiato",
+          "name": "Macchiato",
+          "name_ar": "ماكياتو",
+          "description": "Bold espresso marked with a small dollop of frothy steamed milk.",
+          "prices": [50, 65],
+          "image": "/menu/espresso_and_coffee/macchiato.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 8
+        },
+        {
+          "id": "latte",
+          "name": "Latte",
+          "name_ar": "لاتيه",
+          "description": "Rich espresso balanced with silky steamed milk and a light layer of foam.",
+          "prices": [75],
+          "image": "/menu/espresso_and_coffee/latte.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["hot", "popular"],
+          "sortOrder": 9
+        },
+        {
+          "id": "cappuccino",
+          "name": "Cappuccino",
+          "name_ar": "كابتشينو",
+          "description": "Classic Italian-style with equal parts espresso, steamed milk, and dense foam.",
+          "prices": [70],
+          "image": "/menu/espresso_and_coffee/cappuccino.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["hot", "popular"],
+          "sortOrder": 10
+        },
+        {
+          "id": "white_mocha",
+          "name": "White Mocha",
+          "name_ar": "موكا وايت",
+          "description": "Espresso blended with sweet white chocolate sauce and steamed milk.",
+          "prices": [75],
+          "image": "/menu/espresso_and_coffee/white_mocha.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 11
+        },
+        {
+          "id": "americano",
+          "name": "Americano",
+          "name_ar": "أمريكانو",
+          "description": "Double espresso shots with hot water. Bold, clean, no-nonsense coffee.",
+          "prices": [55],
+          "image": "/menu/espresso_and_coffee/americano.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 12
+        },
+        {
+          "id": "spanish_latte",
+          "name": "Spanish Latte",
+          "name_ar": "إسبانش",
+          "description": "Sweetened condensed milk combined with bold espresso and velvety steamed milk.",
+          "prices": [75],
+          "image": "/menu/espresso_and_coffee/spanish_latte.jpg",
+          "available": true,
+          "featured": true,
+          "isNew": false,
+          "popular": true,
+          "tags": ["hot", "popular", "signature"],
+          "sortOrder": 13
+        },
+        {
+          "id": "toffee_nut",
+          "name": "Toffee Nut Latte",
+          "name_ar": "توفى نات",
+          "description": "Buttery toffee nut syrup blended with rich espresso and warm steamed milk.",
+          "prices": [75],
+          "image": "/menu/espresso_and_coffee/toffee_nut.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 14
+        },
+        {
+          "id": "dolce_latte",
+          "name": "Dolce Latte",
+          "name_ar": "دولتشي",
+          "description": "Espresso mixed with premium sweet dolce sauce and warm steamed milk.",
+          "prices": [75],
+          "image": "/menu/espresso_and_coffee/dolce_latte.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 15
+        }
+      ]
+    },
+    {
+      "id": "hot_drinks",
+      "name": "Hot Drinks",
+      "name_ar": "هوت درينك",
+      "icon": "mug-hot",
+      "coverImage": "/menu/categories/hot_drinks.jpg",
+      "sortOrder": 2,
+      "items": [
+        {
+          "id": "hot_chocolate",
+          "name": "Hot Chocolate",
+          "name_ar": "هوت شوكليت",
+          "description": "Rich and comforting cocoa drink, available with a generous topping of fluffy marshmallows.",
+          "prices": [50, 65],
+          "image": "/menu/hot_drinks/hot_chocolate.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["hot", "popular"],
+          "sortOrder": 1
+        },
+        {
+          "id": "nescafe",
+          "name": "Nescafe",
+          "name_ar": "نيسكافيه",
+          "description": "A classic, comforting cup of premium instant coffee.",
+          "prices": [25],
+          "image": "/menu/hot_drinks/nescafe.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 2
+        },
+        {
+          "id": "sahlab",
+          "name": "Sahlab",
+          "name_ar": "سحلب",
+          "description": "Traditional Middle Eastern sweet milk beverage garnished with nuts and cinnamon.",
+          "prices": [50],
+          "image": "/menu/hot_drinks/sahlab.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 3
+        },
+        {
+          "id": "oreo_white_chocolate",
+          "name": "Oreo White Chocolate",
+          "name_ar": "اوريو وايت شوكليت",
+          "description": "Warm, creamy white chocolate drink blended with crushed Oreo cookies.",
+          "prices": [70],
+          "image": "/menu/hot_drinks/oreo_white_chocolate.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": ["hot", "new"],
+          "sortOrder": 4
+        },
+        {
+          "id": "herbal_tea",
+          "name": "Herbal Tea",
+          "name_ar": "اعشاب",
+          "description": "A selection of soothing, warm natural herbal infusions.",
+          "prices": [25],
+          "image": "/menu/hot_drinks/herbal_tea.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 5
+        },
+        {
+          "id": "tea",
+          "name": "Tea",
+          "name_ar": "شاي",
+          "description": "Premium black tea brewed to perfection.",
+          "prices": [15],
+          "image": "/menu/hot_drinks/tea.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 6
+        },
+        {
+          "id": "karak_tea",
+          "name": "Karak Tea",
+          "name_ar": "كرك",
+          "description": "Strong spiced milk tea infused with cardamom and aromatic spices.",
+          "prices": [30],
+          "image": "/menu/hot_drinks/karak_tea.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 7
+        },
+        {
+          "id": "hot_lotus",
+          "name": "Hot Lotus",
+          "name_ar": "هوت لوتس",
+          "description": "Creamy hot milk drink blended with sweet Lotus Biscoff spread.",
+          "prices": [60],
+          "image": "/menu/hot_drinks/hot_lotus.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["hot"],
+          "sortOrder": 8
+        },
+        {
+          "id": "hot_pistachio",
+          "name": "Hot Pistachio",
+          "name_ar": "بيستاشيو",
+          "description": "Creamy hot milk drink infused with premium sweet pistachio paste.",
+          "prices": [70],
+          "image": "/menu/hot_drinks/hot_pistachio.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": ["hot", "new"],
+          "sortOrder": 9
+        }
+      ]
+    },
+    {
+      "id": "iced_latte",
+      "name": "Iced Latte & Cold Coffee",
+      "name_ar": "أيس لاتيه",
+      "icon": "glass-water",
+      "coverImage": "/menu/categories/iced_latte.jpg",
+      "sortOrder": 3,
+      "items": [
+        {
+          "id": "iced_latte",
+          "name": "Iced Latte",
+          "name_ar": "أيس لاتية",
+          "description": "Chilled espresso combined with cold milk and served over ice.",
+          "prices": [65],
+          "image": "/menu/iced_latte/iced_latte.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 1
+        },
+        {
+          "id": "iced_mocha_white",
+          "name": "Iced Mocha / White",
+          "name_ar": "أيس موكا، وايت",
+          "description": "Chilled espresso blended with chocolate or white chocolate and cold milk over ice.",
+          "prices": [75],
+          "image": "/menu/iced_latte/iced_mocha_white.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 2
+        },
+        {
+          "id": "iced_americano",
+          "name": "Iced Americano",
+          "name_ar": "أيس أمريكانو",
+          "description": "Bold espresso shots poured over ice and cold water for a crisp coffee taste.",
+          "prices": [55],
+          "image": "/menu/iced_latte/iced_americano.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 3
+        },
+        {
+          "id": "iced_pistachio_latte",
+          "name": "Iced Pistachio Latte",
+          "name_ar": "أيس بيستاشيو لاتية",
+          "description": "Chilled espresso with sweet pistachio paste and cold milk over ice.",
+          "prices": [80],
+          "image": "/menu/iced_latte/iced_pistachio_latte.jpg",
+          "available": true,
+          "featured": true,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular", "signature"],
+          "sortOrder": 4
+        },
+        {
+          "id": "iced_dolce",
+          "name": "Iced Dolce",
+          "name_ar": "دولتشي",
+          "description": "Bold espresso mixed with sweet dolce sauce and cold milk over ice.",
+          "prices": [75],
+          "image": "/menu/iced_latte/iced_dolce.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 5
+        },
+        {
+          "id": "iced_spanish_latte",
+          "name": "Iced Spanish Latte",
+          "name_ar": "أيس سبانيش لاتية",
+          "description": "Creamy sweetened condensed milk combined with bold espresso and cold milk over ice.",
+          "prices": [80],
+          "image": "/menu/iced_latte/iced_spanish_latte.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular"],
+          "sortOrder": 6
+        },
+        {
+          "id": "iced_creme_brulee",
+          "name": "Iced Crème Brûlée",
+          "name_ar": "أيس كريم برولية",
+          "description": "Indulgent iced espresso flavored with caramelized custard crème brûlée sauce.",
+          "prices": [70],
+          "image": "/menu/iced_latte/iced_creme_brulee.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": ["cold", "new"],
+          "sortOrder": 7
+        },
+        {
+          "id": "double_nut_white_mocha",
+          "name": "Double Nut White Mocha",
+          "name_ar": "دابل نوت موكا وايت",
+          "description": "Double nut syrup combined with sweet white chocolate, espresso, and cold milk over ice.",
+          "prices": [75],
+          "image": "/menu/iced_latte/double_nut_white_mocha.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 8
+        },
+        {
+          "id": "iced_matcha",
+          "name": "Iced Matcha (Extra Milk)",
+          "name_ar": "أيس ماتشا (اكسترا milk)",
+          "description": "Ceremonial Japanese matcha green tea whisked with extra milk and served over ice.",
+          "prices": [55, 80],
+          "image": "/menu/iced_latte/iced_matcha.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": ["cold", "new"],
+          "sortOrder": 9
+        },
+        {
+          "id": "caramel_frappuccino",
+          "name": "Caramel Frappuccino",
+          "name_ar": "فرابتشينو كراميل",
+          "description": "Ice-blended espresso drink with sweet caramel syrup, finished with whipped cream.",
+          "prices": [75],
+          "image": "/menu/iced_latte/caramel_frappuccino.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 10
+        },
+        {
+          "id": "cookies_frappuccino",
+          "name": "Cookies Frappuccino",
+          "name_ar": "فرابتشينو كوكيزز",
+          "description": "Blended coffee shake with chocolate chip cookies and sweet cream.",
+          "prices": [70],
+          "image": "/menu/iced_latte/cookies_frappuccino.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 11
+        },
+        {
+          "id": "oreo_lotus_avocado",
+          "name": "Oreo Lotus (Avocado)",
+          "name_ar": "اوريو لوتس (افوكادو)",
+          "description": "Unique blended cold drink combining Oreo biscuits, Lotus spread, and fresh avocado.",
+          "prices": [55],
+          "image": "/menu/iced_latte/oreo_lotus_avocado.jpg",
+          "available": true,
+          "featured": true,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold", "signature"],
+          "sortOrder": 12
+        },
+        {
+          "id": "salted_caramel",
+          "name": "Salted Caramel",
+          "name_ar": "سولتد كراميل",
+          "description": "Chilled espresso with creamy milk and rich salted caramel syrup over ice.",
+          "prices": [75],
+          "image": "/menu/iced_latte/salted_caramel.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular"],
+          "sortOrder": 13
+        }
+      ]
+    },
+    {
+      "id": "shakes",
+      "name": "Shakes",
+      "name_ar": "شيك",
+      "icon": "blender",
+      "coverImage": "/menu/categories/shakes.jpg",
+      "sortOrder": 4,
+      "items": [
+        {
+          "id": "vanilla_shake",
+          "name": "Vanilla Shake",
+          "name_ar": "فانيلا",
+          "description": "Thick and creamy milkshake blended with premium vanilla bean ice cream.",
+          "prices": [60],
+          "image": "/menu/shakes/vanilla_shake.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 1
+        },
+        {
+          "id": "chocolate_shake",
+          "name": "Chocolate Shake",
+          "name_ar": "شوكولاته",
+          "description": "Indulgent rich chocolate milkshake topped with dark chocolate drizzle.",
+          "prices": [60],
+          "image": "/menu/shakes/chocolate_shake.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 2
+        },
+        {
+          "id": "kinder_shake",
+          "name": "Kinder Shake",
+          "name_ar": "كندر",
+          "description": "Creamy milkshake blended with real Kinder Bueno chocolate bars.",
+          "prices": [70],
+          "image": "/menu/shakes/kinder_shake.jpg",
+          "available": true,
+          "featured": true,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular"],
+          "sortOrder": 3
+        },
+        {
+          "id": "lotus_shake",
+          "name": "Lotus Shake",
+          "name_ar": "لوتس",
+          "description": "Decadent milkshake blended with Lotus Biscoff cookies and Biscoff spread.",
+          "prices": [65],
+          "image": "/menu/shakes/lotus_shake.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular"],
+          "sortOrder": 4
+        },
+        {
+          "id": "pistachio_shake",
+          "name": "Pistachio Shake",
+          "name_ar": "بيستاشيو",
+          "description": "Premium milkshake infused with rich, authentic pistachio cream.",
+          "prices": [70],
+          "image": "/menu/shakes/pistachio_shake.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 5
+        },
+        {
+          "id": "strawberry_shake",
+          "name": "Strawberry Shake",
+          "name_ar": "فراوله",
+          "description": "Sweet, refreshing milkshake made with fresh strawberries and vanilla ice cream.",
+          "prices": [60],
+          "image": "/menu/shakes/strawberry_shake.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 6
+        },
+        {
+          "id": "mango_shake",
+          "name": "Mango Shake",
+          "name_ar": "مانجا",
+          "description": "Tropical milkshake blended with fresh Egyptian mango pulp.",
+          "prices": [60],
+          "image": "/menu/shakes/mango_shake.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 7
+        }
+      ]
+    },
+    {
+      "id": "frappes",
+      "name": "Frappes",
+      "name_ar": "فرابيه",
+      "icon": "cup-straw",
+      "coverImage": "/menu/categories/frappes.jpg",
+      "sortOrder": 5,
+      "items": [
+        {
+          "id": "vanilla_frappe",
+          "name": "Vanilla Frappe",
+          "name_ar": "فانيلا",
+          "description": "Creamy ice-blended beverage infused with classic sweet vanilla flavor.",
+          "prices": [60],
+          "image": "/menu/frappes/vanilla_frappe.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 1
+        },
+        {
+          "id": "chocolate_frappe",
+          "name": "Chocolate Frappe",
+          "name_ar": "شوكولاته",
+          "description": "Rich and velvety chocolate blended drink, topped with dark chocolate sauce.",
+          "prices": [60],
+          "image": "/menu/frappes/chocolate_frappe.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 2
+        },
+        {
+          "id": "coconut_blue_frappe",
+          "name": "Coconut Blue Frappe",
+          "name_ar": "كوكونت بلو",
+          "description": "Tropical blended drink combining sweet coconut cream and blue curaçao syrup.",
+          "prices": [60],
+          "image": "/menu/frappes/coconut_blue_frappe.jpg",
+          "available": true,
+          "featured": true,
+          "isNew": true,
+          "popular": false,
+          "tags": ["cold", "new", "signature"],
+          "sortOrder": 3
+        },
+        {
+          "id": "chocolate_chip_frappe",
+          "name": "Chocolate Chip Frappe",
+          "name_ar": "شوكليت شيبي",
+          "description": "Blended creamy frappe loaded with crunchy chocolate chips throughout.",
+          "prices": [65],
+          "image": "/menu/frappes/chocolate_chip_frappe.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 4
+        },
+        {
+          "id": "passion_fruit_frappe",
+          "name": "Passion Fruit Frappe",
+          "name_ar": "باشن فروت",
+          "description": "Zesty, tropical passion fruit purée blended with ice and sweet cream.",
+          "prices": [60],
+          "image": "/menu/frappes/passion_fruit_frappe.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 5
+        },
+        {
+          "id": "mix_berry_frappe",
+          "name": "Mix Berry Frappe",
+          "name_ar": "ميكس بيرى",
+          "description": "Vibrant ice-blended mix of wild strawberries, blueberries, and raspberries.",
+          "prices": [60],
+          "image": "/menu/frappes/mix_berry_frappe.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 6
+        },
+        {
+          "id": "peach_frappe",
+          "name": "Peach Frappe",
+          "name_ar": "خوخ",
+          "description": "Refreshing blended frappe made with sweet, juicy peach purée.",
+          "prices": [60],
+          "image": "/menu/frappes/peach_frappe.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 7
+        },
+        {
+          "id": "oreo_frappe",
+          "name": "Oreo Frappe",
+          "name_ar": "اوريو",
+          "description": "Thick blended frappe loaded with crushed Oreo cookies and chocolate drizzle.",
+          "prices": [70],
+          "image": "/menu/frappes/oreo_frappe.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular"],
+          "sortOrder": 8
+        },
+        {
+          "id": "lotus_frappe",
+          "name": "Lotus Frappe",
+          "name_ar": "لوتس",
+          "description": "Ice-blended frappe featuring rich Lotus Biscoff cookies and cookie butter.",
+          "prices": [70],
+          "image": "/menu/frappes/lotus_frappe.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular"],
+          "sortOrder": 9
+        }
+      ]
+    },
+    {
+      "id": "mix_soda",
+      "name": "Mix Soda",
+      "name_ar": "مكس صودا",
+      "icon": "wine-glass",
+      "coverImage": "/menu/categories/mix_soda.jpg",
+      "sortOrder": 6,
+      "items": [
+        {
+          "id": "mojito",
+          "name": "Mojito (Choose Flavor)",
+          "name_ar": "موهيتو (اختار فليفر)",
+          "description": "Classic fizzy mocktail with fresh mint leaves, lime slices, and choice of flavor syrup.",
+          "prices": [60],
+          "image": "/menu/mix_soda/mojito.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular"],
+          "sortOrder": 1
+        },
+        {
+          "id": "turquoise",
+          "name": "Turquoise",
+          "name_ar": "تركواز",
+          "description": "Exotic sparkling blue curaçao drink mixed with fresh mint and soda.",
+          "prices": [70],
+          "image": "/menu/mix_soda/turquoise.jpg",
+          "available": true,
+          "featured": true,
+          "isNew": true,
+          "popular": false,
+          "tags": ["cold", "new", "signature"],
+          "sortOrder": 2
+        },
+        {
+          "id": "alaska",
+          "name": "Alaska",
+          "name_ar": "الاسكا",
+          "description": "Frosty soda blend combining blue curaçao with sweet coconut cream notes.",
+          "prices": [70],
+          "image": "/menu/mix_soda/alaska.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 3
+        },
+        {
+          "id": "la_bomba_strong",
+          "name": "La Bomba Strong",
+          "name_ar": "لابومب سترونج",
+          "description": "A powerful and energizing mocktail designed to wake up your senses.",
+          "prices": [90],
+          "image": "/menu/mix_soda/la_bomba_strong.jpg",
+          "available": true,
+          "featured": true,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular", "signature"],
+          "sortOrder": 4
+        },
+        {
+          "id": "pina_colada",
+          "name": "Piña Colada",
+          "name_ar": "بينا كولاده",
+          "description": "Rich and creamy blend of tropical coconut cream and sweet pineapple juice.",
+          "prices": [60],
+          "image": "/menu/mix_soda/pina_colada.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "smoothies",
+      "name": "Smoothies",
+      "name_ar": "سموذي",
+      "icon": "apple-whole",
+      "coverImage": "/menu/categories/smoothies.jpg",
+      "sortOrder": 7,
+      "items": [
+        {
+          "id": "green_apple_smoothie",
+          "name": "Green Apple Smoothie",
+          "name_ar": "جرين أبل",
+          "description": "Crisp and tart green apple purée blended with ice for a refreshing kick.",
+          "prices": [60],
+          "image": "/menu/smoothies/green_apple_smoothie.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 1
+        },
+        {
+          "id": "watermelon_smoothie",
+          "name": "Watermelon Smoothie",
+          "name_ar": "بطيخ",
+          "description": "Sweet, juicy watermelon purée blended into a freezing cold smoothie.",
+          "prices": [60],
+          "image": "/menu/smoothies/watermelon_smoothie.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 2
+        },
+        {
+          "id": "passion_smoothie",
+          "name": "Passion Smoothie",
+          "name_ar": "باشن",
+          "description": "Exotic, tangy passion fruit blended with ice to make a tropical smoothie.",
+          "prices": [60],
+          "image": "/menu/smoothies/passion_smoothie.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 3
+        },
+        {
+          "id": "peach_smoothie",
+          "name": "Peach Smoothie",
+          "name_ar": "خوخ",
+          "description": "Sweet and velvety smoothie crafted from sun-ripened peach purée.",
+          "prices": [60],
+          "image": "/menu/smoothies/peach_smoothie.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 4
+        },
+        {
+          "id": "mango_smoothie",
+          "name": "Mango Smoothie",
+          "name_ar": "مانجو",
+          "description": "Thick, luxurious smoothie made from pureed ripe Egyptian mangoes.",
+          "prices": [60],
+          "image": "/menu/smoothies/mango_smoothie.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular"],
+          "sortOrder": 5
+        },
+        {
+          "id": "tropical_smoothie",
+          "name": "Tropical Smoothie",
+          "name_ar": "ترويكال",
+          "description": "An exotic blend of fresh pineapple, mango, and tropical juices.",
+          "prices": [70],
+          "image": "/menu/smoothies/tropical_smoothie.jpg",
+          "available": true,
+          "featured": true,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold", "signature"],
+          "sortOrder": 6
+        },
+        {
+          "id": "strawberry_smoothie",
+          "name": "Strawberry Smoothie",
+          "name_ar": "فراولة",
+          "description": "Classic sweet strawberry purée blended with ice for a frosty fruit treat.",
+          "prices": [60],
+          "image": "/menu/smoothies/strawberry_smoothie.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 7
+        },
+        {
+          "id": "mix_berry_smoothie",
+          "name": "Mix Berry Smoothie",
+          "name_ar": "ميكس بيرى",
+          "description": "A delightful blend of sweet strawberries, tart blueberries, and raspberries.",
+          "prices": [60],
+          "image": "/menu/smoothies/mix_berry_smoothie.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular"],
+          "sortOrder": 8
+        },
+        {
+          "id": "lemon_mint_smoothie",
+          "name": "Lemon Mint Smoothie",
+          "name_ar": "ليمون نعناع",
+          "description": "Zesty squeezed lemon juice and fresh mint leaves blended with ice.",
+          "prices": [50],
+          "image": "/menu/smoothies/lemon_mint_smoothie.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 9
+        },
+        {
+          "id": "kiwi_smoothie",
+          "name": "Kiwi Smoothie",
+          "name_ar": "كيوي",
+          "description": "Vibrant, tart fresh kiwi fruit smoothie packed with vitamins.",
+          "prices": [60],
+          "image": "/menu/smoothies/kiwi_smoothie.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 10
+        }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "name": "Sandwiches",
+      "name_ar": "ساندوتشات",
+      "icon": "burger",
+      "coverImage": "/menu/categories/sandwiches.jpg",
+      "sortOrder": 8,
+      "items": [
+        {
+          "id": "roast_beef",
+          "name": "Roast Beef Sandwich",
+          "name_ar": "روز بيف",
+          "description": "Premium sliced roast beef with fresh lettuce, tomatoes, and house sauce.",
+          "prices": [60],
+          "image": "/menu/sandwiches/roast_beef.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["food", "popular"],
+          "sortOrder": 1
+        },
+        {
+          "id": "smoked_turkey",
+          "name": "Smoked Turkey Sandwich",
+          "name_ar": "تركى مدخن",
+          "description": "Thin slices of smoked turkey breast with cheese and greens in fresh bread.",
+          "prices": [60],
+          "image": "/menu/sandwiches/smoked_turkey.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["food"],
+          "sortOrder": 2
+        },
+        {
+          "id": "roumy_cheese",
+          "name": "Roumy Cheese Sandwich",
+          "name_ar": "رومى",
+          "description": "Traditional sharp Egyptian Roumy cheese served in toasted fresh bread.",
+          "prices": [50],
+          "image": "/menu/sandwiches/roumy_cheese.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["food"],
+          "sortOrder": 3
+        },
+        {
+          "id": "kiri_cheese",
+          "name": "Kiri Cheese Sandwich",
+          "name_ar": "كيري",
+          "description": "Creamy, smooth Kiri cheese spread generously in soft toasted bread.",
+          "prices": [50],
+          "image": "/menu/sandwiches/kiri_cheese.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["food"],
+          "sortOrder": 4
+        },
+        {
+          "id": "mix_cheese",
+          "name": "Mix Cheese Sandwich",
+          "name_ar": "ميكس تشير",
+          "description": "A delicious melted combination of premium cheeses toasted to golden perfection.",
+          "prices": [60],
+          "image": "/menu/sandwiches/mix_cheese.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["food", "popular"],
+          "sortOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "bakery",
+      "name": "Bakery",
+      "name_ar": "المخبوزات",
+      "icon": "cookie",
+      "coverImage": "/menu/categories/bakery.jpg",
+      "sortOrder": 9,
+      "items": [
+        {
+          "id": "cookies",
+          "name": "Cookies",
+          "name_ar": "كوكيز",
+          "description": "Freshly baked cookie loaded with rich, melting chocolate chips.",
+          "prices": [55],
+          "image": "/menu/bakery/cookies.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["food", "popular"],
+          "sortOrder": 1
+        },
+        {
+          "id": "english_cake",
+          "name": "English Cake",
+          "name_ar": "انجلش كيك",
+          "description": "Moist, buttery slice of classic English tea cake loaf.",
+          "prices": [40],
+          "image": "/menu/bakery/english_cake.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["food"],
+          "sortOrder": 2
+        },
+        {
+          "id": "brownies",
+          "name": "Brownies",
+          "name_ar": "براونيز",
+          "description": "Rich, fudgy chocolate brownie with a perfectly crackled top layer.",
+          "prices": [60],
+          "image": "/menu/bakery/brownies.jpg",
+          "available": true,
+          "featured": true,
+          "isNew": false,
+          "popular": true,
+          "tags": ["food", "popular"],
+          "sortOrder": 3
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "name_ar": "الحلويات",
+      "icon": "cake-candles",
+      "coverImage": "/menu/categories/desserts.jpg",
+      "sortOrder": 10,
+      "items": [
+        {
+          "id": "chocolate_cake",
+          "name": "Chocolate Cake",
+          "name_ar": "شوكليت كيك",
+          "description": "Indulgent layer cake frosted with rich Belgian chocolate fudge.",
+          "prices": [70],
+          "image": "/menu/desserts/chocolate_cake.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["food", "popular"],
+          "sortOrder": 1
+        },
+        {
+          "id": "cheesecake",
+          "name": "Cheesecake",
+          "name_ar": "تشيز كيك",
+          "description": "Creamy New York-style cheesecake on a buttery biscuit base.",
+          "prices": [60],
+          "image": "/menu/desserts/cheesecake.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["food", "popular"],
+          "sortOrder": 2
+        },
+        {
+          "id": "twix_tart",
+          "name": "Twix Tart",
+          "name_ar": "تويكس تارت",
+          "description": "Crisp tart pastry filled with gooey caramel and topped with chocolate.",
+          "prices": [60],
+          "image": "/menu/desserts/twix_tart.jpg",
+          "available": true,
+          "featured": true,
+          "isNew": true,
+          "popular": false,
+          "tags": ["food", "new", "signature"],
+          "sortOrder": 3
+        },
+        {
+          "id": "donuts",
+          "name": "Donuts",
+          "name_ar": "دوناتس",
+          "description": "Soft and fluffy yeast-raised donut glazed with premium chocolate toppings.",
+          "prices": [60],
+          "image": "/menu/desserts/donuts.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["food"],
+          "sortOrder": 4
+        },
+        {
+          "id": "tiramisu",
+          "name": "Tiramisu",
+          "name_ar": "ترامسيو",
+          "description": "Classic Italian dessert made with espresso-soaked ladyfingers and sweet mascarpone.",
+          "prices": [70],
+          "image": "/menu/desserts/tiramisu.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["food", "popular"],
+          "sortOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "fresh_drinks",
+      "name": "Fresh Juices",
+      "name_ar": "عصائر طازجة",
+      "icon": "lemon",
+      "coverImage": "/menu/categories/fresh_drinks.jpg",
+      "sortOrder": 11,
+      "items": [
+        {
+          "id": "orange_juice",
+          "name": "Orange Juice",
+          "name_ar": "برتقان",
+          "description": "Freshly squeezed 100% natural and refreshing orange juice.",
+          "prices": [50],
+          "image": "/menu/fresh_drinks/orange_juice.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 1
+        },
+        {
+          "id": "lemon_mint_juice",
+          "name": "Lemon Mint Juice",
+          "name_ar": "ليمون نعناع",
+          "description": "Freshly squeezed zesty lemon juice infused with cool garden mint.",
+          "prices": [50],
+          "image": "/menu/fresh_drinks/lemon_mint_juice.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 2
+        },
+        {
+          "id": "mango_juice",
+          "name": "Mango Juice",
+          "name_ar": "مانجا",
+          "description": "Thick, sweet, and pure juice made from ripe Egyptian mangoes.",
+          "prices": [60],
+          "image": "/menu/fresh_drinks/mango_juice.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular"],
+          "sortOrder": 3
+        },
+        {
+          "id": "strawberry_juice",
+          "name": "Strawberry Juice",
+          "name_ar": "فراوله",
+          "description": "Sweet and refreshing juice blended from fresh handpicked strawberries.",
+          "prices": [60],
+          "image": "/menu/fresh_drinks/strawberry_juice.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 4
+        },
+        {
+          "id": "peach_juice",
+          "name": "Peach Juice",
+          "name_ar": "خوخ",
+          "description": "Freshly blended juice made with sweet, aromatic ripe peaches.",
+          "prices": [65],
+          "image": "/menu/fresh_drinks/peach_juice.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 5
+        },
+        {
+          "id": "dates_milkshake",
+          "name": "Dates Milkshake",
+          "name_ar": "بلح",
+          "description": "Nutritious and naturally sweet milkshake blended with premium dates.",
+          "prices": [65],
+          "image": "/menu/fresh_drinks/dates_milkshake.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": ["cold", "new"],
+          "sortOrder": 6
+        },
+        {
+          "id": "cantaloupe_juice",
+          "name": "Cantaloupe Juice",
+          "name_ar": "كنتالوب",
+          "description": "Sweet, hydrating, and cooling juice made from fresh cantaloupe melon.",
+          "prices": [65],
+          "image": "/menu/fresh_drinks/cantaloupe_juice.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 7
+        },
+        {
+          "id": "watermelon_juice",
+          "name": "Watermelon Juice",
+          "name_ar": "بطيخ",
+          "description": "Thirst-quenching natural watermelon juice served ice cold.",
+          "prices": [50],
+          "image": "/menu/fresh_drinks/watermelon_juice.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 8
+        },
+        {
+          "id": "kiwi_juice",
+          "name": "Kiwi Juice",
+          "name_ar": "كيوي",
+          "description": "Tangy and refreshing juice blended from fresh green kiwis.",
+          "prices": [75],
+          "image": "/menu/fresh_drinks/kiwi_juice.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": ["cold"],
+          "sortOrder": 9
+        },
+        {
+          "id": "avocado_juice",
+          "name": "Avocado Juice",
+          "name_ar": "افوكادو",
+          "description": "Rich, creamy premium avocado blend sweetened with pure honey.",
+          "prices": [85],
+          "image": "/menu/fresh_drinks/avocado_juice.jpg",
+          "available": true,
+          "featured": true,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular", "signature"],
+          "sortOrder": 10
+        },
+        {
+          "id": "mix_juice",
+          "name": "Cocktail Mix Juice",
+          "name_ar": "ميكس",
+          "description": "A delightful layered mix of fresh seasonal fruits and juices.",
+          "prices": [70],
+          "image": "/menu/fresh_drinks/mix_juice.jpg",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": true,
+          "tags": ["cold", "popular"],
+          "sortOrder": 11
+        }
+      ]
+    }
+  ],
+  "missingImages": [
+    {
+      "id": "cat_espresso_and_coffee",
+      "fileName": "espresso_and_coffee.jpg",
+      "path": "/menu/categories/espresso_and_coffee.jpg",
+      "prompt": "An elegant assortment of hot coffee beverages including espresso, latte, and cappuccino beautifully arranged on a luxury dark marble surface. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cat_hot_drinks",
+      "fileName": "hot_drinks.jpg",
+      "path": "/menu/categories/hot_drinks.jpg",
+      "prompt": "A beautiful arrangement of premium hot beverages featuring rich hot chocolate with marshmallows and a traditional cup of spiced karak tea. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cat_iced_latte",
+      "fileName": "iced_latte.jpg",
+      "path": "/menu/categories/iced_latte.jpg",
+      "prompt": "A selection of refreshing iced latte and cold coffee drinks in premium glass cups with ice cubes and beautiful milk swirls. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cat_shakes",
+      "fileName": "shakes.jpg",
+      "path": "/menu/categories/shakes.jpg",
+      "prompt": "An array of rich gourmet milkshakes in tall glass cups topped with whipped cream and delicious drizzles. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cat_frappes",
+      "fileName": "frappes.jpg",
+      "path": "/menu/categories/frappes.jpg",
+      "prompt": "A vibrant lineup of blended ice frappes in tall glasses beautifully decorated with chocolate and caramel syrups. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cat_mix_soda",
+      "fileName": "mix_soda.jpg",
+      "path": "/menu/categories/mix_soda.jpg",
+      "prompt": "A collection of colorful bubbly mixed sodas and mocktails with fresh lime, mint, and blue curaçao in elegant glasses. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cat_smoothies",
+      "fileName": "smoothies.jpg",
+      "path": "/menu/categories/smoothies.jpg",
+      "prompt": "A vibrant display of fresh fruit smoothies featuring mango, strawberry, and green apple blends in modern glasses. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cat_sandwiches",
+      "fileName": "sandwiches.jpg",
+      "path": "/menu/categories/sandwiches.jpg",
+      "prompt": "An assortment of freshly prepared gourmet sandwiches with sliced roast beef, turkey, and melted cheese on rustic bread. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cat_bakery",
+      "fileName": "bakery.jpg",
+      "path": "/menu/categories/bakery.jpg",
+      "prompt": "A premium platter of freshly baked treats featuring chocolate chip cookies, buttery English cake, and rich brownies. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cat_desserts",
+      "fileName": "desserts.jpg",
+      "path": "/menu/categories/desserts.jpg",
+      "prompt": "A deluxe assortment of premium café desserts including chocolate cake, creamy cheesecake, and elegant tiramisu. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cat_fresh_drinks",
+      "fileName": "fresh_drinks.jpg",
+      "path": "/menu/categories/fresh_drinks.jpg",
+      "prompt": "A stunning selection of freshly squeezed natural juices including orange, mango, and strawberry in elegant glass bottles. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "turkish_coffee",
+      "fileName": "turkish_coffee.jpg",
+      "path": "/menu/espresso_and_coffee/turkish_coffee.jpg",
+      "prompt": "A premium cup of Turkish coffee with rich thick foam served in a traditional white porcelain cup on a matching saucer with coffee beans. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "french_coffee",
+      "fileName": "french_coffee.jpg",
+      "path": "/menu/espresso_and_coffee/french_coffee.jpg",
+      "prompt": "Smooth French coffee with creamy light brown color served in a premium glass mug with soft rising steam. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "hazelnut_coffee",
+      "fileName": "hazelnut_coffee.jpg",
+      "path": "/menu/espresso_and_coffee/hazelnut_coffee.jpg",
+      "prompt": "Premium hazelnut-flavored coffee in a small modern ceramic cup decorated with a sprinkle of crushed hazelnuts. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "caramel_macchiato",
+      "fileName": "caramel_macchiato.jpg",
+      "path": "/menu/espresso_and_coffee/caramel_macchiato.jpg",
+      "prompt": "Layered caramel macchiato showing clear layers of milk, espresso, and sweet golden caramel drizzle on top of foam in a tall glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "espresso_decaf",
+      "fileName": "espresso_decaf.jpg",
+      "path": "/menu/espresso_and_coffee/espresso_decaf.jpg",
+      "prompt": "A single shot of decaffeinated espresso in a glass espresso cup showing dark rich body and thick golden crema. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cortado",
+      "fileName": "cortado.jpg",
+      "path": "/menu/espresso_and_coffee/cortado.jpg",
+      "prompt": "Premium cortado served in a small faceted rocks glass displaying a perfect ratio of dark espresso and textured microfoam. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "flat_white",
+      "fileName": "flat_white.jpg",
+      "path": "/menu/espresso_and_coffee/flat_white.jpg",
+      "prompt": "Premium flat white in a grey ceramic cup with detailed microfoam leaf latte art on the surface. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "macchiato",
+      "fileName": "macchiato.jpg",
+      "path": "/menu/espresso_and_coffee/macchiato.jpg",
+      "prompt": "Espresso macchiato showing a bold dark espresso shot with a light dollop of milk foam in the center in a small ceramic cup. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "latte",
+      "fileName": "latte.jpg",
+      "path": "/menu/espresso_and_coffee/latte.jpg",
+      "prompt": "Classic hot caffe latte in a tall clear glass cup showing gradient coffee layers and elegant rosetta latte art. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cappuccino",
+      "fileName": "cappuccino.jpg",
+      "path": "/menu/espresso_and_coffee/cappuccino.jpg",
+      "prompt": "Classic cappuccino in a premium ceramic cup with thick white foam dusted with cocoa powder showing latte art. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "white_mocha",
+      "fileName": "white_mocha.jpg",
+      "path": "/menu/espresso_and_coffee/white_mocha.jpg",
+      "prompt": "A warm cup of white chocolate mocha topped with whipped cream and white chocolate curls in a premium mug. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "americano",
+      "fileName": "americano.jpg",
+      "path": "/menu/espresso_and_coffee/americano.jpg",
+      "prompt": "Classic hot Americano in a sleek black ceramic mug with delicate golden crema on top. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "spanish_latte",
+      "fileName": "spanish_latte.jpg",
+      "path": "/menu/espresso_and_coffee/spanish_latte.jpg",
+      "prompt": "Hot Spanish latte in a glass cup showing the sweet condensed milk layer at the bottom blended with espresso and steamed milk. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "toffee_nut",
+      "fileName": "toffee_nut.jpg",
+      "path": "/menu/espresso_and_coffee/toffee_nut.jpg",
+      "prompt": "Warm toffee nut latte topped with light whipped cream and sprinkled with caramelized nut bits in a ceramic cup. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "dolce_latte",
+      "fileName": "dolce_latte.jpg",
+      "path": "/menu/espresso_and_coffee/dolce_latte.jpg",
+      "prompt": "Premium hot dolce latte in a designer ceramic cup with a light dusting of cinnamon on the microfoam. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "hot_chocolate",
+      "fileName": "hot_chocolate.jpg",
+      "path": "/menu/hot_drinks/hot_chocolate.jpg",
+      "prompt": "Thick premium hot chocolate in a rustic mug topped with roasted fluffy white marshmallows and cocoa powder. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "nescafe",
+      "fileName": "nescafe.jpg",
+      "path": "/menu/hot_drinks/nescafe.jpg",
+      "prompt": "A warm glass mug of instant coffee with a rich frothy layer and rising steam. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "sahlab",
+      "fileName": "sahlab.jpg",
+      "path": "/menu/hot_drinks/sahlab.jpg",
+      "prompt": "Traditional warm Sahlab drink in a clear glass cup sprinkled with grated coconut, chopped pistachios, and cinnamon. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "oreo_white_chocolate",
+      "fileName": "oreo_white_chocolate.jpg",
+      "path": "/menu/hot_drinks/oreo_white_chocolate.jpg",
+      "prompt": "Warm white chocolate cocoa drink in a premium glass mug garnished with crushed Oreo biscuit crumbs on top. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "herbal_tea",
+      "fileName": "herbal_tea.jpg",
+      "path": "/menu/hot_drinks/herbal_tea.jpg",
+      "prompt": "Infused golden herbal tea in a transparent glass teapot and matching cup containing loose dry herbs and flowers. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "tea",
+      "fileName": "tea.jpg",
+      "path": "/menu/hot_drinks/tea.jpg",
+      "prompt": "A cup of classic amber-colored black tea brewed in a delicate glass tea cup with steam rising. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "karak_tea",
+      "fileName": "karak_tea.jpg",
+      "path": "/menu/hot_drinks/karak_tea.jpg",
+      "prompt": "Warm karak spiced milk tea in a traditional clay cup showing golden-orange color and rising steam. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "hot_lotus",
+      "fileName": "hot_lotus.jpg",
+      "path": "/menu/hot_drinks/hot_lotus.jpg",
+      "prompt": "Hot creamy milk drink blended with Lotus Biscoff spread served in a glass mug with a Biscoff biscuit on the side. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "hot_pistachio",
+      "fileName": "hot_pistachio.jpg",
+      "path": "/menu/hot_drinks/hot_pistachio.jpg",
+      "prompt": "Luxury hot pistachio milk drink with a warm green tint topped with finely chopped pistachios in an elegant cup. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "iced_latte",
+      "fileName": "iced_latte.jpg",
+      "path": "/menu/iced_latte/iced_latte.jpg",
+      "prompt": "Iced latte in a tall modern glass with milk swirls blending into dark espresso and clear ice cubes. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "iced_mocha_white",
+      "fileName": "iced_mocha_white.jpg",
+      "path": "/menu/iced_latte/iced_mocha_white.jpg",
+      "prompt": "Iced chocolate mocha drink showing layers of chocolate syrup, cold milk, espresso, and ice in a premium glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "iced_americano",
+      "fileName": "iced_americano.jpg",
+      "path": "/menu/iced_latte/iced_americano.jpg",
+      "prompt": "Refreshing iced Americano with dark espresso and floating ice cubes in a clean tall glass cup. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "iced_pistachio_latte",
+      "fileName": "iced_pistachio_latte.jpg",
+      "path": "/menu/iced_latte/iced_pistachio_latte.jpg",
+      "prompt": "Premium iced pistachio latte showing light green pistachio sauce layers, cold milk, espresso, and ice in a tall glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "iced_dolce",
+      "fileName": "iced_dolce.jpg",
+      "path": "/menu/iced_latte/iced_dolce.jpg",
+      "prompt": "Sweet iced dolce latte in a premium glass cup showing creamy dolce syrup swirling with espresso and ice. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "iced_spanish_latte",
+      "fileName": "iced_spanish_latte.jpg",
+      "path": "/menu/iced_latte/iced_spanish_latte.jpg",
+      "prompt": "Layered iced Spanish latte in a glass cup showing sweet condensed milk at the base, milk in the middle, and espresso on top with ice cubes. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "iced_creme_brulee",
+      "fileName": "iced_creme_brulee.jpg",
+      "path": "/menu/iced_latte/iced_creme_brulee.jpg",
+      "prompt": "Iced creme brulee latte topped with caramelized brown sugar crust and dynamic milk swirls in a premium glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "double_nut_white_mocha",
+      "fileName": "double_nut_white_mocha.jpg",
+      "path": "/menu/iced_latte/double_nut_white_mocha.jpg",
+      "prompt": "Iced white mocha flavored with hazelnut and macadamia nut syrups served over ice in a luxury glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "iced_matcha",
+      "fileName": "iced_matcha.jpg",
+      "path": "/menu/iced_latte/iced_matcha.jpg",
+      "prompt": "Vibrant green iced matcha latte with organic milk swirls and ice cubes in a high-end glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "caramel_frappuccino",
+      "fileName": "caramel_frappuccino.jpg",
+      "path": "/menu/iced_latte/caramel_frappuccino.jpg",
+      "prompt": "Blended caramel frappuccino in a tall cup topped with a swirl of whipped cream and rich golden caramel drizzle. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cookies_frappuccino",
+      "fileName": "cookies_frappuccino.jpg",
+      "path": "/menu/iced_latte/cookies_frappuccino.jpg",
+      "prompt": "Blended cookies and cream coffee frappuccino topped with whipped cream, crushed chocolate cookies, and chocolate sauce. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "oreo_lotus_avocado",
+      "fileName": "oreo_lotus_avocado.jpg",
+      "path": "/menu/iced_latte/oreo_lotus_avocado.jpg",
+      "prompt": "A luxury blended drink featuring light green avocado purée, chocolate Oreo crumbs, and smooth Biscoff cookie sauce in a tall glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "salted_caramel",
+      "fileName": "salted_caramel.jpg",
+      "path": "/menu/iced_latte/salted_caramel.jpg",
+      "prompt": "Iced latte flavored with sweet and salty caramel syrup showing caramel streaks on the inner glass with ice. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "vanilla_shake",
+      "fileName": "vanilla_shake.jpg",
+      "path": "/menu/shakes/vanilla_shake.jpg",
+      "prompt": "Thick premium vanilla milkshake in a glass cup topped with white whipped cream and fresh vanilla pod accent. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "chocolate_shake",
+      "fileName": "chocolate_shake.jpg",
+      "path": "/menu/shakes/chocolate_shake.jpg",
+      "prompt": "Rich double chocolate milkshake topped with dark chocolate flakes and premium cocoa syrup drizzle in a tall glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "kinder_shake",
+      "fileName": "kinder_shake.jpg",
+      "path": "/menu/shakes/kinder_shake.jpg",
+      "prompt": "Gourmet milkshake blended with Kinder chocolate topped with whipped cream and a Kinder Bueno chocolate bar piece. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "lotus_shake",
+      "fileName": "lotus_shake.jpg",
+      "path": "/menu/shakes/lotus_shake.jpg",
+      "prompt": "Lotus Biscoff milkshake topped with whipped cream, crushed Biscoff biscuit crumbs, and cookie butter drizzle. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "pistachio_shake",
+      "fileName": "pistachio_shake.jpg",
+      "path": "/menu/shakes/pistachio_shake.jpg",
+      "prompt": "Premium light-green pistachio milkshake garnished with roasted crushed pistachios and pistachio cream. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "strawberry_shake",
+      "fileName": "strawberry_shake.jpg",
+      "path": "/menu/shakes/strawberry_shake.jpg",
+      "prompt": "Fresh pink strawberry milkshake topped with whipped cream and fresh strawberry slices on top. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "mango_shake",
+      "fileName": "mango_shake.jpg",
+      "path": "/menu/shakes/mango_shake.jpg",
+      "prompt": "Vibrant yellow mango milkshake topped with fresh sweet mango chunks in a tall glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "vanilla_frappe",
+      "fileName": "vanilla_frappe.jpg",
+      "path": "/menu/frappes/vanilla_frappe.jpg",
+      "prompt": "Ice-blended vanilla frappe drink in a tall elegant glass showing a light creamy froth. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "chocolate_frappe",
+      "fileName": "chocolate_frappe.jpg",
+      "path": "/menu/frappes/chocolate_frappe.jpg",
+      "prompt": "Fudge chocolate blended frappe in a tall glass decorated inside with premium chocolate fudge sauce. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "coconut_blue_frappe",
+      "fileName": "coconut_blue_frappe.jpg",
+      "path": "/menu/frappes/coconut_blue_frappe.jpg",
+      "prompt": "A vibrant blue coconut frappe blended with ice showing white coconut flakes and blue curaçao swirls in a tall glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "chocolate_chip_frappe",
+      "fileName": "chocolate_chip_frappe.jpg",
+      "path": "/menu/frappes/chocolate_chip_frappe.jpg",
+      "prompt": "Blended frappe loaded with visible dark chocolate chips topped with whipped cream in a tall glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "passion_fruit_frappe",
+      "fileName": "passion_fruit_frappe.jpg",
+      "path": "/menu/frappes/passion_fruit_frappe.jpg",
+      "prompt": "An icy blended passion fruit frappe with a golden yellow color and black passion fruit seeds in a tall glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "mix_berry_frappe",
+      "fileName": "mix_berry_frappe.jpg",
+      "path": "/menu/frappes/mix_berry_frappe.jpg",
+      "prompt": "Dark red mixed berry blended frappe garnished with wild raspberries and blueberries on top. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "peach_frappe",
+      "fileName": "peach_frappe.jpg",
+      "path": "/menu/frappes/peach_frappe.jpg",
+      "prompt": "Sweet peach blended ice frappe with a light orange tone served in a sleek tall glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "oreo_frappe",
+      "fileName": "oreo_frappe.jpg",
+      "path": "/menu/frappes/oreo_frappe.jpg",
+      "prompt": "Crushed Oreo biscuit blended frappe topped with whipped cream and a whole Oreo cookie. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "lotus_frappe",
+      "fileName": "lotus_frappe.jpg",
+      "path": "/menu/frappes/lotus_frappe.jpg",
+      "prompt": "A luxury blended Lotus cookie frappe topped with crunchy Biscoff biscuit crumbles and cookie butter drizzle. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "mojito",
+      "fileName": "mojito.jpg",
+      "path": "/menu/mix_soda/mojito.jpg",
+      "prompt": "Classic lime and mint mojito mocktail over crushed ice garnished with fresh mint sprigs and lime wheel in a highball glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "turquoise",
+      "fileName": "turquoise.jpg",
+      "path": "/menu/mix_soda/turquoise.jpg",
+      "prompt": "A bright blue sparkling soda drink in an elegant glass showing lime wedges and mint leaves with bubbles. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "alaska",
+      "fileName": "alaska.jpg",
+      "path": "/menu/mix_soda/alaska.jpg",
+      "prompt": "Sparkling turquoise blue soda with coconut cream swirls served in a highball glass over crushed ice. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "la_bomba_strong",
+      "fileName": "la_bomba_strong.jpg",
+      "path": "/menu/mix_soda/la_bomba_strong.jpg",
+      "prompt": "A premium energy mixed mocktail in an elegant tumbler displaying orange slices and sparkling carbonation. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "pina_colada",
+      "fileName": "pina_colada.jpg",
+      "path": "/menu/mix_soda/pina_colada.jpg",
+      "prompt": "Classic creamy Pina Colada mocktail in a hurricane glass garnished with a pineapple wedge and maraschino cherry. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "green_apple_smoothie",
+      "fileName": "green_apple_smoothie.jpg",
+      "path": "/menu/smoothies/green_apple_smoothie.jpg",
+      "prompt": "A vibrant green apple smoothie in a glass jar garnished with a fresh green apple slice on the rim. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "watermelon_smoothie",
+      "fileName": "watermelon_smoothie.jpg",
+      "path": "/menu/smoothies/watermelon_smoothie.jpg",
+      "prompt": "Bright red fresh watermelon smoothie in a tall glass garnished with a small triangular watermelon slice. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "passion_smoothie",
+      "fileName": "passion_smoothie.jpg",
+      "path": "/menu/smoothies/passion_smoothie.jpg",
+      "prompt": "Golden orange passion fruit smoothie showing fresh pulp and seeds served in a high-end glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "peach_smoothie",
+      "fileName": "peach_smoothie.jpg",
+      "path": "/menu/smoothies/peach_smoothie.jpg",
+      "prompt": "Creamy orange-colored peach smoothie in a rounded glass cup topped with fresh mint leaf. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "mango_smoothie",
+      "fileName": "mango_smoothie.jpg",
+      "path": "/menu/smoothies/mango_smoothie.jpg",
+      "prompt": "Thick orange-yellow fresh mango smoothie in an elegant glass bottle displaying rich creamy texture. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "tropical_smoothie",
+      "fileName": "tropical_smoothie.jpg",
+      "path": "/menu/smoothies/tropical_smoothie.jpg",
+      "prompt": "Exotic orange-red tropical smoothie blend garnished with a slice of kiwi and pineapple. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "strawberry_smoothie",
+      "fileName": "strawberry_smoothie.jpg",
+      "path": "/menu/smoothies/strawberry_smoothie.jpg",
+      "prompt": "Frosted red strawberry smoothie in a tall glass garnished with a sliced fresh strawberry. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "mix_berry_smoothie",
+      "fileName": "mix_berry_smoothie.jpg",
+      "path": "/menu/smoothies/mix_berry_smoothie.jpg",
+      "prompt": "Rich purple mixed berry smoothie with fresh blackberries and blueberries floating on top. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "lemon_mint_smoothie",
+      "fileName": "lemon_mint_smoothie.jpg",
+      "path": "/menu/smoothies/lemon_mint_smoothie.jpg",
+      "prompt": "Blended yellow-green lemon mint smoothie in a chilled glass garnished with fresh mint leaves and lemon slice. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "kiwi_smoothie",
+      "fileName": "kiwi_smoothie.jpg",
+      "path": "/menu/smoothies/kiwi_smoothie.jpg",
+      "prompt": "Vibrant green kiwi fruit smoothie with small black seeds garnished with a kiwi wheel on the glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "roast_beef",
+      "fileName": "roast_beef.jpg",
+      "path": "/menu/sandwiches/roast_beef.jpg",
+      "prompt": "A gourmet sandwich with sliced roast beef, fresh tomatoes, lettuce, and premium sauce on artisanal toasted bread. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "smoked_turkey",
+      "fileName": "smoked_turkey.jpg",
+      "path": "/menu/sandwiches/smoked_turkey.jpg",
+      "prompt": "Smoked turkey breast sandwich with Swiss cheese, arugula, and mustard on rustic bread. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "roumy_cheese",
+      "fileName": "roumy_cheese.jpg",
+      "path": "/menu/sandwiches/roumy_cheese.jpg",
+      "prompt": "Toasted panini sandwich with melted Egyptian Roumy cheese pulling apart on a premium plate. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "kiri_cheese",
+      "fileName": "kiri_cheese.jpg",
+      "path": "/menu/sandwiches/kiri_cheese.jpg",
+      "prompt": "A simple elegant sandwich with creamy Kiri cheese spread on toasted white sandwich bread. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "mix_cheese",
+      "fileName": "mix_cheese.jpg",
+      "path": "/menu/sandwiches/mix_cheese.jpg",
+      "prompt": "Grilled cheese sandwich with cheddar, mozzarella, and gouda cheese pull sliced in half on a plate. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cookies",
+      "fileName": "cookies.jpg",
+      "path": "/menu/bakery/cookies.jpg",
+      "prompt": "A warm chocolate chip cookie showing melting chocolate chunks on a premium dark plate. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "english_cake",
+      "fileName": "english_cake.jpg",
+      "path": "/menu/bakery/english_cake.jpg",
+      "prompt": "A thick slice of golden-yellow English butter cake served on a designer porcelain saucer. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "brownies",
+      "fileName": "brownies.jpg",
+      "path": "/menu/bakery/brownies.jpg",
+      "prompt": "A square cut of fudgy chocolate brownie with a shiny cracked crust and chocolate drizzle. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "chocolate_cake",
+      "fileName": "chocolate_cake.jpg",
+      "path": "/menu/desserts/chocolate_cake.jpg",
+      "prompt": "A slice of moist double chocolate layer cake with rich chocolate frosting on a premium plate. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cheesecake",
+      "fileName": "cheesecake.jpg",
+      "path": "/menu/desserts/cheesecake.jpg",
+      "prompt": "A gourmet slice of New York cheesecake topped with fresh glossy strawberry compote on a dark plate. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "twix_tart",
+      "fileName": "twix_tart.jpg",
+      "path": "/menu/desserts/twix_tart.jpg",
+      "prompt": "A gourmet pastry tart featuring a layer of golden caramel and smooth milk chocolate ganache on top. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "donuts",
+      "fileName": "donuts.jpg",
+      "path": "/menu/desserts/donuts.jpg",
+      "prompt": "A soft yeast donut glazed with premium milk chocolate and decorated with colored sprinkles. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "tiramisu",
+      "fileName": "tiramisu.jpg",
+      "path": "/menu/desserts/tiramisu.jpg",
+      "prompt": "Classic Italian tiramisu in a square glass dish showing layers of espresso-soaked ladyfingers and mascarpone cream dusted with cocoa. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "orange_juice",
+      "fileName": "orange_juice.jpg",
+      "path": "/menu/fresh_drinks/orange_juice.jpg",
+      "prompt": "A glass of freshly squeezed orange juice showing pulp with fresh orange slices nearby. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "lemon_mint_juice",
+      "fileName": "lemon_mint_juice.jpg",
+      "path": "/menu/fresh_drinks/lemon_mint_juice.jpg",
+      "prompt": "A refreshing glass of lemon juice with crushed mint leaves and sliced lemons. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "mango_juice",
+      "fileName": "mango_juice.jpg",
+      "path": "/menu/fresh_drinks/mango_juice.jpg",
+      "prompt": "A premium glass of fresh thick Egyptian mango juice garnished with a mango slice. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "strawberry_juice",
+      "fileName": "strawberry_juice.jpg",
+      "path": "/menu/fresh_drinks/strawberry_juice.jpg",
+      "prompt": "Fresh sweet strawberry juice in a clean glass showing bright red liquid and a whole strawberry garnish. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "peach_juice",
+      "fileName": "peach_juice.jpg",
+      "path": "/menu/fresh_drinks/peach_juice.jpg",
+      "prompt": "Freshly blended peach juice in a highball glass showing a soft warm orange color. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "dates_milkshake",
+      "fileName": "dates_milkshake.jpg",
+      "path": "/menu/fresh_drinks/dates_milkshake.jpg",
+      "prompt": "Nutritious date milkshake in a rustic glass showing soft beige milk color with sweet dates nearby. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "cantaloupe_juice",
+      "fileName": "cantaloupe_juice.jpg",
+      "path": "/menu/fresh_drinks/cantaloupe_juice.jpg",
+      "prompt": "Refreshing light green cantaloupe juice in a modern glass with ice cubes. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "watermelon_juice",
+      "fileName": "watermelon_juice.jpg",
+      "path": "/menu/fresh_drinks/watermelon_juice.jpg",
+      "prompt": "Fresh red watermelon juice in a highball glass with ice garnished with a mint sprig. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "kiwi_juice",
+      "fileName": "kiwi_juice.jpg",
+      "path": "/menu/fresh_drinks/kiwi_juice.jpg",
+      "prompt": "Vibrant green kiwi juice in a sleek glass displaying fresh fruit seeds. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "avocado_juice",
+      "fileName": "avocado_juice.jpg",
+      "path": "/menu/fresh_drinks/avocado_juice.jpg",
+      "prompt": "Thick premium avocado juice in a glass topped with honey drizzle and raw almonds. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    },
+    {
+      "id": "mix_juice",
+      "fileName": "mix_juice.jpg",
+      "path": "/menu/fresh_drinks/mix_juice.jpg",
+      "prompt": "Beautifully layered multi-fruit cocktail juice showing stripes of mango, strawberry, and guava in a tall glass. Ultra realistic premium coffee shop product photography, Luxury café presentation, Professional food photography, Transparent background, Soft natural shadow, Studio lighting, 45-degree angle, High resolution, No people, No hands, No logo, No watermark, No text, Consistent style across every product, Premium colors, Highly detailed, 8K quality"
+    }
+  ]
+}

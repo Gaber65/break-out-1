@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Break Out Cafe — Escape The Routine, Break Out. Premium coffee experience in Cairo." />
+  <title>Break Out Cafe | Escape The Routine</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;600;700;800&family=Cairo:wght@300;400;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    /* Page-level layout fix */
+    html, body { scroll-behavior: smooth; }
+
+    /* Light theme form inputs */
+    [data-theme="light"] .form-group input,
+    [data-theme="light"] .form-group select,
+    [data-theme="light"] .newsletter-input {
+      color: #1a1a1a;
+      background: rgba(111,78,55,0.06);
+      border-color: rgba(111,78,55,0.2);
+    }
+
+    [data-theme="light"] .form-group select option { background: #fff; color: #1a1a1a; }
+  </style>
+</head>
+<body>
+
+<!-- ─── CUSTOM CURSOR ─────────────────────── -->
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<!-- ─── SCROLL PROGRESS ─────────────────── -->
+<div id="scrollProgress"></div>
+
+<!-- ─── SPLASH SCREEN ───────────────────── -->
+<div id="splash">
+  <div class="splash-cup">
+    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- Cup body -->
+      <path d="M10 28 L14 72 Q14 76 18 76 L62 76 Q66 76 66 72 L70 28 Z" fill="#3E2723" stroke="#6F4E37" stroke-width="1.5"/>
+      <!-- Cup rim -->
+      <rect x="8" y="22" width="64" height="8" rx="4" fill="#6F4E37"/>
+      <!-- Coffee fill -->
+      <clipPath id="cupClip">
+        <path d="M12 30 L16 72 Q16 74 18 74 L62 74 Q64 74 64 72 L68 30 Z"/>
+      </clipPath>
+      <rect class="cup-fill" x="12" y="36" width="56" height="36" fill="#D4A373" clip-path="url(#cupClip)"/>
+      <!-- Handle -->
+      <path d="M66 36 Q84 36 84 52 Q84 68 66 68" stroke="#6F4E37" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <!-- Steam -->
+      <path class="steam-line" d="M28 18 Q32 10 28 2" stroke="#D4A373" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path class="steam-line" d="M40 18 Q44 10 40 2" stroke="#D4A373" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path class="steam-line" d="M52 18 Q56 10 52 2" stroke="#D4A373" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div class="splash-logo">BREAK OUT</div>
+  <div class="splash-tagline">Escape The Routine</div>
+  <div class="splash-progress"><div class="splash-progress-bar"></div></div>
+</div>
+
+<!-- ─── NAVBAR ─────────────────────────────── -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">BREAK OUT</a>
+
+  <ul class="nav-links">
+    <li><a href="#home" data-i18n="nav_home">Home</a></li>
+    <li><a href="#menu" data-i18n="nav_menu">Menu</a></li>
+    <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <button class="lang-toggle" id="langToggleNav" aria-label="Switch Language">🌐 بالعربية</button>
+    <button class="theme-toggle">☀️ Light</button>
+    <button onclick="openCart()" class="cart-btn" id="cartBtnNav" aria-label="View Cart" style="position:relative;background:none;border:none;color:var(--gold);font-size:20px;cursor:pointer;display:flex;align-items:center;padding:8px;margin-right:10px;">
+      <i class="fas fa-shopping-bag"></i>
+      <span id="cartCount" style="position:absolute;top:-4px;right:-4px;background:var(--gold);color:var(--bg-primary);font-size:10px;font-weight:bold;width:18px;height:18px;border-radius:50%;display:flex;align-items:center;justify-content:center;">0</span>
+    </button>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ─── MOBILE NAV ─────────────────────────── -->
+<div class="mobile-nav">
+  <a href="#home" data-i18n="nav_home">Home</a>
+  <a href="#menu" data-i18n="nav_menu">Menu</a>
+  <a href="#contact" data-i18n="nav_contact">Contact</a>
+  <div style="display:flex;gap:12px;margin-top:20px;flex-wrap:wrap;justify-content:center;align-items:center;">
+    <button class="lang-toggle-mobile" id="langToggleMobile" style="background:none;border:1.5px solid var(--gold);color:var(--gold);padding:12px 28px;border-radius:50px;font-size:15px;font-family:'Poppins','Cairo',sans-serif;cursor:pointer;">🌐 بالعربية</button>
+    <button class="theme-toggle-mobile" style="background:none;border:1.5px solid var(--gold);color:var(--gold);padding:12px 28px;border-radius:50px;font-size:15px;font-family:'Poppins','Cairo',sans-serif;cursor:pointer;">☀️ Light Mode</button>
+    <button onclick="openCart()" class="mobile-cart-btn" style="background:none;border:1.5px solid var(--gold);color:var(--gold);padding:12px 28px;border-radius:50px;font-size:15px;font-family:'Poppins','Cairo',sans-serif;cursor:pointer;position:relative;display:flex;align-items:center;gap:8px;">
+      <i class="fas fa-shopping-bag"></i>
+      <span data-i18n="cart_title_drawer">Cart</span>
+      <span id="cartCountMobile" style="background:var(--gold);color:var(--bg-primary);font-size:11px;font-weight:bold;width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;">0</span>
+    </button>
+  </div>
+</div>
+
+<!-- ─── HERO ────────────────────────────────── -->
+<section id="home" data-section="home" style="position:relative;height:100vh;min-height:700px;display:flex;align-items:center;justify-content:center;overflow:hidden;">
+  <canvas id="heroCanvas" class="hero-canvas" style="position:absolute;inset:0;width:100%;height:100%;"></canvas>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content" style="position:relative;z-index:2;text-align:center;max-width:900px;padding:0 20px;transition:transform 0.1s ease;">
+    <div class="hero-eyebrow">
+      <span></span>
+      <span data-i18n="hero_eyebrow">Premium Coffee Experience</span>
+      <span></span>
+    </div>
+    <h1 style="font-size:clamp(72px,12vw,160px);font-weight:800;line-height:0.9;letter-spacing:-0.02em;background:linear-gradient(135deg,#fff 30%,#D4A373 70%,#F5E6CA 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;opacity:0;animation:fadeUp 1s ease 0.5s forwards;margin-bottom:20px;" data-i18n="hero_title">BREAK OUT</h1>
+    <p class="hero-sub" data-i18n="hero_sub">Escape The Routine, Break Out.</p>
+    <div class="hero-buttons">
+      <a href="#menu" class="btn-primary" data-i18n="hero_explore">☕ Explore Menu</a>
+      <a href="https://wa.me/201004741050" target="_blank" class="btn-outline" data-i18n="hero_whatsapp">💬 WhatsApp Order</a>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+    <span class="scroll-text" data-i18n="scroll_text">Scroll</span>
+  </div>
+</section>
+
+
+
+<!-- ─── MENU (SPACCA STYLE) ──────────────────── -->
+<section class="section" id="menu" data-section="menu" style="background:var(--bg-secondary);">
+  <div class="section-header">
+    <span class="section-eyebrow reveal" data-i18n="menu_eyebrow">Spacca Taste & Craft</span>
+    <h2 class="section-title reveal" data-i18n="menu_title">Our Menu</h2>
+    <p class="section-subtitle reveal reveal-delay-1" data-i18n="menu_subtitle">Artisanal coffee, handcrafted frappes, Italian baking & gourmet desserts. Explore by category, search, or toggle to classic Spacca menu list.</p>
+  </div>
+
+  <!-- SPACCA CONTROLS TOOLBAR -->
+  <div class="spacca-toolbar reveal reveal-delay-1">
+    <!-- Live Search -->
+    <div class="spacca-search-box">
+      <span class="spacca-search-icon">🔍</span>
+      <input type="text" id="menuSearchInput" placeholder="Search coffee, drinks, pizza, desserts..." aria-label="Search menu items" data-i18n-placeholder="search_placeholder" />
+      <button id="menuSearchClear" class="spacca-search-clear" style="display:none;" aria-label="Clear search">&times;</button>
+    </div>
+
+    <!-- View Switcher -->
+    <div class="spacca-view-switcher">
+      <button id="viewGridBtn" class="spacca-view-btn active" data-view="grid" title="Grid Card View">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M1 1h6v6H1V1zm8 0h6v6H9V1zM1 9h6v6H1V9zm8 0h6v6H9V9z"/></svg>
+        <span data-i18n="view_grid">Grid View</span>
+      </button>
+      <button id="viewSpaccaBtn" class="spacca-view-btn" data-view="spacca" title="Spacca Classic List View">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M1 3h14v2H1V3zm0 4h14v2H1V7zm0 4h14v2H1v-2z"/></svg>
+        <span data-i18n="view_list">Spacca List</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- TAG FILTERS -->
+  <div class="spacca-tag-filters reveal reveal-delay-1">
+    <button class="spacca-tag-pill active" data-tag="all" data-i18n="tag_all">✨ All Items</button>
+  </div>
+
+  <!-- CATEGORY TABS -->
+  <div class="menu-tabs reveal reveal-delay-2" id="menuTabsContainer"></div>
+
+  <!-- MENU CONTAINER (GRID OR SPACCA LIST VIEW) -->
+  <div id="spaccaMenuContainer" class="spacca-menu-container view-grid"></div>
+
+  <!-- PAGINATION CONTROLS -->
+  <div id="paginationContainer" class="pagination-container" style="display:flex; justify-content:center; align-items:center; gap:10px; margin: 40px auto 20px auto; flex-wrap: wrap;"></div>
+
+  <!-- NO RESULTS MESSAGE -->
+  <div id="spaccaNoResults" class="spacca-no-results" style="display:none;">
+    <span class="no-results-icon">🔍</span>
+    <h3>No items found</h3>
+    <p>Try searching for another term or selecting a different filter tag.</p>
+    <button id="resetFiltersBtn" class="btn-outline">Reset Filters</button>
+  </div>
+</section>
+
+<!-- ─── CONTACT & VISIT US ──────────────────── -->
+<section class="section" id="contact" data-section="contact">
+  <div class="reservation-grid">
+    <div class="reservation-info reveal">
+      <span class="section-eyebrow" data-i18n="contact_eyebrow">Visit Us</span>
+      <h2 data-i18n="contact_title">Come & Visit Our Space</h2>
+      <p data-i18n="contact_subtitle">Enjoy our cozy atmosphere, premium coffee, and friendly community. We can't wait to serve you!</p>
+
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-item-text">
+            <span data-i18n="contact_label_location">Location</span>
+            <span data-i18n="contact_val_location">123 Tahrir St, Zamalek, Cairo, Egypt</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-item-text">
+            <span data-i18n="contact_label_phone">Phone</span>
+            <span><a href="tel:+201004741050" style="color:inherit;text-decoration:none;">+20 100 474 1050</a></span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-item-text">
+            <span data-i18n="contact_label_email">Email</span>
+            <span><a href="mailto:hello@breakoutcafe.eg" style="color:inherit;text-decoration:none;">hello@breakoutcafe.eg</a></span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🕐</div>
+          <div class="contact-item-text">
+            <span data-i18n="contact_label_hours">Working Hours</span>
+            <span data-i18n="contact_val_hours">Daily 8:00 AM — 12:00 AM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reservation-form reveal reveal-delay-2" style="padding: 0; min-height: 400px;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.1812836262453!2d31.221299975765507!3d30.060309974914194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840f124be3cd7%3A0x6bcfd304910cfb3f!2sZamalek%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2seg!4v1719270000000!5m2!1sen!2seg" width="100%" height="100%" style="border:0; border-radius: 20px; min-height: 400px; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ───────────────────────────── -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>BREAK OUT</h3>
+      <p>Cairo's premium coffee destination. Where great coffee meets great company. Escape the routine — one cup at a time.</p>
+      <div class="newsletter-form">
+        <input type="email" class="newsletter-input" placeholder="Your email address" />
+        <button class="newsletter-btn">Subscribe</button>
+      </div>
+      <div class="social-icons">
+        <a href="#" class="social-icon" data-hover title="Facebook">𝑓</a>
+        <a href="#" class="social-icon" data-hover title="Instagram">📷</a>
+        <a href="#" class="social-icon" data-hover title="TikTok">♪</a>
+        <a href="#" class="social-icon" data-hover title="WhatsApp">💬</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer_links">Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="#home" data-i18n="nav_home">Home</a></li>
+        <li><a href="#menu" data-i18n="nav_menu">Menu</a></li>
+        <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer_contact">Contact</h4>
+      <ul class="footer-links" style="gap:14px;">
+        <li><a href="tel:+201004741050">📞 +20 100 474 1050</a></li>
+        <li><a href="mailto:hello@breakoutcafe.eg">✉️ hello@breakoutcafe.eg</a></li>
+        <li><a href="#contact" data-i18n="contact_val_location">📍 Zamalek, Cairo</a></li>
+        <li><a href="#contact" data-i18n="contact_val_hours">🕐 8 AM – 12 AM Daily</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 <a href="#">Break Out Cafe</a>. All rights reserved. Crafted with ☕ in Cairo.</p>
+    <p><a href="#">Privacy Policy</a> &nbsp;·&nbsp; <a href="#">Terms of Service</a></p>
+  </div>
+</footer>
+
+<!-- ─── FLOATING ACTION BUTTONS ──────────── -->
+<div class="fab-group">
+  <a href="https://wa.me/201004741050" class="fab-btn fab-whatsapp" title="WhatsApp" data-hover>💬</a>
+  <button class="fab-btn fab-top" title="Back to top" data-hover>↑</button>
+</div>
+
+<!-- ─── LIGHTBOX ──────────────────────────── -->
+<div id="lightbox" class="lightbox">
+  <button class="lightbox-close" aria-label="Close">✕</button>
+  <img id="lightboxImg" src="" alt="Gallery Preview" />
+</div>
+
+<!-- ─── SPACCA ITEM DETAIL MODAL ─────────── -->
+<div id="menuItemModal" class="spacca-modal hidden">
+  <div class="spacca-modal-overlay" onclick="closeModal()"></div>
+  <div class="spacca-modal-card">
+    <button class="spacca-modal-close" aria-label="Close modal">&times;</button>
+    <div class="spacca-modal-header">
+      <div class="spacca-modal-emoji" id="modalEmoji">☕</div>
+      <div class="spacca-modal-meta">
+        <span class="badge badge-popular" id="modalBadge">Popular</span>
+        <h3 id="modalTitle">Item Name</h3>
+        <div class="menu-stars" id="modalStars">★★★★★</div>
+      </div>
+    </div>
+    <div class="spacca-modal-body">
+      <p class="spacca-modal-desc" id="modalDesc">Description goes here...</p>
+      
+      <!-- Size options container -->
+      <div class="spacca-modal-sizes-section" id="modalSizesContainer" style="margin-bottom: 20px; display: none;">
+        <span class="info-label" data-i18n="select_size" style="display:block; margin-bottom:8px; font-weight:bold; font-size:13px; color:var(--text-muted);">Select Size</span>
+        <div class="size-options-grid" id="modalSizeOptions" style="display: flex; gap: 10px;"></div>
+      </div>
+
+      <div class="spacca-modal-info-grid">
+        <div class="spacca-modal-info-item">
+          <span class="info-label" data-i18n="modal_ingredients">🧾 Ingredients</span>
+          <span class="info-val" id="modalIngredients">Single Origin Espresso, Milk</span>
+        </div>
+        <div class="spacca-modal-info-item">
+          <span class="info-label" data-i18n="modal_calories">🔥 Calories</span>
+          <span class="info-val" id="modalCalories">~180 kcal</span>
+        </div>
+        <div class="spacca-modal-info-item">
+          <span class="info-label" data-i18n="modal_category">🏷️ Category</span>
+          <span class="info-val" id="modalCategory">Hot Coffee</span>
+        </div>
+      </div>
+      <div class="spacca-modal-footer">
+        <div class="spacca-modal-price" id="modalPrice">85 EGP</div>
+        <button id="modalAddToCartBtn" class="btn-primary" data-i18n="add_to_cart">🛒 Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── CART DRAWER ────────────────────────── -->
+<div id="cartModal" class="cart-drawer-modal hidden" style="position: fixed; inset: 0; z-index: 99999; display: none; align-items: center; justify-content: flex-end; background: rgba(0,0,0,0.5); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);">
+  <div class="cart-drawer-overlay" onclick="closeCart()" style="position: absolute; inset: 0; cursor: pointer;"></div>
+  <div class="cart-drawer" style="position: relative; width: 100%; max-width: 450px; height: 100%; background: var(--bg-card); box-shadow: -10px 0 30px rgba(0,0,0,0.5); display: flex; flex-direction: column; transform: translateX(100%); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);">
+    <div class="cart-drawer-header" style="padding: 24px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between;">
+      <h3 data-i18n="cart_title_drawer" style="font-family: inherit; font-size: 22px; font-weight: bold; color: var(--gold);">Your Cart</h3>
+      <button onclick="closeCart()" class="cart-drawer-close" aria-label="Close cart" style="background: none; border: none; color: var(--text-muted); font-size: 20px; cursor: pointer;">✕</button>
+    </div>
+
+    <div id="cartItems" class="cart-drawer-items" style="flex: 1; overflow-y: auto; padding: 24px; display: flex; flex-direction: column; gap: 16px;"></div>
+
+    <div id="emptyCart" class="cart-drawer-empty" style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px; text-align: center; gap: 10px;">
+      <div class="empty-cart-icon" style="font-size: 50px; opacity: 0.3;">🛒</div>
+      <p class="empty-cart-text" data-i18n="cart_empty" style="font-weight: bold; color: var(--text-secondary);">Your cart is empty</p>
+      <p class="empty-cart-subtext" data-i18n="cart_empty_sub" style="font-size: 13px; color: var(--text-muted);">Add some premium items from our menu.</p>
+    </div>
+
+    <div id="cartCheckout" class="cart-drawer-checkout" style="display: none; padding: 24px; border-top: 1px solid var(--border); background: var(--bg-secondary); overflow-y: auto; max-height: 60%;">
+      <div class="cart-total-row" style="display: flex; justify-content: space-between; font-weight: bold; font-size: 18px; color: var(--text-primary); margin-bottom: 20px;">
+        <span data-i18n="cart_total_label">Net Total</span>
+        <span id="cartTotal">0 EGP</span>
+      </div>
+
+      <div class="checkout-form-group" style="margin-bottom: 16px;">
+        <label class="checkout-form-label" data-i18n="label_branch" style="display: block; font-size: 12px; font-weight: bold; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase;">Select Branch</label>
+        <select id="branchSelect" class="checkout-form-select" style="width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-card); color: var(--text-primary); font-family: inherit; font-size: 14px;">
+          <option value="zamalek" data-i18n="branch_zamalek">Zamalek - Cairo</option>
+        </select>
+      </div>
+
+      <div class="checkout-type-toggle" style="display: flex; gap: 10px; margin-bottom: 16px;">
+        <label class="checkout-type-option" style="flex: 1; cursor: pointer; text-align: center;">
+          <input type="radio" name="orderType" value="pickup" checked onchange="toggleDeliveryFields()" style="display: none;">
+          <div class="toggle-card" style="padding: 10px; border: 1px solid var(--border); border-radius: 12px; font-size: 12px; font-weight: bold; color: var(--text-secondary); transition: all 0.3s ease;">استلام من الفرع</div>
+        </label>
+        <label class="checkout-type-option" style="flex: 1; cursor: pointer; text-align: center;">
+          <input type="radio" name="orderType" value="delivery" onchange="toggleDeliveryFields()" style="display: none;">
+          <div class="toggle-card" style="padding: 10px; border: 1px solid var(--border); border-radius: 12px; font-size: 12px; font-weight: bold; color: var(--text-secondary); transition: all 0.3s ease;">توصيل</div>
+        </label>
+      </div>
+
+      <div id="deliveryFields" class="checkout-delivery-fields" style="max-height: 0; opacity: 0; overflow: hidden; transition: all 0.4s ease; display: flex; flex-direction: column; gap: 16px;">
+        <div class="checkout-form-group">
+          <label class="checkout-form-label" data-i18n="label_governorate" style="display: block; font-size: 12px; font-weight: bold; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase;">Governorate</label>
+          <select id="governorateSelect" class="checkout-form-select" style="width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-card); color: var(--text-primary); font-family: inherit; font-size: 14px;">
+            <option value="" data-i18n="select_governorate">-- Select Governorate --</option>
+            <option value="القاهرة" data-i18n="gov_cairo">Cairo</option>
+            <option value="الجيزة" data-i18n="gov_giza">Giza</option>
+          </select>
+        </div>
+        <div class="checkout-form-group">
+          <label class="checkout-form-label" data-i18n="label_address" style="display: block; font-size: 12px; font-weight: bold; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase;">Detailed Address</label>
+          <textarea id="deliveryAddress" class="checkout-form-textarea" placeholder="Street, Building, Flat..." style="width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-card); color: var(--text-primary); font-family: inherit; font-size: 14px; resize: none; height: 70px;"></textarea>
+        </div>
+      </div>
+
+      <div class="checkout-form-group" style="margin-bottom: 20px; margin-top: 16px;">
+        <label class="checkout-form-label" data-i18n="label_notes" style="display: block; font-size: 12px; font-weight: bold; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase;">Special Notes (Optional)</label>
+        <textarea id="customerNotes" class="checkout-form-textarea" placeholder="Any special requests..." style="width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-card); color: var(--text-primary); font-family: inherit; font-size: 14px; resize: none; height: 60px;"></textarea>
+      </div>
+
+      <p id="cartError" class="checkout-error-msg" style="display: none; color: #ff5252; font-size: 12px; font-weight: bold; margin-bottom: 12px;"></p>
+
+      <button onclick="sendOrder()" class="checkout-submit-btn" data-i18n="btn_submit_order" style="width: 100%; padding: 14px; background: var(--accent-gradient); border: none; border-radius: 12px; color: var(--bg-primary); font-family: inherit; font-size: 15px; font-weight: bold; cursor: pointer; transition: var(--transition);">
+        Send Order via WhatsApp
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ─── PHONE VERIFICATION MODAL ───────────── -->
+<div id="phoneModal" class="phone-modal-container hidden" style="position: fixed; inset: 0; z-index: 999999; display: none; align-items: center; justify-content: center; background: rgba(0,0,0,0.6); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); padding: 16px; opacity: 0; transition: opacity 0.3s ease;">
+  <div class="phone-modal-overlay" onclick="closePhoneModal(true)" style="position: absolute; inset: 0;"></div>
+  <div class="phone-modal-card" style="position: relative; background: var(--bg-card); border: 1px solid var(--border); border-radius: 24px; padding: 32px; max-width: 400px; width: 100%; display: flex; flex-direction: column; gap: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.5); transform: translateY(30px); transition: transform 0.3s ease, opacity 0.3s ease;">
+    <h3 data-i18n="modal_phone_title" style="font-family: inherit; font-size: 20px; font-weight: bold; color: var(--gold); margin: 0; text-align: center;">Delivery & Contact Details</h3>
+    <div class="phone-modal-body" style="display: flex; flex-direction: column; gap: 14px;">
+      <div class="checkout-form-group">
+        <input type="text" id="customerNameInput" placeholder="Your Full Name *" class="phone-modal-input" required style="width: 100%; padding: 12px 16px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-secondary); color: var(--text-primary); font-family: inherit; font-size: 14px;" />
+      </div>
+      <div class="checkout-form-group">
+        <input type="tel" id="customerPhoneInput" placeholder="Active Mobile Number *" class="phone-modal-input" required style="width: 100%; padding: 12px 16px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-secondary); color: var(--text-primary); font-family: inherit; font-size: 14px;" />
+      </div>
+      <p id="phoneErrorMsg" class="phone-modal-error" style="display: none; color: #ff5252; font-size: 11px; font-weight: bold; margin: 0;"></p>
+    </div>
+    <div class="phone-modal-footer" style="display: flex; gap: 12px; margin-top: 10px;">
+      <button onclick="closePhoneModal(true)" class="phone-modal-btn cancel" data-i18n="btn_cancel" style="flex: 1; padding: 12px; background: none; border: 1px solid var(--border); border-radius: 12px; color: var(--text-secondary); font-family: inherit; font-size: 14px; font-weight: bold; cursor: pointer; transition: var(--transition);">Cancel</button>
+      <button onclick="confirmPhoneAndSend()" class="phone-modal-btn confirm" data-i18n="btn_confirm_send" style="flex: 1; padding: 12px; background: var(--accent-gradient); border: none; border-radius: 12px; color: var(--bg-primary); font-family: inherit; font-size: 14px; font-weight: bold; cursor: pointer; transition: var(--transition);">Confirm & Send</button>
+    </div>
+  </div>
+</div>
+
+<!-- ─── SCRIPTS ──────────────────────────── -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>

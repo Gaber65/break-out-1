@@ -1,0 +1,114 @@
+/* ============================================
+   BREAK OUT CAFE — Responsive CSS
+   ============================================ */
+
+@media (max-width: 1200px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+  .gallery-item:nth-child(1) { grid-column: span 2; }
+  .gallery-item:nth-child(4),
+  .gallery-item:nth-child(6) { grid-column: span 1; }
+  .instagram-grid { grid-template-columns: repeat(4, 1fr); }
+  .testimonial-card { min-width: calc(50% - 12px); }
+}
+
+@media (max-width: 1024px) {
+  .about-grid { grid-template-columns: 1fr; gap: 48px; }
+  .about-visual { max-width: 500px; margin: 0 auto; }
+  .specials-inner { grid-template-columns: 1fr; gap: 48px; padding: 40px; }
+  .reservation-grid { grid-template-columns: 1fr; gap: 48px; }
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+  .btn-reserve-nav { display: none; }
+  .theme-toggle { display: none; }
+}
+
+@media (max-width: 768px) {
+  .section { padding: 80px 5%; }
+
+  .featured-grid,
+  .menu-grid,
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid { grid-template-columns: 1fr 1fr; }
+
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .gallery-item:nth-child(1),
+  .gallery-item:nth-child(4),
+  .gallery-item:nth-child(6) {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .instagram-grid { grid-template-columns: repeat(3, 1fr); }
+
+  .testimonial-card { min-width: calc(100%); }
+
+  .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .form-row { grid-template-columns: 1fr; }
+
+  .reservation-form { padding: 28px; }
+
+  .countdown { gap: 8px; }
+  .countdown-item { padding: 12px 14px; min-width: 60px; }
+  .countdown-num { font-size: 24px; }
+
+  .newsletter-form { flex-direction: column; }
+  .newsletter-input,
+  .newsletter-btn { width: 100%; border-radius: 12px; }
+
+  .hero-buttons { flex-direction: column; align-items: center; }
+  .btn-primary, .btn-outline { width: 240px; text-align: center; }
+
+  .fab-group { bottom: 20px; right: 20px; }
+}
+
+@media (max-width: 480px) {
+  .section { padding: 60px 5%; }
+
+  .instagram-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .gallery-grid { grid-template-columns: 1fr; }
+  .gallery-item { height: 200px; }
+  .gallery-item:nth-child(1) { grid-column: span 1; }
+
+  .specials-inner { padding: 28px; }
+
+  .menu-tabs { gap: 6px; }
+  .menu-tab { padding: 8px 16px; font-size: 12px; }
+
+  .stat-num { font-size: 28px; }
+
+  .spacca-toolbar { flex-direction: column; align-items: stretch; gap: 12px; }
+  .spacca-search-box { min-width: 100%; }
+  .spacca-view-switcher { justify-content: center; width: 100%; }
+  .spacca-view-btn { flex: 1; justify-content: center; }
+  .spacca-tag-filters { flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; padding-bottom: 8px; scrollbar-width: none; }
+  .spacca-tag-filters::-webkit-scrollbar { display: none; }
+  .spacca-tag-pill { flex-shrink: 0; }
+  .spacca-modal-card { padding: 24px 18px; margin: 10px; }
+  .spacca-modal-footer { flex-direction: column; align-items: stretch; text-align: center; }
+  .spacca-modal-price { text-align: center; margin-bottom: 8px; }
+
+  body { cursor: auto; }
+  .cursor-dot, .cursor-ring { display: none; }
+}

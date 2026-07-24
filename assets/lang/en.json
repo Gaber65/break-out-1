@@ -1,0 +1,259 @@
+{
+  "ui": {
+    "nav_home": "Home",
+    "nav_about": "About",
+    "nav_menu": "Menu",
+    "nav_specials": "Specials",
+    "nav_gallery": "Gallery",
+    "nav_reviews": "Reviews",
+    "nav_reservation": "Reservation",
+    "nav_contact": "Contact",
+    "nav_reserve": "Reserve a Table",
+    "theme_light": "☀️ Light",
+    "theme_dark": "🌙 Dark",
+    "hero_eyebrow": "Premium Coffee Experience",
+    "hero_title": "BREAK OUT",
+    "hero_sub": "Escape The Routine, Break Out.",
+    "hero_explore": "☕ Explore Menu",
+    "hero_reserve": "🗓️ Reserve a Table",
+    "scroll_text": "Scroll",
+    "about_eyebrow": "Our Story",
+    "about_title": "Where Every Cup<br/>Tells a Story",
+    "about_mission_title": "Our Mission",
+    "about_mission_desc": "At Break Out, we believe coffee is more than a drink — it's a moment. We craft each cup with intention, sourcing premium beans from around the world and roasting them to perfection in-house.",
+    "about_vision_title": "Our Vision",
+    "about_vision_desc": "To be Cairo's most beloved third place — not home, not work, but somewhere in between. A space where creativity flows, connections deepen, and routines are broken.",
+    "about_badge": "Est. Cairo, Egypt",
+    "stat_customers": "Happy Customers",
+    "stat_cups": "Cups Served",
+    "stat_years": "Of Excellence",
+    "stat_visitors": "Daily Visitors",
+    "menu_eyebrow": "Spacca Taste & Craft",
+    "menu_title": "Our Menu",
+    "menu_subtitle": "Artisanal coffee, handcrafted frappes, Italian baking & gourmet desserts. Explore by category, search, or toggle to classic Spacca menu list.",
+    "search_placeholder": "Search coffee, drinks, pizza, desserts...",
+    "view_grid": "Grid View",
+    "view_list": "Spacca List",
+    "tag_all": "✨ All Items",
+    "tag_popular": "⭐ Most Popular",
+    "tag_hot": "🔥 Hot Selection",
+    "tag_signature": "👑 Chef's Signature",
+    "tag_vegan": "🌱 Vegan & Oat",
+    "tag_new": "🆕 New Arrivals",
+    "tab_hot": "☕ Hot Drinks",
+    "tab_cold": "🥤 Cold Drinks",
+    "tab_frappes": "🧋 Frappes",
+    "tab_desserts": "🍰 Desserts",
+    "tab_signature": "✨ Signature",
+    "tab_bakery": "🍕 Bakery & Pizza",
+    "quick_view": "Quick View 🔍",
+    "order_whatsapp": "💬 Order via WhatsApp",
+    "modal_ingredients": "🧾 Ingredients",
+    "modal_calories": "🔥 Calories",
+    "modal_category": "🏷️ Category",
+    "hero_whatsapp": "💬 WhatsApp Order",
+    "contact_eyebrow": "Visit Us",
+    "contact_title": "Come & Visit Our Space",
+    "contact_subtitle": "Enjoy our cozy atmosphere, premium coffee, and friendly community. We can't wait to serve you!",
+    "contact_label_location": "Location",
+    "contact_val_location": "123 Tahrir St, Zamalek, Cairo, Egypt",
+    "contact_label_phone": "Phone",
+    "contact_label_email": "Email",
+    "contact_label_hours": "Working Hours",
+    "contact_val_hours": "Daily 8:00 AM — 12:00 AM",
+    "footer_links": "Quick Links",
+    "footer_contact": "Contact",
+    "select_size": "Select Size",
+    "add_to_cart": "🛒 Add to Cart",
+    "cart_title_drawer": "Your Cart",
+    "cart_empty": "Your cart is empty",
+    "cart_empty_sub": "Add some premium items from our menu.",
+    "cart_total_label": "Net Total",
+    "label_branch": "Select Branch",
+    "branch_zamalek": "Zamalek - Cairo",
+    "order_pickup": "Pickup from Branch",
+    "order_delivery": "Delivery",
+    "label_governorate": "Governorate",
+    "select_governorate": "-- Select Governorate --",
+    "gov_cairo": "Cairo",
+    "gov_giza": "Giza",
+    "label_address": "Detailed Address",
+    "label_notes": "Special Notes (Optional)",
+    "btn_submit_order": "Send Order via WhatsApp",
+    "modal_phone_title": "Delivery & Contact Details",
+    "btn_cancel": "Cancel",
+    "btn_confirm_send": "Confirm & Send",
+    "regular": "Regular",
+    "large": "Large"
+  },
+  "items": {
+    "Spanish Latte": {
+      "name": "Spanish Latte",
+      "desc": "Rich espresso with condensed milk and steamed milk, a fan favourite since day one.",
+      "ingredients": "Espresso shot, Condensed Milk, Whole Steamed Milk",
+      "category": "Hot Drinks",
+      "badge": "Popular"
+    },
+    "Flat White": {
+      "name": "Flat White",
+      "desc": "Velvety microfoam over a double ristretto. Strong, smooth, unforgettable.",
+      "ingredients": "Double Ristretto Espresso, Silky Microfoam",
+      "category": "Hot Drinks",
+      "badge": "Hot"
+    },
+    "Cappuccino": {
+      "name": "Cappuccino",
+      "desc": "Classic Italian-style with equal parts espresso, steamed milk, and dense foam.",
+      "ingredients": "Espresso, Steamed Milk, Cocoa Powder",
+      "category": "Hot Drinks",
+      "badge": ""
+    },
+    "Caramel Macchiato": {
+      "name": "Caramel Macchiato",
+      "desc": "Espresso with vanilla syrup, steamed milk, and silky caramel drizzle.",
+      "ingredients": "Espresso, Vanilla Syrup, Caramel Drizzle, Steamed Milk",
+      "category": "Hot Drinks",
+      "badge": "Popular"
+    },
+    "Americano": {
+      "name": "Americano",
+      "desc": "Double espresso shots with hot water. Bold, clean, no-nonsense coffee.",
+      "ingredients": "Double Espresso Shot, Hot Mineral Water",
+      "category": "Hot Drinks",
+      "badge": ""
+    },
+    "Matcha Latte": {
+      "name": "Matcha Latte",
+      "desc": "Ceremonial-grade Japanese matcha whisked into creamy oat milk perfection.",
+      "ingredients": "Japanese Uji Matcha, Organic Oat Milk, Touch of Agave",
+      "category": "Hot Drinks",
+      "badge": "New"
+    },
+    "Ice Mocha": {
+      "name": "Ice Mocha",
+      "desc": "Chilled espresso with dark chocolate, cold milk, and a cream crown.",
+      "ingredients": "Espresso, Belgian Chocolate, Cold Milk, Crushed Ice, Whipped Cream",
+      "category": "Cold Drinks",
+      "badge": "Popular"
+    },
+    "Lemon Mojito": {
+      "name": "Lemon Mojito",
+      "desc": "Fresh lemon, crushed mint, sparkling water, and a hint of cane sugar.",
+      "ingredients": "Fresh Lime Juice, Garden Mint, Cane Sugar Syrup, Sparkling Water",
+      "category": "Cold Drinks",
+      "badge": ""
+    },
+    "Berry Blast": {
+      "name": "Berry Blast",
+      "desc": "Strawberry, raspberry, and blueberry blended with lemonade and crushed ice.",
+      "ingredients": "Wild Berry Puree, Artisanal Lemonade, Shaved Ice",
+      "category": "Cold Drinks",
+      "badge": "New"
+    },
+    "Cold Brew": {
+      "name": "Cold Brew",
+      "desc": "24-hour steeped coffee concentrate, smooth and naturally sweet. Served over ice.",
+      "ingredients": "Single Origin Colombian Coffee Beans, 24h Cold Steep",
+      "category": "Cold Drinks",
+      "badge": "Popular"
+    },
+    "Classic Frappe": {
+      "name": "Classic Frappe",
+      "desc": "Blended coffee, milk, and ice. The original. Still the best.",
+      "ingredients": "Espresso Blend, Whole Milk, Crushed Ice, Cane Sugar",
+      "category": "Frappes",
+      "badge": "Popular"
+    },
+    "Chocolate Frappe": {
+      "name": "Chocolate Frappe",
+      "desc": "Rich Belgian chocolate blended with ice cream, topped with whipped cream.",
+      "ingredients": "Belgian Chocolate Ganache, Vanilla Ice Cream, Fresh Cream",
+      "category": "Frappes",
+      "badge": ""
+    },
+    "Caramel Frappe": {
+      "name": "Caramel Frappe",
+      "desc": "Caramel sauce, espresso, milk and ice blended to perfection. Dangerously good.",
+      "ingredients": "House Caramel Sauce, Espresso, Milk, Whipped Cream",
+      "category": "Frappes",
+      "badge": "Hot Pick"
+    },
+    "Chocolate Cake": {
+      "name": "Chocolate Cake",
+      "desc": "Three layers of rich chocolate sponge with velvety ganache frosting.",
+      "ingredients": "Dark Chocolate Fudge, Cocoa Sponge, Cream Frosting",
+      "category": "Desserts",
+      "badge": "Popular"
+    },
+    "Classic Cheesecake": {
+      "name": "Classic Cheesecake",
+      "desc": "New York-style baked cheesecake on a butter biscuit base. Creamy heaven.",
+      "ingredients": "Cream Cheese, Butter Graham Crust, Strawberry Coulis",
+      "category": "Desserts",
+      "badge": ""
+    },
+    "Belgian Waffle": {
+      "name": "Belgian Waffle",
+      "desc": "Crispy golden waffle served with whipped cream, fresh berries, and maple syrup.",
+      "ingredients": "Crispy Batter Waffle, Organic Maple Syrup, Strawberries",
+      "category": "Desserts",
+      "badge": "New"
+    },
+    "Tiramisu": {
+      "name": "Tiramisu",
+      "desc": "Authentic Italian tiramisu with espresso-soaked ladyfingers and mascarpone.",
+      "ingredients": "Savoiardi Biscuits, Espresso Soak, Italian Mascarpone, Cocoa Powder",
+      "category": "Desserts",
+      "badge": "Popular"
+    },
+    "Break Out Special": {
+      "name": "Break Out Special",
+      "desc": "Our legendary house blend — cold brew, condensed milk, salted caramel, and cream. A true icon.",
+      "ingredients": "House Cold Brew, Condensed Milk, Salted Caramel Drizzle, Velvet Cream",
+      "category": "Signature",
+      "badge": "Signature"
+    },
+    "Midnight Elixir": {
+      "name": "Midnight Elixir",
+      "desc": "Dark chocolate, espresso, activated charcoal, and coconut cream. Bold and mysterious.",
+      "ingredients": "Ristretto Espresso, 85% Dark Chocolate, Activated Charcoal, Organic Coconut Cream",
+      "category": "Signature",
+      "badge": "New"
+    },
+    "Golden Hour": {
+      "name": "Golden Hour",
+      "desc": "Turmeric, honey, oat milk, and espresso. Warm. Soothing. Absolutely golden.",
+      "ingredients": "Single Espresso, Organic Turmeric Blend, Wildflower Honey, Oat Milk",
+      "category": "Signature",
+      "badge": "Chef's Pick"
+    },
+    "Pinsa Margherita Spacca": {
+      "name": "Pinsa Margherita Spacca",
+      "desc": "Authentic Roman pinsa dough topped with San Marzano tomatoes, fresh Fior di Latte mozzarella & fresh basil.",
+      "ingredients": "72-Hour Fermented Dough, San Marzano Tomatoes, Fior di Latte Mozzarella, Extra Virgin Olive Oil",
+      "category": "Bakery & Pizza",
+      "badge": "Signature"
+    },
+    "Truffle & Mushroom Focaccia": {
+      "name": "Truffle & Mushroom Focaccia",
+      "desc": "Freshly baked rosemary focaccia loaded with roasted portobello mushrooms, black truffle oil & fontina cheese.",
+      "ingredients": "Artisanal Focaccia, Roasted Portobello, Black Truffle Oil, Fontina Cheese",
+      "category": "Bakery & Pizza",
+      "badge": "Chef's Pick"
+    },
+    "Butter Croissant with Pistachio Cream": {
+      "name": "Butter Croissant with Pistachio Cream",
+      "desc": "Flaky French butter croissant stuffed with rich Sicilian pistachio cream and dusted with powdered sugar.",
+      "ingredients": "Pure French Butter, Bronte Pistachio Cream, Powdered Sugar",
+      "category": "Bakery & Pizza",
+      "badge": "Popular"
+    },
+    "Smoked Salmon Brioche": {
+      "name": "Smoked Salmon Brioche",
+      "desc": "Toasted artisanal brioche bun filled with premium smoked salmon, dill cream cheese, capers & arugula.",
+      "ingredients": "House Brioche, Premium Smoked Salmon, Cream Cheese, Capers, Fresh Arugula",
+      "category": "Bakery & Pizza",
+      "badge": "Fresh"
+    }
+  }
+}
