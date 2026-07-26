@@ -1,0 +1,1365 @@
+{
+  "menu": {
+    "pasta": {
+      "title": "باستا Pasta",
+      "image": "https://res.cloudinary.com/dznet5vfv/image/upload/v1776898270/WhatsApp_Image_2026-04-22_at_10.23.54_PM_1_ictzml.jpg",
+      "items": [
+        {
+          "name": "باستا ارابياتا",
+          "price": 70,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/QvHJY1ND/Whats-App-Image-2026-04-23-at-12-15-35-PM.jpg",
+          "description": "بنا بصوص الريد الخاص بالشيف مع الفلفل والبصل الجوليان والزتون"
+        },
+        {
+          "name": "باستا تشكن الفريدو",
+          "price": 95,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "بنا وايت صوص مع الماشروم الطازج مع صدر دجاج مشوي شرائح "
+        },
+        {
+          "name": "باستا برجر نابولي",
+          "price": 95,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/wh9LLTrn/Whats-App-Image-2026-04-23-at-12-01-43-PM.jpg",
+          "description": " بنا بصوص الطماطم الكريمي مع قطع البرجر المشويه متبل بتتبيله سباكا المميزه  "
+        },
+        {
+          "name": "باستا سجق",
+          "price": 110,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "بنا بصوص الطماطم الكريمي مع السجق البلدي والفلفل والبصل الجوليان"
+        },
+        {
+          "name": "باستا فاهيتا دجاج ايطالي",
+          "price": 110,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/CsYxMG7k/Whats-App-Image-2026-04-23-at-12-07-48-PM.jpg",
+          "description": "بنا وايت صوص مع دجاج الفاهيتا المخلوط بالفلفل والبصل الجوليان  "
+        },
+        {
+          "name": "باستا فرن",
+          "price": 100,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/rf2jZZsj/Whats-App-Image-2026-04-14-at-1-55-52-AM-4.jpg",
+          "description": "بنا بصوص البشاميل مع اللحمه المفرومه مغطاه بطبقه من الموتزريلا"
+        },
+        {
+          "name": "باستا نجرسكو",
+          "price": 110,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/fR3Jgsh/Whats-App-Image-2026-04-14-at-1-55-51-AM-1.jpg",
+          "description": "بنا بصوص البشاميل مع قطع الدجاج المشوي يضاف لها قطع الماشروم الطازج و مغطاه بطبقه من الموتزريلا"
+        },
+        {
+          "name": "باستا جمبري - قريبا ",
+          "price": 125,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "بنا بصوص الوايت مع قطع الجمبري المشوي مضاف اليها الفلفل والبصل الجوليان مع الماشروم الطازج "
+        },
+        {
+          "name": "باستا بستو _ قريبآ",
+          "price": 110,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "بنا بصوص البيستو الايطالي الخاص بالشيف مع قطع الدجاج المشوية والماشروم الطازج "
+        }
+      ]
+    },
+    "sandwiches": {
+      "title": "الساندوتشات Sandwiches",
+      "image": "https://i.ibb.co/WppLd3Ct/Whats-App-Image-2026-04-24-at-9-34-29-PM.jpg",
+      "items": [
+        {
+          "name": "ساندوتش برجر",
+          "price": 55,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/rRT7zwmq/Whats-App-Image-2026-04-23-at-12-20-57-PM.jpg",
+          "description": "خبز البرجر مع قطعة برجر المتبله بتتبيله سباكا المميزه مع الكابوتشا و صوص الكاتشب"
+        },
+        {
+          "name": "ساندوتش تشيز برجر",
+          "price": 70,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "خبز البرجر مع قطعة برجر المتبله بتتبيله سباكا المميزه مع الكابوتشا يضاف علية صوص الشيدر"
+        },
+        {
+          "name": "ساندوتش دبل تشيز برجر",
+          "price": 95,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/0jX4WwLL/Whats-App-Image-2026-04-23-at-12-25-05-PM.jpg",
+          "description": "خبز البرجر مع قطعتين البرجر المتبل بتتبيله سباكا المميزه مع الكابوتشا يضاف علية صوص الشيدر"
+        },
+        {
+          "name": "ساندوتش تيستي زنجر",
+          "price": 100,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/sJVZn4JF/Whats-App-Image-2026-04-23-at-12-28-58-PM.jpg",
+          "description": "خبز البرجر مع فطعتين من الكرانشي المتبل بتتبيلة سباكا مع الكابوتشا و 3 قطع من الاستيك موتزريلا يضاف عليه صوص البيج تيستي"
+        },
+        {
+          "name": "ساندوتش ميني زنجر",
+          "price": 105,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/yFLMFSW4/Screenshot-2026-04-23-125832.png",
+          "description": "خبز البرجر مع قطعتين من الكرانشي المتبل بتتبيله سباكا مع حلقات بصل المقرمشه و رومي مدخن مع كابوتشا يضاف اليه صوص الف جزيرة و رانش و باربيكيو"
+        },
+        {
+          "name": "ساندوتش دبل بيج زنجر",
+          "price": 130,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/HLPCFPfn/Whats-App-Image-2026-04-14-at-1-56-51-AM.jpg",
+          "description": "خبز البرجر مع 4 قطع من الكرانشي المتبل بتتبيله سباكا مع حلقات بصل المقرمشه و رومي مدخن مع كابوتشا يضاف اليه صوص الف جزيرة و رانش و باربيكيو"
+        },
+        {
+          "name": "ساندوتش نابولي",
+          "price": 95,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/gZ1RpTrV/Whats-App-Image-2026-04-23-at-12-55-55-PM.jpg",
+          "description": "خبز البرجر مع قطعة برجر المتبله بتتبيله سباكا المميزه مع السجق البلدي مع كابوتشا يضاف عليه صوص البيج تيستي"
+        },
+        {
+          "name": "ساندوتش Spacca",
+          "price": 150,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/B5gqtjM0/Whats-App-Image-2026-04-14-at-1-55-50-AM-2.jpg",
+          "description": "خبز البرجر مع قطعتين من البرجر المتبل بتتبيله سباكا المميزه مع دونر الكباب مع الكابوتشا يضاف عليه صوص البيج تيستي و صوص الالف جزيره"
+        },
+        {
+          "name": "ساندوتش Spacca نابولي",
+          "price": 140,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/YF1CfB4v/Whats-App-Image-2026-04-23-at-12-48-13-PM.jpg",
+          "description": "خبز البرجر مع قطعه البرجر المتبله بتتبيله سباكا المميزه مع دونر الكباب و البيف المدخن و الهوت دوج يضاف عليه صوص البيج تيستي و وصوص الشيدر"
+        }
+      ]
+    },
+    "crepe": {
+      "title": "الكريب Crepe",
+      "image": "https://res.cloudinary.com/dznet5vfv/image/upload/v1776898264/WhatsApp_Image_2026-04-22_at_10.23.40_PM_2_cb65nr.jpg",
+      "items": [
+        {
+          "name": "كريب بطاطس",
+          "price": 65,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بالفرايز مع الفلفل الجوليان ويضاف عليها صوص الف جزيرة"
+        },
+        {
+          "name": "كريب مكس جبن",
+          "price": 85,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بالجبنة الموتزريلا مع الجبنه الرومي و الجبنه الشيدر"
+        },
+        {
+          "name": "كريب سوسيس",
+          "price": 90,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بقطع الهوت دوج والفلفل والبصل الجوليان يضاف علية صوص الف جزيرة و صوص الكاتشب"
+        },
+        {
+          "name": "كريب سجق",
+          "price": 100,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بالسجق البلدي المطهي بالفلفل والبصل الجوليان يضاف عليه صوص الف جزيرة و صوص بيج تيستي"
+        },
+        {
+          "name": "كريب برجر Spacca",
+          "price": 90,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بقطع البرجر المخلوطة بالفلفل و البصل الجوليان يضاف عليه صوص الف جزيرة و صوص البيج تيستي"
+        },
+        {
+          "name": "كريب سوبر كرنش باربيكيو",
+          "price": 115,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بقطع الكرنش مع التركي المدخن و البصل و الفلفل الجوليان يضاف عليه صوص باربيكيو وصوص الف جزيرة"
+        },
+        {
+          "name": "كريب ميكس",
+          "price": 110,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بقطع الهوت دوج وقطع البرجر المتبله مع الفلفل و البصل الجوليان يضاف عليه صوص الف جزيرة وصوص بيج تيستي"
+        },
+        {
+          "name": "كريب ميكسيكان",
+          "price": 110,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/zhFgLb8k/Whats-App-Image-2026-04-23-at-11-28-29-PM.jpg",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بالدجاج المطهي علي الجريل و قطع الهوت دوج المطهي مع البصل والفلفل الجوليان يضاف عليه صوص باربيكيو وصوص الف جزيرة"
+        },
+        {
+          "name": "كريب كرنش",
+          "price": 95,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/DgYBLp8f/Whats-App-Image-2026-04-14-at-1-57-45-AM-2.jpg",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بقطع الكرانشي المتبله بتتبيله سباكا و الفلفل الجوليان يضاف عليه صوص الرانش و صوص الف جزيرة"
+        },
+        {
+          "name": "كريب فاهيتا فراخ",
+          "price": 100,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/zhFgLb8k/Whats-App-Image-2026-04-23-at-11-28-29-PM.jpg",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بالدجاج المطهي علي الجريل بخليط من الماشروم والفلفل والبصل الجوليان يضاف عليه صوص الباربيكيو و صوص الف جزيرة"
+        },
+        {
+          "name": "كريب ميكس لحوم",
+          "price": 130,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بقطع الهوت دوج وقطع البرجر المتبله و اللحم المفرومه مع الفلفل و البصل الجوليان يضاف عليه صوص بيج تيستي و الف جزيرة"
+        },
+        {
+          "name": "كريب دونر كباب",
+          "price": 115,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/YFb50jBt/Whats-App-Image-2026-04-14-at-1-55-51-AM.jpg",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بدونر الكباب مع البصل و الفلفل الجوليان يضاف عليه صوص بيج تيستي"
+        },
+        {
+          "name": "كريب دونر كرانش",
+          "price": 135,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/YFb50jBt/Whats-App-Image-2026-04-14-at-1-55-51-AM.jpg",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بدونر الكباب مع قطع الكرانشي المتبله بتتبيلة سباكا مع الفلفل الجوليان ويضاف عليه صوص البيج تيستي وصوص الف جزيرة"
+        },
+        {
+          "name": "كريب لابومبا",
+          "price": 220,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بقطع دجاج الجريل وقطع الكرانشي وقطع برجر و السجق البلدي مع جبنه موتزيلا و حلقات البصل ويضاف عليه صوص سباكا المميز"
+        },
+        {
+          "name": "كريب نابولي",
+          "price": 140,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/wm9qRBh/Whats-App-Image-2026-04-14-at-1-55-57-AM.jpg",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بقطع الكرانشي المتبلة بتتبيلة سباكا مع السجق البلدي و التركي المدخن و حلقات البصل ويضاف عليه صوص الف جزيرة و صوص الباربيكيو"
+        },
+        {
+          "name": "كريب Spacca",
+          "price": 160,
+          "currency": "EGP",
+          "image": "hhttps://i.ibb.co/r27gmRbL/Whats-App-Image-2026-04-14-at-1-57-45-AM.jpg",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بقطع الكرانشي و السجق البلدي و قطع البرجر مع البصل و الفلفل الجوليان ويضاف عليه صوص البيج تيستي وصوص الف جزيرة"
+        },
+        {
+          "name": "كريب سباكا نابولي",
+          "price": 180,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بقطع الكرانشي و كوردن بلو الخاص بالشيف مع كارليتو و البصل و الفلفل الجوليان يضاف عليه صوص الف جزيرة  وصوص الرانش"
+        },
+        {
+          "name": "كريب مارادونا",
+          "price": 125,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/cXxzr4KX/Whats-App-Image-2026-04-24-at-1-04-19-AM.jpg",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بقطع ال هوت دوج و البيف المدخن مع بسطرمة و البصل  والفلفل الجوليان يضاف عليه البيج تيستي و صوص الباربيكيو"
+        },
+        {
+          "name": "كريب الباتشينو",
+          "price": 145,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/5twh5m3/Whats-App-Image-2026-04-14-at-1-55-42-AM-3.jpg",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بالكوردن بلو الخاص بالشيف مع دجاج الجريل المتبل والستيك موتزيلا و التركي المدخن و بصل و فلفل جوليان ويضاف عليه صوص الف جزيرة و بيج تيستي و باربيكيو"
+        },
+        {
+          "name": "كريب كوردن بلو",
+          "price": 135,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/GQhTJkSx/Whats-App-Image-2026-04-14-at-1-55-52-AM-2.jpg",
+          "description": "لقمة الكريب الخاصة بسباكا المحشية بقطع الكوردن بلو الخاص بالشيف مع الفلفل الجوليان"
+        }
+      ]
+    },
+    "pizza": {
+      "title": "البيتزا Pizza",
+      "image": "https://i.ibb.co/S4RtLNyG/Whats-App-Image-2026-04-24-at-9-34-38-PM.jpg",
+      "note": "جميع البيتزا حجم لارج",
+      "items": [
+        {
+          "name": "بيتزا مارجريتا",
+          "price": 150,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/TBZyfYGH/Whats-App-Image-2026-04-14-at-1-55-50-AM.jpg",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف مع جبنة موتزاريلا"
+        },
+        {
+          "name": "بيتزا هوت دوج",
+          "price": 165,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/5XBrWjPP/Whats-App-Image-2026-04-14-at-1-55-52-AM-3.jpg",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف مع قطع الهوت دوج و يضاف إليها الخليط من ميكس الجبن"
+        },
+        
+        {
+          "name": "بيتزا تشكن باربيكيو",
+          "price": 175,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/N241Fvmf/Whats-App-Image-2026-04-24-at-3-17-38-AM.jpg",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف مع قطع دجاج الباربيكيو و يضاف إليها صوص الباربيكيو مع خليط من ميكس الجبن"
+        },
+        {
+          "name": "بيتزا تشكن رانش",
+          "price": 180,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/Pv56fK47/Screenshot-2026-04-24-031608.png",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف مع قطع دجاج المشوي و يضاف إليها صوص الرانش مع خليط من ميكس الجبن"
+        },
+        {
+          "name": "بيتزا لحم مفروم",
+          "price": 190,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/5gTWyLMV/Whats-App-Image-2026-04-14-at-1-57-44-AM-2.jpg",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف مع اللحم المفروم و الفلفل و الزيتون مع خليط من ميكس الجبن"
+        },
+        {
+          "name": "بيتزا ميكس لحوم",
+          "price": 210,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/pBXwVmYq/Whats-App-Image-2026-04-14-at-1-56-29-AM-2.jpg",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف مع اللحم المفروم وقطع الهوت دوج وقطع البرجر والفلفل والزيتون مع خليط من ميكس الجبن"
+        },
+        {
+          "name": "بيتزا ميكس جبن",
+          "price": 180,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/jPTF4bBB/Whats-App-Image-2026-04-14-at-1-55-41-AM.jpg",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف يضاف إليها خليط من الجبنة الشيدر و الرومي و موتزاريلا"
+        },
+        {
+          "name": "بيتزا ميكس مدخن",
+          "price": 200,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف يضاف إليها شرائح البيف المدخن والبسطرمة والسلامي مع خليط من ميكس الجبن"
+        },
+        {
+          "name": "بيتزا سباكا برجر",
+          "price": 225,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف مع قطع البرجر المتبل بالتتبيله الخاصة ب سباكا مع شرائح البيف المدخن و الماشروم الطازج يضاف عليها صوص البيج تيستي ويضاف إليها خليط من ميكس الجبن"
+        },
+        {
+          "name": "بيتزا كرانشي",
+          "price": 195,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف مع قطع الكرانشي المتبل بالتتبيله الخاصة ب سباكا مع شرائح التركي المدخن و قطع الطماطم و الزيتون ويضاف  إليها خليط من ميكس الجبن"
+        },
+        {
+          "name": "بيتزا سلامي",
+          "price": 170,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/Xr1q1DRK/Whats-App-Image-2026-04-14-at-1-56-30-AM-1.jpg",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف يضاف إليها شرائح من السلامي مع خليط من ميكس الجبن"
+        },
+        {
+          "name": "بيتزا بسطرمة",
+          "price": 220,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف يضاف إليها شرائح من البسطرمة مع خليط من ميكس الجبن"
+        },
+        {
+          "name": "بيتزا فور سيزون",
+          "price": 250,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/TBp32YcS/Whats-App-Image-2026-04-14-at-1-55-41-AM-1.jpg",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف مقسمة إلي أربعة من التوبينج مع خليط من ميكس الجبن"
+        },
+        {
+          "name": "بيتزا جمبري - قريبآ",
+          "price": 260,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف مع الروبيان المشوي و الماشروم الطازج و الهايبينو والفلفل  مع خليط من ميكس الجبن"
+        },
+        {
+          "name": "بيتزا تونة",
+          "price": 220,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف يضاف إليها قطع التونه مع الفلفل و الزيتون مع خليط من ميكس الجبن"
+        },
+        {
+          "name": "بيتزا دونر كباب",
+          "price": 230,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف يضاف إليها شرائح دونر الكباب مع خليط من ميكس الجبن"
+        },
+        {
+          "name": "بيتزا سجق",
+          "price": 210,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "عجينة الشيف يضاف إليها صوص سباكا الخاص بالشيف يضاف إليها قطع السجق البلدي مع الفلفل والبصل الجوليان مع خليط من ميكس الجبن "
+        },
+        {
+          "name": "إضافة ستافت كراست",
+          "price": 70,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "إضافة - ستافت كراست"
+        }
+      ]
+    },
+    "breakfast": {
+      "title": "الفطار Breakfast",
+      "image": "./assets/img.png",
+      "items": [
+        {
+          "name": "بطاطس",
+          "price": 25,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "بطاطس"
+        },
+        {
+          "name": "جبنة بيضاء",
+          "price": 15,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "جبنة بيضاء"
+        },
+        {
+          "name": "جبنة وطماطم",
+          "price": 20,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "جبنة وطماطم"
+        },
+        {
+          "name": "جبنة رومي",
+          "price": 25,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "جبنة رومي"
+        },
+        {
+          "name": "بيض مسلوق",
+          "price": 25,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "بيض مسلوق"
+        },
+        {
+          "name": "بيض مقلي",
+          "price": 25,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "بيض مقلي"
+        },
+        {
+          "name": "بيض اومليت",
+          "price": 25,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "بيض اومليت"
+        },
+        {
+          "name": "بيض بسطرمة",
+          "price": 35,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "بيض بسطرمة"
+        },
+        {
+          "name": "فاهيتا سوسيس",
+          "price": 40,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "فاهيتا سوسيس"
+        }
+      ]
+    },
+    "salad": {
+      "title": "سلاط Salad",
+      "image": "https://i.ibb.co/ynzRbVv5/Whats-App-Image-2026-04-14-at-1-55-42-AM-2.jpg",
+      "items": [
+        {
+          "name": "رانش باربيكيو سلاط",
+          "price": 110,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/ynzRbVv5/Whats-App-Image-2026-04-14-at-1-55-42-AM-2.jpg",
+          "description": "خليط من خس الكابوتشا و الطماطم والخيار مع التركي المدخن ويضاف إليها صدر دجاج مشوي مع صوص الرانش و صوص الباربيكيو وخبز التورتيلا المحمص"
+        },
+        {
+          "name": "تشيكن سيزر سلاط",
+          "price": 95,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/b5HFGXP2/Whats-App-Image-2026-04-14-at-1-55-43-AM.jpg",
+          "description": "خليط من خس الكابوتشا و خبز التوست ويضاف إليها صدر دجاج مشوي مع الزيتون و زيت الزيتون"
+        },
+        {
+          "name": "سلطة كولسلو",
+          "price": 45,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "كولسلو"
+        }
+      ]
+    },
+    "dessert": {
+      "title": "الحلويات Dessert",
+      "image": "https://res.cloudinary.com/dznet5vfv/image/upload/v1776900049/ef063c17-3288-43ac-b7f5-7b50174df0f2.png",
+      "items": [
+        {
+          "name": "ام علي ساده",
+          "price": 70,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/Q3PkdCjW/Whats-App-Image-2026-04-24-at-4-22-45-AM.jpg",
+          "description": "قطع البيف بستري المطهي داخل الفرن مع اللبن والكريمة و السكر"
+        },
+        {
+          "name": "ام علي مكسرات",
+          "price": 85,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/rKWk5JY5/Whats-App-Image-2026-04-24-at-4-22-46-AM.jpg",
+          "description": "قطع البيف بستري المطهي داخل الفرن مع اللبن والكريمة و السكر ويضاف عليها المكسرات"
+        },
+        {
+          "name": "ام علي نوتيلا",
+          "price": 90,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/3954RJgp/Whats-App-Image-2026-04-24-at-4-22-46-AM-1.jpg",
+          "description": "قطع البيف بستري المطهي داخل الفرن مع اللبن والكريمة و السكر ويضاف عليها النوتيلا"
+        },
+        {
+          "name": "ام علي فواكه",
+          "price": 105,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/39zWbqMf/Whats-App-Image-2026-04-24-at-4-22-46-AM-2.jpg",
+          "description": "قطع البيف بستري المطهي داخل الفرن مع اللبن والكريمة و السكر ويضاف عليها الفواكة الطازجة"
+        },
+        {
+          "name": "ام علي Spacca",
+          "price": 130,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "قطع البيف بستري المطهي داخل الفرن مع اللبن والكريمة و السكر ويضاف عليها الفواكة الطازجة والأيس كريم "
+        },
+        {
+          "name": "طاجن نوتيلا",
+          "price": 110,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/ccM70LFT/Whats-App-Image-2026-04-24-at-4-22-46-AM-3.jpg",
+          "description": "قطع من الهوهوز الشوكولاتة يضاف إليها أيس كريم فانليا و صوص النوتيلا"
+        },
+        {
+          "name": "طاجن اوريو",
+          "price": 115,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/rf7JyXJt/Whats-App-Image-2026-04-24-at-4-22-46-AM-4.jpg",
+          "description": "قطع من الهوهوز الشوكولاتة يضاف إليها أيس كريم فانليا و صوص الأوريو"
+        },
+        {
+          "name": "طاجن لوتس",
+          "price": 100,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/9mLkpWbf/Whats-App-Image-2026-04-24-at-4-22-46-AM-5.jpg",
+          "description": "قطع من الهوهوز الشوكولاتة يضاف إليها أيس كريم فانليا و صوص اللوتس"
+        },
+        {
+          "name": "طاجن Spacca",
+          "price": 180,
+          "currency": "EGP",
+          "image": "https://res.cloudinary.com/dznet5vfv/image/upload/v1776900049/ef063c17-3288-43ac-b7f5-7b50174df0f2.png",
+          "description": "قطع من الهوهوز الشوكولاتة والأوريو يضاف إليها أيس كريم فانليا و أيس كريم الشوكولاتة مع صوص سباكا الموز الطازج"
+        },
+        {
+          "name": "وافل نوتيلا",
+          "price": 90,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/9m7QK5PG/Whats-App-Image-2026-04-24-at-4-22-47-AM.jpg",
+          "description": "عجينه الوافل الخاصة بالشيف يضاف إليها النوتيلا وصوص الشوكولاتة"
+        },
+        {
+          "name": "وافل وايت",
+          "price": 90,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/xqsv587B/Whats-App-Image-2026-04-24-at-4-22-47-AM-1.jpg",
+          "description": "عجينه الوافل الخاصة بالشيف يضاف إليها النوتيلا وصوص الشوكولاتة البيضاء"
+        },
+        {
+          "name": "وافل ميكس شوكليت",
+          "price": 105,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/tp9Qm8rR/Whats-App-Image-2026-04-24-at-4-22-47-AM-3.jpg",
+          "description": "عجينه الوافل الخاصة بالشيف يضاف إليها خليط من صوص الشوكولاتة و الشوكولاتة البيضاءة"
+        },
+        {
+          "name": "وافل لوتس",
+          "price": 90,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/N6Z9H3dh/Whats-App-Image-2026-04-24-at-4-22-47-AM-2.jpg",
+          "description": "عجينه الوافل الخاصة بالشيف يضاف إليها اللوتس وصوص الشوكولاتة"
+        },
+        {
+          "name": "وافل بنانا",
+          "price": 100,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/BVfYGz02/Whats-App-Image-2026-04-24-at-4-22-47-AM-4.jpg",
+          "description": "عجينه الوافل الخاصة بالشيف يضاف إليها النوتيلا مع شرائح الموز الطازجة وصوص الشوكولاتة"
+        },
+         {
+          "name": "وافل اوريو",
+          "price": 130,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "عجينه الوافل الخاصة بالشيف يضاف إليها النوتيلا مع  قطع الاوريو وصوص الشوكولاتة"
+        },
+        {
+          "name": "وافل بستاشيو",
+          "price": 105,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "عجينه الوافل الخاصة بالشيف يضاف إليها بستاشيو"
+        },
+        {
+          "name": "وافل كيت كات",
+          "price": 100,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "عجينه الوافل الخاصة بالشيف يضاف إليها النوتيلا مع  قطع الكيت كات "
+        },
+        {
+          "name": "طاجن بستاشيو",
+          "price": 125,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "قطع من الهوهوز الشوكولاتة يضاف إليها أيس كريم فانليا و صوص بستاشيو"
+        },
+        {
+          "name": "ايس كريم ساده",
+          "price": 50,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/1GnyxvKy/Whats-App-Image-2026-04-24-at-4-22-47-AM-5.jpg",
+          "description": "ايس كريم فانيليا"
+        },
+        {
+          "name": "ايس كريم مكسرات",
+          "price": 60,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/WNdSBH7t/Whats-App-Image-2026-04-24-at-4-22-48-AM.jpg",
+          "description": "ايس كريم بمكسرات"
+        },
+        {
+          "name": "ايس كريم فواكه",
+          "price": 70,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/8gbwMg8d/Whats-App-Image-2026-04-24-at-4-22-48-AM-1.jpg",
+          "description": "ايس كريم بفواكه"
+        },
+        {
+          "name": "ايس كريم Spacca",
+          "price": 90,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "ايس كريم سباكا المميز"
+        }
+      ]
+    },
+    "drinks": {
+      "title": "المشروبات Drinks",
+      "collapsed": true,
+      "image": "https://res.cloudinary.com/dznet5vfv/image/upload/v1776898270/WhatsApp_Image_2026-04-22_at_10.23.54_PM_3_q5kqvr.jpg",
+      "categories": [
+        {
+          "id": "fresh_juices",
+          "title": "عصائر فريش",
+          "items": [
+            {
+              "name": "عصير مانجو",
+              "price": 80,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/DDhv0RCf/Whats-App-Image-2026-04-24-at-4-23-58-AM.jpg",
+              "description": "مانجو طازج"
+            },
+           
+            {
+              "name": "عصير كانتلوب",
+              "price": 80,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/G4HXKybM/Whats-App-Image-2026-04-24-at-4-24-01-AM-2.jpg",
+              "description": "كانتلوب طازج"
+            },
+            {
+              "name": "عصير افوكادو",
+              "price": 115,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/2YMMnJC6/Whats-App-Image-2026-04-24-at-4-24-01-AM-1.jpg",
+              "description": "افوكادو طازج"
+            },
+            {
+              "name": "عصير برتقال",
+              "price": 75,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/3yBC0N99/Whats-App-Image-2026-04-24-at-4-24-01-AM.jpg",
+              "description": "برتقال طازج"
+            },
+            {
+              "name": "فراولة باللبن",
+              "price": 105,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/SDhhSVHp/Whats-App-Image-2026-04-24-at-4-24-01-AM-4.jpg",
+              "description": "فراولة + لبن"
+            },
+            {
+              "name": "عصير فراولة",
+              "price": 85,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/YFjMvLSM/Whats-App-Image-2026-04-24-at-4-24-01-AM-5.jpg",
+              "description": "فراولة طازج"
+            },
+            {
+              "name": "عصير جوافة",
+              "price": 70,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/dsj6gnx1/Whats-App-Image-2026-04-24-at-4-24-00-AM-1.jpg",
+              "description": "جوافة طازج"
+            },
+            {
+              "name": "جوافة باللبن",
+              "price": 80,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/xqNq77h9/Whats-App-Image-2026-04-24-at-4-24-00-AM.jpg",
+              "description": "جوافة + لبن"
+            },
+            {
+              "name": "موز باللبن",
+              "price": 80,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/6RPqGS97/Whats-App-Image-2026-04-24-at-4-24-00-AM-3.jpg",
+              "description": "موز + لبن"
+            },
+            {
+              "name": "عصير ليمون",
+              "price": 65,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/Nn749nJd/Whats-App-Image-2026-04-24-at-4-23-59-AM-1.jpg",
+              "description": "ليمون طازج"
+            },
+            {
+              "name": "ليمون نعناع",
+              "price": 70,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/YBSbzLSP/Whats-App-Image-2026-04-24-at-4-24-02-AM-1.jpg",
+              "description": "ليمون + نعناع"
+            },
+            {
+              "name": "عصير كيوي",
+              "price": 100,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/3ygYrckV/Whats-App-Image-2026-04-24-at-4-24-02-AM.jpg",
+              "description": "كيوي طازج"
+            },
+            {
+              "name": "عناب",
+              "price": 60,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "عناب"
+            },
+           
+            {
+              "name": "كوكتيل ",
+              "price": 85,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/60pZxLfr/Whats-App-Image-2026-04-24-at-4-24-00-AM-2.jpg",
+              "description": "ميكس فواكه"
+            }
+          ]
+        },
+        {
+          "id": "soda_mix",
+          "title": "ميكس صودا",
+          "items": [
+            {
+              "name": "سكوتش منت",
+              "price": 65,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/PZ7sbg7n/Whats-App-Image-2026-04-24-at-4-42-54-AM-4.jpg",
+              "description": "بلو بيري صودا"
+            },
+            {
+              "name": "موهيتو صودا",
+              "price": 80,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/ynMfThtb/Whats-App-Image-2026-04-24-at-4-42-54-AM-5.jpg",
+              "description": "موهيتو كلاسيك"
+            },
+           
+            {
+              "name": "صن شاين",
+              "price": 75,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/67NpMyG9/Whats-App-Image-2026-04-24-at-4-42-54-AM-6.jpg",
+              "description": "صن شاين صودا"
+            },
+            {
+              "name": "صن رايز",
+              "price": 75,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/ZRCc9tGB/Whats-App-Image-2026-04-24-at-4-42-55-AM.jpg",
+              "description": "صن رايز صودا"
+            },
+            
+           
+            {
+              "name": "بلو سكاي",
+              "price": 75,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "بلو سكاي صودا"
+            },
+            {
+              "name": "بلو باشن",
+              "price": 75,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "بلو باشن صودا"
+            },
+          
+            {
+              "name": "موهيتو فليفر",
+              "price": 75,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "موهيتو فليفر"
+            },
+            {
+              "name": "ميكس Spacca",
+              "price": 110,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "ميكس سباكا المميز"
+            },
+            {
+              "name": "بيج كولا",
+              "price": 15,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "مشروب غازي"
+            },
+            {
+              "name": "V7",
+              "price": 30,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "مشروب غازي"
+            },
+             {
+              "name": "شويبس",
+              "price": 30,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "مشروب غازي"
+            },
+             {
+              "name": "ميرندا",
+              "price": 30,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "مشروب غازي"
+            },
+             {
+              "name": "ريد بول",
+              "price": 90,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "مشروب غازي"
+            },
+             {
+              "name": "VAMOS",
+              "price": 25,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "مشروب غازي"
+            },
+             {
+              "name": "ستينج",
+              "price": 20,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "مشروب غازي"
+            },
+            {
+              "name": "بريل",
+              "price": 35,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "مشروب غازي"
+            }
+          ]
+        },
+        {
+          "id": "hot_drinks",
+          "title": "مشروبات ساخنة",
+          "items": [
+            {
+              "name": "شاي",
+              "price": 25,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/twqzfsD3/Whats-App-Image-2026-04-24-at-4-42-51-AM-1.jpg",
+              "description": "شاي أسود"
+            },
+            {
+              "name": "شاي أخضر",
+              "price": 30,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/HLZFP0QC/Whats-App-Image-2026-04-24-at-4-42-51-AM.jpg",
+              "description": "شاي أخضر"
+            },
+            {
+              "name": "شاي لاتيه",
+              "price": 55,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/Kj0wR178/Whats-App-Image-2026-04-24-at-4-42-51-AM-2.jpg",
+              "description": "شاي بحليب"
+            },
+           
+            {
+              "name": "أعشاب",
+              "price": 40,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/F42FGGTH/Whats-App-Image-2026-04-24-at-4-42-51-AM-4.jpg",
+              "description": "مشروب أعشاب"
+            },
+            {
+              "name": "قرفة باللبن",
+              "price": 50,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/CKvsMBQf/Whats-App-Image-2026-04-24-at-4-42-51-AM-5.jpg",
+              "description": "قرفة + لبن"
+            },
+            {
+              "name": "هوت شوكليت",
+              "price": 75,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/KcKtMFgL/Whats-App-Image-2026-04-24-at-4-42-52-AM.jpg",
+              "description": "شوكولاتة ساخنة"
+            },
+            {
+              "name": "هوت اوريو",
+              "price": 60,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/Y7rT8dXX/Whats-App-Image-2026-04-24-at-4-42-52-AM-1.jpg",
+              "description": "هوت شوكليت باوريو"
+            },
+            {
+              "name": "هوت لوتس",
+              "price": 65,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/8nc83jyk/Whats-App-Image-2026-04-24-at-4-42-52-AM-3.jpg",
+              "description": "هوت شوكليت بلوتس"
+            },
+            {
+              "name": "هوت سيدر",
+              "price": 60,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/S4dx3DhP/Whats-App-Image-2026-04-24-at-4-42-52-AM-2.jpg",
+              "description": "سيدر ساخن"
+            },
+            {
+              "name": "سحلب ساده",
+              "price": 65,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/WN6s4DZL/Whats-App-Image-2026-04-24-at-4-42-53-AM.jpg",
+              "description": "سحلب تقليدي"
+            },
+            {
+              "name": "سحلب فواكه",
+              "price": 115,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/PZF7QFHK/Whats-App-Image-2026-04-24-at-4-42-52-AM-5.jpg",
+              "description": "سحلب بفواكه"
+            },
+            {
+              "name": "سحلب مكسرات",
+              "price": 85,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/WWLTQ66r/Whats-App-Image-2026-04-24-at-4-42-52-AM-6.jpg",
+              "description": "سحلب بمكسرات"
+            },
+            {
+              "name": "ينسون",
+              "price": 35,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/9BTDBrT/Whats-App-Image-2026-04-24-at-4-42-53-AM-2.jpg",
+              "description": "ينسون"
+            },
+            {
+              "name": "كركديه",
+              "price": 35,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/bgCWvBXM/Whats-App-Image-2026-04-24-at-4-42-53-AM-1.jpg",
+              "description": "كركديه"
+            }
+            
+        
+          ]
+        },
+       
+        {
+          "id": "ice_coffee",
+          "title": "ايس كوفي",
+          "items": [
+            {
+              "name": "ايس نسكافيه",
+              "price": 90,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/dw3qwtzw/Whats-App-Image-2026-04-24-at-2-08-02-PM.jpg",
+              "description": "نسكافيه مثلج"
+            },
+            {
+              "name": "ايس لاتيه",
+              "price": 75,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/Kc36vz5s/Whats-App-Image-2026-04-24-at-2-08-02-PM-1.jpg",
+              "description": "لاتيه مثلج"
+            },
+            {
+              "name": "ايس سبانش لاتيه",
+              "price": 80,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/Kc36vz5s/Whats-App-Image-2026-04-24-at-2-08-02-PM-1.jpg",
+              "description": "لاتيه مثلج"
+            },
+            {
+              "name": "ايس موكا",
+              "price": 75,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/mCF99RKM/Whats-App-Image-2026-04-24-at-2-08-02-PM-2.jpg",
+              "description": "موكا مثلج"
+            },
+            {
+              "name": "ايس وايت موكا",
+              "price": 75,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/twBkFNX0/Whats-App-Image-2026-04-24-at-2-08-02-PM-3.jpg",
+              "description": "وايت موكا مثلج"
+            },
+            {
+              "name": "ايس اميركان كوفي",
+              "price": 65,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/xSTDVG6F/Whats-App-Image-2026-04-24-at-2-08-02-PM-4.jpg",
+              "description": "امريكان كوفي مثلج"
+            }
+          ]
+        },
+        {
+          "id": "milkshake",
+          "title": "ميلك تشيك",
+          "items": [
+            {
+              "name": "ميلك مانجو",
+              "price": 90,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/hnfRkmY/Whats-App-Image-2026-04-24-at-2-33-11-PM.jpg",
+              "description": "ميلك شيك مانجو"
+            },
+            {
+              "name": "ميلك فراولة",
+              "price": 90,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/h1xYzx8t/Whats-App-Image-2026-04-24-at-2-33-11-PM-1.jpg",
+              "description": "ميلك شيك فراولة"
+            },
+            {
+              "name": "ميلك فانيليا",
+              "price": 85,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/7JtnRzQc/Whats-App-Image-2026-04-24-at-3-03-05-PM.jpg",
+              "description": "ميلك شيك فانيليا"
+            },
+            {
+              "name": "ميلك شوكليت",
+              "price": 85,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/hJKn9t7G/Whats-App-Image-2026-04-24-at-2-33-11-PM-2.jpg",
+              "description": "ميلك شيك شوكولاتة"
+            },
+            {
+              "name": "ميلك بلو بيري",
+              "price": 95,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/YFvKZxBq/Whats-App-Image-2026-04-24-at-2-34-24-PM.jpg",
+              "description": "ميلك شيك بلو بيري"
+            },
+            {
+              "name": "ميلك نوتيلا",
+              "price": 100,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/PG8KSwky/Whats-App-Image-2026-04-24-at-2-33-12-PM.jpg",
+              "description": "ميلك شيك نوتيلا"
+            },
+            {
+              "name": "ميلك كيت كات",
+              "price": 115,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/Hfmyt95y/Whats-App-Image-2026-04-24-at-2-33-12-PM-1.jpg",
+              "description": "ميلك شيك كيت كات"
+            },
+            {
+              "name": "ميلك لوتس",
+              "price": 100,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/ynjzrMss/Whats-App-Image-2026-04-24-at-2-33-12-PM-2.jpg",
+              "description": "ميلك شيك لوتس"
+            },
+            {
+              "name": "ميلك بستاشيو",
+              "price": 130,
+              "currency": "EGP",
+              "image": "./assets/img.png",
+              "description": "ميلك شيك بستاشيو"
+            },
+            {
+              "name": "ميلك كراميل",
+              "price": 95,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/YFtLzz3V/Whats-App-Image-2026-04-24-at-2-33-12-PM-3.jpg",
+              "description": "ميلك شيك كراميل"
+            }
+          ]
+        },
+        {
+          "id": "ice_cocktail",
+          "title": "ايس كوكتيل",
+          "items": [
+            {
+              "name": "بوريو ساده",
+              "price": 75,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/S7XxJ2KV/Whats-App-Image-2026-04-24-at-3-03-05-PM-1.jpg",
+              "description": "بوريو"
+            },
+            {
+              "name": "بوريو ايس",
+              "price": 90,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/4g3j7yZz/Whats-App-Image-2026-04-24-at-3-03-06-PM.jpg",
+              "description": "بوريو مثلج"
+            },
+            {
+              "name": "بوريو نوتيلا",
+              "price": 95,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/mrtQRRK8/Whats-App-Image-2026-04-24-at-3-03-06-PM-1.jpg",
+              "description": "بوريو بنوتيلا"
+            },
+           
+            {
+              "name": "اوريو ساده",
+              "price": 85,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/gZV4PwMH/Whats-App-Image-2026-04-24-at-3-03-07-PM-1.jpg",
+              "description": "اوريو"
+            },
+            {
+              "name": "اوريو ايس",
+              "price": 95,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/DDJ4fQ78/Whats-App-Image-2026-04-24-at-3-03-07-PM-2.jpg",
+              "description": "اوريو مثلج"
+            }
+          ]
+        },
+       
+        {
+          "id": "coffee",
+          "title": "القهوة Coffee",
+          "items": [
+            {
+              "name": "قهوة تركي",
+              "price": 35,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/kWLGG0b/Copilot-20260424-155942.png",
+              "description": "قهوة تركية"
+            },
+            {
+              "name": "قهوة دابل",
+              "price": 55,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/sdwKf3Sg/Copilot-20260424-155947.png",
+              "description": "قهوة تركية مزدوجة"
+            },
+            {
+              "name": "فرنساوي",
+              "price": 50,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/hJS9Ttwc/Copilot-20260424-155950.png",
+              "description": "قهوة فرنساوي"
+            },
+            
+            {
+              "name": "قهوة بندق",
+              "price": 55,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/VWDYVbRw/Copilot-20260424-155956.png",
+              "description": "قهوة بنكهة البندق"
+            },
+            
+          
+           
+            {
+              "name": "اسبرسو سنجل",
+              "price": 50,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/WpMF9gQm/Copilot-20260424-160009.png",
+              "description": "اسبرسو فردي"
+            },
+            {
+              "name": "اسبرسو دبل",
+              "price": 70,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/Lh1TWq4b/Copilot-20260424-160011.png",
+              "description": "اسبرسو مزدوج"
+            },
+            {
+              "name": "كافيه موكا",
+              "price": 80,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/G3s9tS5x/Copilot-20260424-160014.png",
+              "description": "موكا"
+            },
+            {
+              "name": "ميكاتو",
+              "price": 70,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/g8B3cyc/Copilot-20260424-160017.png",
+              "description": "ميكاتو"
+            },
+            {
+              "name": "كافيه لاتيه",
+              "price": 75,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/7xjbJCRf/Copilot-20260424-160020.png",
+              "description": "لاتيه"
+            },
+            {
+              "name": "نسكافيه",
+              "price": 75,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/whnNyph2/Copilot-20260424-160022.png",
+              "description": "نسكافيه"
+            },
+            {
+              "name": "نسكافيه بلاك",
+              "price": 50,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/CszFz7nC/Copilot-20260424-160025.png",
+              "description": "نسكافيه بلاك"
+            },
+            {
+              "name": "كابتشينو",
+              "price": 80,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/KpLjJM71/Copilot-20260424-160028.png",
+              "description": "كابتشينو"
+            },
+            {
+              "name": "كابتشينو فليفر",
+              "price": 85,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/BVKXTz47/Copilot-20260424-160031.png",
+              "description": "كابتشينو بنكهة"
+            },
+            {
+              "name": "اميركان كوفي",
+              "price": 70,
+              "currency": "EGP",
+              "image": "https://i.ibb.co/BVKXTz47/Copilot-20260424-160031.png",
+              "description": "امريكان كوفي"
+            }
+          ]
+        }
+      ]
+    },
+    "Other": {
+      "title": "المقبلات",
+      "image": "./assets/img.png",
+      "items": [
+        {
+          "name": "باكيت بطاطس صغير",
+          "price": 25,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/XMRFhxG/Whats-App-Image-2026-04-23-at-12-38-44-PM.jpg",
+          "description": "إضافة - باكيت بطاطس صغير"
+        },
+        {
+          "name": "باكيت بطاطس كبير",
+          "price": 35,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/5hXZDHxR/Whats-App-Image-2026-04-23-at-12-38-43-PM.jpg",
+          "description": "إضافة - باكيت بطاطس كبير"
+        },
+        {
+          "name": "تكساس كرانشي",
+          "price": 150,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "صوابع الفرايز المقرمشه مع قطع الكرانشي المتبل بالتتبيله الخاصة ب سباكا ويضاف إليها صوص الجبنه الخاص بالشيف مع قطع الهاليبينو"
+        },
+        {
+          "name": "تكساس برجر",
+          "price": 180,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "صوابع الفرايز المقرمشه مع قطع البرجلر المتبل بالتتبيله الخاصة ب سباكا ويضاف إليها صوص الجبنه الخاص بالشيف مع قطع الهاليبينو"
+        },
+        {
+          "name": "  قريبا - تكساس مشكل لحوم",
+          "price": 210,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "صوابع الفرايز المقرمشه مع مشكل لحوم المتبل بالتتبيله الخاصة ب سباكا ويضاف إليها صوص الجبنه الخاص بالشيف مع قطع الهاليبينو"
+        },
+        {
+          "name": "تشكن فرايز ميكس",
+          "price": 85,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/23zYMF5j/Whats-App-Image-2026-04-14-at-1-56-28-AM-1.jpg",
+          "description": "إضافة - تشكن فرايز ميكس"
+        },
+        {
+          "name": "باكيت فرايز شيدر",
+          "price": 45,
+          "currency": "EGP",
+          "image": "./assets/img.png",
+          "description": "إضافة - باكيت فرايز شيدر"
+        },
+        {
+          "name": "تشكن فرايز شيدر",
+          "price": 75,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/23zYMF5j/Whats-App-Image-2026-04-14-at-1-56-28-AM-1.jpg",
+          "description": "إضافة - تشكن فرايز شيدر"
+        },
+        {
+          "name": "تشكن فرايز موتزريلا",
+          "price": 70,
+          "currency": "EGP",
+          "image": "https://i.ibb.co/23zYMF5j/Whats-App-Image-2026-04-14-at-1-56-28-AM-1.jpg",
+          "description": "إضافة - تشكن فرايز موتزريلا"
+        }
+      ]
+    }
+  }
+}
