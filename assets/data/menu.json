@@ -15,13 +15,17 @@
           "name": "Turkish Coffee",
           "name_ar": "قهوه تركي",
           "description": "Classic Turkish coffee brewed slowly with a rich layer of foam.",
-          "prices": [30],
-          "image": "/menu/espresso_and_coffee/turkish_coffee.jpg",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 1
         },
         {
@@ -29,13 +33,18 @@
           "name": "French Coffee",
           "name_ar": "قهوه فرنساوي",
           "description": "Smooth French-style coffee blended with rich, creamy milk.",
-          "prices": [40, 55],
-          "image": "/menu/espresso_and_coffee/french_coffee.jpg",
+          "prices": [
+            40,
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 2
         },
         {
@@ -43,13 +52,18 @@
           "name": "Hazelnut Coffee",
           "name_ar": "بندق",
           "description": "Traditional coffee infused with hazelnut flavor, available with real hazelnut pieces.",
-          "prices": [45, 60],
-          "image": "/menu/espresso_and_coffee/hazelnut_coffee.jpg",
+          "prices": [
+            45,
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 3
         },
         {
@@ -57,13 +71,18 @@
           "name": "Caramel Macchiato",
           "name_ar": "كراميل مكياتو",
           "description": "Freshly steamed milk with vanilla syrup, marked with espresso and drizzled with caramel.",
-          "prices": [75],
-          "image": "/menu/espresso_and_coffee/caramel_macchiato.jpg",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["hot", "popular"],
+          "tags": [
+            "hot",
+            "popular"
+          ],
           "sortOrder": 4
         },
         {
@@ -71,13 +90,18 @@
           "name": "Espresso (Decaf)",
           "name_ar": "أسبريسو (ديكاف)",
           "description": "Rich and bold decaffeinated espresso shot with a smooth golden crema.",
-          "prices": [40, 60],
-          "image": "/menu/espresso_and_coffee/espresso_decaf.jpg",
+          "prices": [
+            40,
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-151097252790b-a481c267a1d1?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 5
         },
         {
@@ -85,13 +109,17 @@
           "name": "Cortado",
           "name_ar": "كورتادو",
           "description": "Equal parts bold espresso and warm, velvety textured steamed milk.",
-          "prices": [60],
-          "image": "/menu/espresso_and_coffee/cortado.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 6
         },
         {
@@ -99,13 +127,18 @@
           "name": "Flat White",
           "name_ar": "فلات وايت",
           "description": "Double ristretto espresso combined with velvety microfoam milk.",
-          "prices": [70],
-          "image": "/menu/espresso_and_coffee/flat_white.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["hot", "popular"],
+          "tags": [
+            "hot",
+            "popular"
+          ],
           "sortOrder": 7
         },
         {
@@ -113,13 +146,18 @@
           "name": "Macchiato",
           "name_ar": "ماكياتو",
           "description": "Bold espresso marked with a small dollop of frothy steamed milk.",
-          "prices": [50, 65],
-          "image": "/menu/espresso_and_coffee/macchiato.jpg",
+          "prices": [
+            50,
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1557006021-b85faa2bc5e2?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 8
         },
         {
@@ -127,13 +165,18 @@
           "name": "Latte",
           "name_ar": "لاتيه",
           "description": "Rich espresso balanced with silky steamed milk and a light layer of foam.",
-          "prices": [75],
-          "image": "/menu/espresso_and_coffee/latte.jpg",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fc9f?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["hot", "popular"],
+          "tags": [
+            "hot",
+            "popular"
+          ],
           "sortOrder": 9
         },
         {
@@ -141,13 +184,18 @@
           "name": "Cappuccino",
           "name_ar": "كابتشينو",
           "description": "Classic Italian-style with equal parts espresso, steamed milk, and dense foam.",
-          "prices": [70],
-          "image": "/menu/espresso_and_coffee/cappuccino.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["hot", "popular"],
+          "tags": [
+            "hot",
+            "popular"
+          ],
           "sortOrder": 10
         },
         {
@@ -155,13 +203,17 @@
           "name": "White Mocha",
           "name_ar": "موكا وايت",
           "description": "Espresso blended with sweet white chocolate sauce and steamed milk.",
-          "prices": [75],
-          "image": "/menu/espresso_and_coffee/white_mocha.jpg",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 11
         },
         {
@@ -169,13 +221,17 @@
           "name": "Americano",
           "name_ar": "أمريكانو",
           "description": "Double espresso shots with hot water. Bold, clean, no-nonsense coffee.",
-          "prices": [55],
-          "image": "/menu/espresso_and_coffee/americano.jpg",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 12
         },
         {
@@ -183,13 +239,19 @@
           "name": "Spanish Latte",
           "name_ar": "إسبانش",
           "description": "Sweetened condensed milk combined with bold espresso and velvety steamed milk.",
-          "prices": [75],
-          "image": "/menu/espresso_and_coffee/spanish_latte.jpg",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": true,
           "isNew": false,
           "popular": true,
-          "tags": ["hot", "popular", "signature"],
+          "tags": [
+            "hot",
+            "popular",
+            "signature"
+          ],
           "sortOrder": 13
         },
         {
@@ -197,13 +259,17 @@
           "name": "Toffee Nut Latte",
           "name_ar": "توفى نات",
           "description": "Buttery toffee nut syrup blended with rich espresso and warm steamed milk.",
-          "prices": [75],
-          "image": "/menu/espresso_and_coffee/toffee_nut.jpg",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1532054244308-f8d020e3a61d?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 14
         },
         {
@@ -211,13 +277,17 @@
           "name": "Dolce Latte",
           "name_ar": "دولتشي",
           "description": "Espresso mixed with premium sweet dolce sauce and warm steamed milk.",
-          "prices": [75],
-          "image": "/menu/espresso_and_coffee/dolce_latte.jpg",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 15
         }
       ]
@@ -235,13 +305,19 @@
           "name": "Hot Chocolate",
           "name_ar": "هوت شوكليت",
           "description": "Rich and comforting cocoa drink, available with a generous topping of fluffy marshmallows.",
-          "prices": [50, 65],
-          "image": "/menu/hot_drinks/hot_chocolate.jpg",
+          "prices": [
+            50,
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["hot", "popular"],
+          "tags": [
+            "hot",
+            "popular"
+          ],
           "sortOrder": 1
         },
         {
@@ -249,13 +325,17 @@
           "name": "Nescafe",
           "name_ar": "نيسكافيه",
           "description": "A classic, comforting cup of premium instant coffee.",
-          "prices": [25],
-          "image": "/menu/hot_drinks/nescafe.jpg",
+          "prices": [
+            25
+          ],
+          "image": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 2
         },
         {
@@ -263,13 +343,17 @@
           "name": "Sahlab",
           "name_ar": "سحلب",
           "description": "Traditional Middle Eastern sweet milk beverage garnished with nuts and cinnamon.",
-          "prices": [50],
-          "image": "/menu/hot_drinks/sahlab.jpg",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 3
         },
         {
@@ -277,13 +361,18 @@
           "name": "Oreo White Chocolate",
           "name_ar": "اوريو وايت شوكليت",
           "description": "Warm, creamy white chocolate drink blended with crushed Oreo cookies.",
-          "prices": [70],
-          "image": "/menu/hot_drinks/oreo_white_chocolate.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1563887556068-9d4827d305a2?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": true,
           "popular": false,
-          "tags": ["hot", "new"],
+          "tags": [
+            "hot",
+            "new"
+          ],
           "sortOrder": 4
         },
         {
@@ -291,13 +380,17 @@
           "name": "Herbal Tea",
           "name_ar": "اعشاب",
           "description": "A selection of soothing, warm natural herbal infusions.",
-          "prices": [25],
-          "image": "/menu/hot_drinks/herbal_tea.jpg",
+          "prices": [
+            25
+          ],
+          "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 5
         },
         {
@@ -305,13 +398,17 @@
           "name": "Tea",
           "name_ar": "شاي",
           "description": "Premium black tea brewed to perfection.",
-          "prices": [15],
-          "image": "/menu/hot_drinks/tea.jpg",
+          "prices": [
+            15
+          ],
+          "image": "https://images.unsplash.com/photo-1594631252845-29fc4cc8cfa9?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 6
         },
         {
@@ -319,13 +416,17 @@
           "name": "Karak Tea",
           "name_ar": "كرك",
           "description": "Strong spiced milk tea infused with cardamom and aromatic spices.",
-          "prices": [30],
-          "image": "/menu/hot_drinks/karak_tea.jpg",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1561336313-0bd5e0b27ec8?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 7
         },
         {
@@ -333,13 +434,17 @@
           "name": "Hot Lotus",
           "name_ar": "هوت لوتس",
           "description": "Creamy hot milk drink blended with sweet Lotus Biscoff spread.",
-          "prices": [60],
-          "image": "/menu/hot_drinks/hot_lotus.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1582241901509-64bf903cc376?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["hot"],
+          "tags": [
+            "hot"
+          ],
           "sortOrder": 8
         },
         {
@@ -347,13 +452,18 @@
           "name": "Hot Pistachio",
           "name_ar": "بيستاشيو",
           "description": "Creamy hot milk drink infused with premium sweet pistachio paste.",
-          "prices": [70],
-          "image": "/menu/hot_drinks/hot_pistachio.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": true,
           "popular": false,
-          "tags": ["hot", "new"],
+          "tags": [
+            "hot",
+            "new"
+          ],
           "sortOrder": 9
         }
       ]
@@ -371,13 +481,17 @@
           "name": "Iced Latte",
           "name_ar": "أيس لاتية",
           "description": "Chilled espresso combined with cold milk and served over ice.",
-          "prices": [65],
-          "image": "/menu/iced_latte/iced_latte.jpg",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 1
         },
         {
@@ -385,13 +499,17 @@
           "name": "Iced Mocha / White",
           "name_ar": "أيس موكا، وايت",
           "description": "Chilled espresso blended with chocolate or white chocolate and cold milk over ice.",
-          "prices": [75],
-          "image": "/menu/iced_latte/iced_mocha_white.jpg",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1535390070251-8612fc986152?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 2
         },
         {
@@ -399,13 +517,17 @@
           "name": "Iced Americano",
           "name_ar": "أيس أمريكانو",
           "description": "Bold espresso shots poured over ice and cold water for a crisp coffee taste.",
-          "prices": [55],
-          "image": "/menu/iced_latte/iced_americano.jpg",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1562447471-9921479abc48?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 3
         },
         {
@@ -413,13 +535,19 @@
           "name": "Iced Pistachio Latte",
           "name_ar": "أيس بيستاشيو لاتية",
           "description": "Chilled espresso with sweet pistachio paste and cold milk over ice.",
-          "prices": [80],
-          "image": "/menu/iced_latte/iced_pistachio_latte.jpg",
+          "prices": [
+            80
+          ],
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": true,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular", "signature"],
+          "tags": [
+            "cold",
+            "popular",
+            "signature"
+          ],
           "sortOrder": 4
         },
         {
@@ -427,13 +555,17 @@
           "name": "Iced Dolce",
           "name_ar": "دولتشي",
           "description": "Bold espresso mixed with sweet dolce sauce and cold milk over ice.",
-          "prices": [75],
-          "image": "/menu/iced_latte/iced_dolce.jpg",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 5
         },
         {
@@ -441,13 +573,18 @@
           "name": "Iced Spanish Latte",
           "name_ar": "أيس سبانيش لاتية",
           "description": "Creamy sweetened condensed milk combined with bold espresso and cold milk over ice.",
-          "prices": [80],
-          "image": "/menu/iced_latte/iced_spanish_latte.jpg",
+          "prices": [
+            80
+          ],
+          "image": "https://images.unsplash.com/photo-1568649929103-28ffbbeaca1e?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular"],
+          "tags": [
+            "cold",
+            "popular"
+          ],
           "sortOrder": 6
         },
         {
@@ -455,13 +592,18 @@
           "name": "Iced Crème Brûlée",
           "name_ar": "أيس كريم برولية",
           "description": "Indulgent iced espresso flavored with caramelized custard crème brûlée sauce.",
-          "prices": [70],
-          "image": "/menu/iced_latte/iced_creme_brulee.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": true,
           "popular": false,
-          "tags": ["cold", "new"],
+          "tags": [
+            "cold",
+            "new"
+          ],
           "sortOrder": 7
         },
         {
@@ -469,13 +611,17 @@
           "name": "Double Nut White Mocha",
           "name_ar": "دابل نوت موكا وايت",
           "description": "Double nut syrup combined with sweet white chocolate, espresso, and cold milk over ice.",
-          "prices": [75],
-          "image": "/menu/iced_latte/double_nut_white_mocha.jpg",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 8
         },
         {
@@ -483,13 +629,19 @@
           "name": "Iced Matcha (Extra Milk)",
           "name_ar": "أيس ماتشا (اكسترا milk)",
           "description": "Ceremonial Japanese matcha green tea whisked with extra milk and served over ice.",
-          "prices": [55, 80],
-          "image": "/menu/iced_latte/iced_matcha.jpg",
+          "prices": [
+            55,
+            80
+          ],
+          "image": "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": true,
           "popular": false,
-          "tags": ["cold", "new"],
+          "tags": [
+            "cold",
+            "new"
+          ],
           "sortOrder": 9
         },
         {
@@ -497,13 +649,17 @@
           "name": "Caramel Frappuccino",
           "name_ar": "فرابتشينو كراميل",
           "description": "Ice-blended espresso drink with sweet caramel syrup, finished with whipped cream.",
-          "prices": [75],
-          "image": "/menu/iced_latte/caramel_frappuccino.jpg",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 10
         },
         {
@@ -511,13 +667,17 @@
           "name": "Cookies Frappuccino",
           "name_ar": "فرابتشينو كوكيزز",
           "description": "Blended coffee shake with chocolate chip cookies and sweet cream.",
-          "prices": [70],
-          "image": "/menu/iced_latte/cookies_frappuccino.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 11
         },
         {
@@ -525,13 +685,18 @@
           "name": "Oreo Lotus (Avocado)",
           "name_ar": "اوريو لوتس (افوكادو)",
           "description": "Unique blended cold drink combining Oreo biscuits, Lotus spread, and fresh avocado.",
-          "prices": [55],
-          "image": "/menu/iced_latte/oreo_lotus_avocado.jpg",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": true,
           "isNew": false,
           "popular": false,
-          "tags": ["cold", "signature"],
+          "tags": [
+            "cold",
+            "signature"
+          ],
           "sortOrder": 12
         },
         {
@@ -539,13 +704,18 @@
           "name": "Salted Caramel",
           "name_ar": "سولتد كراميل",
           "description": "Chilled espresso with creamy milk and rich salted caramel syrup over ice.",
-          "prices": [75],
-          "image": "/menu/iced_latte/salted_caramel.jpg",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular"],
+          "tags": [
+            "cold",
+            "popular"
+          ],
           "sortOrder": 13
         }
       ]
@@ -563,13 +733,17 @@
           "name": "Vanilla Shake",
           "name_ar": "فانيلا",
           "description": "Thick and creamy milkshake blended with premium vanilla bean ice cream.",
-          "prices": [60],
-          "image": "/menu/shakes/vanilla_shake.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 1
         },
         {
@@ -577,13 +751,17 @@
           "name": "Chocolate Shake",
           "name_ar": "شوكولاته",
           "description": "Indulgent rich chocolate milkshake topped with dark chocolate drizzle.",
-          "prices": [60],
-          "image": "/menu/shakes/chocolate_shake.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 2
         },
         {
@@ -591,13 +769,18 @@
           "name": "Kinder Shake",
           "name_ar": "كندر",
           "description": "Creamy milkshake blended with real Kinder Bueno chocolate bars.",
-          "prices": [70],
-          "image": "/menu/shakes/kinder_shake.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1563887556068-9d4827d305a2?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": true,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular"],
+          "tags": [
+            "cold",
+            "popular"
+          ],
           "sortOrder": 3
         },
         {
@@ -605,13 +788,18 @@
           "name": "Lotus Shake",
           "name_ar": "لوتس",
           "description": "Decadent milkshake blended with Lotus Biscoff cookies and Biscoff spread.",
-          "prices": [65],
-          "image": "/menu/shakes/lotus_shake.jpg",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1582241901509-64bf903cc376?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular"],
+          "tags": [
+            "cold",
+            "popular"
+          ],
           "sortOrder": 4
         },
         {
@@ -619,13 +807,17 @@
           "name": "Pistachio Shake",
           "name_ar": "بيستاشيو",
           "description": "Premium milkshake infused with rich, authentic pistachio cream.",
-          "prices": [70],
-          "image": "/menu/shakes/pistachio_shake.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 5
         },
         {
@@ -633,13 +825,17 @@
           "name": "Strawberry Shake",
           "name_ar": "فراوله",
           "description": "Sweet, refreshing milkshake made with fresh strawberries and vanilla ice cream.",
-          "prices": [60],
-          "image": "/menu/shakes/strawberry_shake.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1589733901241-5e514f27c514?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 6
         },
         {
@@ -647,13 +843,17 @@
           "name": "Mango Shake",
           "name_ar": "مانجا",
           "description": "Tropical milkshake blended with fresh Egyptian mango pulp.",
-          "prices": [60],
-          "image": "/menu/shakes/mango_shake.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 7
         }
       ]
@@ -671,13 +871,17 @@
           "name": "Vanilla Frappe",
           "name_ar": "فانيلا",
           "description": "Creamy ice-blended beverage infused with classic sweet vanilla flavor.",
-          "prices": [60],
-          "image": "/menu/frappes/vanilla_frappe.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 1
         },
         {
@@ -685,13 +889,17 @@
           "name": "Chocolate Frappe",
           "name_ar": "شوكولاته",
           "description": "Rich and velvety chocolate blended drink, topped with dark chocolate sauce.",
-          "prices": [60],
-          "image": "/menu/frappes/chocolate_frappe.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 2
         },
         {
@@ -699,13 +907,19 @@
           "name": "Coconut Blue Frappe",
           "name_ar": "كوكونت بلو",
           "description": "Tropical blended drink combining sweet coconut cream and blue curaçao syrup.",
-          "prices": [60],
-          "image": "/menu/frappes/coconut_blue_frappe.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": true,
           "isNew": true,
           "popular": false,
-          "tags": ["cold", "new", "signature"],
+          "tags": [
+            "cold",
+            "new",
+            "signature"
+          ],
           "sortOrder": 3
         },
         {
@@ -713,13 +927,17 @@
           "name": "Chocolate Chip Frappe",
           "name_ar": "شوكليت شيبي",
           "description": "Blended creamy frappe loaded with crunchy chocolate chips throughout.",
-          "prices": [65],
-          "image": "/menu/frappes/chocolate_chip_frappe.jpg",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 4
         },
         {
@@ -727,13 +945,17 @@
           "name": "Passion Fruit Frappe",
           "name_ar": "باشن فروت",
           "description": "Zesty, tropical passion fruit purée blended with ice and sweet cream.",
-          "prices": [60],
-          "image": "/menu/frappes/passion_fruit_frappe.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1534080391025-09795d197360?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 5
         },
         {
@@ -741,13 +963,17 @@
           "name": "Mix Berry Frappe",
           "name_ar": "ميكس بيرى",
           "description": "Vibrant ice-blended mix of wild strawberries, blueberries, and raspberries.",
-          "prices": [60],
-          "image": "/menu/frappes/mix_berry_frappe.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 6
         },
         {
@@ -755,13 +981,17 @@
           "name": "Peach Frappe",
           "name_ar": "خوخ",
           "description": "Refreshing blended frappe made with sweet, juicy peach purée.",
-          "prices": [60],
-          "image": "/menu/frappes/peach_frappe.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 7
         },
         {
@@ -769,13 +999,18 @@
           "name": "Oreo Frappe",
           "name_ar": "اوريو",
           "description": "Thick blended frappe loaded with crushed Oreo cookies and chocolate drizzle.",
-          "prices": [70],
-          "image": "/menu/frappes/oreo_frappe.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular"],
+          "tags": [
+            "cold",
+            "popular"
+          ],
           "sortOrder": 8
         },
         {
@@ -783,13 +1018,18 @@
           "name": "Lotus Frappe",
           "name_ar": "لوتس",
           "description": "Ice-blended frappe featuring rich Lotus Biscoff cookies and cookie butter.",
-          "prices": [70],
-          "image": "/menu/frappes/lotus_frappe.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1582241901509-64bf903cc376?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular"],
+          "tags": [
+            "cold",
+            "popular"
+          ],
           "sortOrder": 9
         }
       ]
@@ -807,13 +1047,18 @@
           "name": "Mojito (Choose Flavor)",
           "name_ar": "موهيتو (اختار فليفر)",
           "description": "Classic fizzy mocktail with fresh mint leaves, lime slices, and choice of flavor syrup.",
-          "prices": [60],
-          "image": "/menu/mix_soda/mojito.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular"],
+          "tags": [
+            "cold",
+            "popular"
+          ],
           "sortOrder": 1
         },
         {
@@ -821,13 +1066,19 @@
           "name": "Turquoise",
           "name_ar": "تركواز",
           "description": "Exotic sparkling blue curaçao drink mixed with fresh mint and soda.",
-          "prices": [70],
-          "image": "/menu/mix_soda/turquoise.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1507041957456-9c397ce39c97?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": true,
           "isNew": true,
           "popular": false,
-          "tags": ["cold", "new", "signature"],
+          "tags": [
+            "cold",
+            "new",
+            "signature"
+          ],
           "sortOrder": 2
         },
         {
@@ -835,13 +1086,17 @@
           "name": "Alaska",
           "name_ar": "الاسكا",
           "description": "Frosty soda blend combining blue curaçao with sweet coconut cream notes.",
-          "prices": [70],
-          "image": "/menu/mix_soda/alaska.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 3
         },
         {
@@ -849,13 +1104,19 @@
           "name": "La Bomba Strong",
           "name_ar": "لابومب سترونج",
           "description": "A powerful and energizing mocktail designed to wake up your senses.",
-          "prices": [90],
-          "image": "/menu/mix_soda/la_bomba_strong.jpg",
+          "prices": [
+            90
+          ],
+          "image": "https://images.unsplash.com/photo-1497534446932-c925b458314e?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": true,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular", "signature"],
+          "tags": [
+            "cold",
+            "popular",
+            "signature"
+          ],
           "sortOrder": 4
         },
         {
@@ -863,13 +1124,17 @@
           "name": "Piña Colada",
           "name_ar": "بينا كولاده",
           "description": "Rich and creamy blend of tropical coconut cream and sweet pineapple juice.",
-          "prices": [60],
-          "image": "/menu/mix_soda/pina_colada.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1505252585461-04db1eba8464?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 5
         }
       ]
@@ -887,13 +1152,17 @@
           "name": "Green Apple Smoothie",
           "name_ar": "جرين أبل",
           "description": "Crisp and tart green apple purée blended with ice for a refreshing kick.",
-          "prices": [60],
-          "image": "/menu/smoothies/green_apple_smoothie.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 1
         },
         {
@@ -901,13 +1170,17 @@
           "name": "Watermelon Smoothie",
           "name_ar": "بطيخ",
           "description": "Sweet, juicy watermelon purée blended into a freezing cold smoothie.",
-          "prices": [60],
-          "image": "/menu/smoothies/watermelon_smoothie.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 2
         },
         {
@@ -915,13 +1188,17 @@
           "name": "Passion Smoothie",
           "name_ar": "باشن",
           "description": "Exotic, tangy passion fruit blended with ice to make a tropical smoothie.",
-          "prices": [60],
-          "image": "/menu/smoothies/passion_smoothie.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1534080391025-09795d197360?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 3
         },
         {
@@ -929,13 +1206,17 @@
           "name": "Peach Smoothie",
           "name_ar": "خوخ",
           "description": "Sweet and velvety smoothie crafted from sun-ripened peach purée.",
-          "prices": [60],
-          "image": "/menu/smoothies/peach_smoothie.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 4
         },
         {
@@ -943,13 +1224,18 @@
           "name": "Mango Smoothie",
           "name_ar": "مانجو",
           "description": "Thick, luxurious smoothie made from pureed ripe Egyptian mangoes.",
-          "prices": [60],
-          "image": "/menu/smoothies/mango_smoothie.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1534080391025-09795d197360?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular"],
+          "tags": [
+            "cold",
+            "popular"
+          ],
           "sortOrder": 5
         },
         {
@@ -957,13 +1243,18 @@
           "name": "Tropical Smoothie",
           "name_ar": "ترويكال",
           "description": "An exotic blend of fresh pineapple, mango, and tropical juices.",
-          "prices": [70],
-          "image": "/menu/smoothies/tropical_smoothie.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": true,
           "isNew": false,
           "popular": false,
-          "tags": ["cold", "signature"],
+          "tags": [
+            "cold",
+            "signature"
+          ],
           "sortOrder": 6
         },
         {
@@ -971,13 +1262,17 @@
           "name": "Strawberry Smoothie",
           "name_ar": "فراولة",
           "description": "Classic sweet strawberry purée blended with ice for a frosty fruit treat.",
-          "prices": [60],
-          "image": "/menu/smoothies/strawberry_smoothie.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1589733901241-5e514f27c514?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 7
         },
         {
@@ -985,13 +1280,18 @@
           "name": "Mix Berry Smoothie",
           "name_ar": "ميكس بيرى",
           "description": "A delightful blend of sweet strawberries, tart blueberries, and raspberries.",
-          "prices": [60],
-          "image": "/menu/smoothies/mix_berry_smoothie.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular"],
+          "tags": [
+            "cold",
+            "popular"
+          ],
           "sortOrder": 8
         },
         {
@@ -999,13 +1299,17 @@
           "name": "Lemon Mint Smoothie",
           "name_ar": "ليمون نعناع",
           "description": "Zesty squeezed lemon juice and fresh mint leaves blended with ice.",
-          "prices": [50],
-          "image": "/menu/smoothies/lemon_mint_smoothie.jpg",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 9
         },
         {
@@ -1013,13 +1317,17 @@
           "name": "Kiwi Smoothie",
           "name_ar": "كيوي",
           "description": "Vibrant, tart fresh kiwi fruit smoothie packed with vitamins.",
-          "prices": [60],
-          "image": "/menu/smoothies/kiwi_smoothie.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1585250941913-c9e42e5f381f?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 10
         }
       ]
@@ -1037,13 +1345,18 @@
           "name": "Roast Beef Sandwich",
           "name_ar": "روز بيف",
           "description": "Premium sliced roast beef with fresh lettuce, tomatoes, and house sauce.",
-          "prices": [60],
-          "image": "/menu/sandwiches/roast_beef.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1553909489-cd47e0907980?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["food", "popular"],
+          "tags": [
+            "food",
+            "popular"
+          ],
           "sortOrder": 1
         },
         {
@@ -1051,13 +1364,17 @@
           "name": "Smoked Turkey Sandwich",
           "name_ar": "تركى مدخن",
           "description": "Thin slices of smoked turkey breast with cheese and greens in fresh bread.",
-          "prices": [60],
-          "image": "/menu/sandwiches/smoked_turkey.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["food"],
+          "tags": [
+            "food"
+          ],
           "sortOrder": 2
         },
         {
@@ -1065,13 +1382,17 @@
           "name": "Roumy Cheese Sandwich",
           "name_ar": "رومى",
           "description": "Traditional sharp Egyptian Roumy cheese served in toasted fresh bread.",
-          "prices": [50],
-          "image": "/menu/sandwiches/roumy_cheese.jpg",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["food"],
+          "tags": [
+            "food"
+          ],
           "sortOrder": 3
         },
         {
@@ -1079,13 +1400,17 @@
           "name": "Kiri Cheese Sandwich",
           "name_ar": "كيري",
           "description": "Creamy, smooth Kiri cheese spread generously in soft toasted bread.",
-          "prices": [50],
-          "image": "/menu/sandwiches/kiri_cheese.jpg",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["food"],
+          "tags": [
+            "food"
+          ],
           "sortOrder": 4
         },
         {
@@ -1093,13 +1418,18 @@
           "name": "Mix Cheese Sandwich",
           "name_ar": "ميكس تشير",
           "description": "A delicious melted combination of premium cheeses toasted to golden perfection.",
-          "prices": [60],
-          "image": "/menu/sandwiches/mix_cheese.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["food", "popular"],
+          "tags": [
+            "food",
+            "popular"
+          ],
           "sortOrder": 5
         }
       ]
@@ -1117,13 +1447,18 @@
           "name": "Cookies",
           "name_ar": "كوكيز",
           "description": "Freshly baked cookie loaded with rich, melting chocolate chips.",
-          "prices": [55],
-          "image": "/menu/bakery/cookies.jpg",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["food", "popular"],
+          "tags": [
+            "food",
+            "popular"
+          ],
           "sortOrder": 1
         },
         {
@@ -1131,13 +1466,17 @@
           "name": "English Cake",
           "name_ar": "انجلش كيك",
           "description": "Moist, buttery slice of classic English tea cake loaf.",
-          "prices": [40],
-          "image": "/menu/bakery/english_cake.jpg",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["food"],
+          "tags": [
+            "food"
+          ],
           "sortOrder": 2
         },
         {
@@ -1145,13 +1484,18 @@
           "name": "Brownies",
           "name_ar": "براونيز",
           "description": "Rich, fudgy chocolate brownie with a perfectly crackled top layer.",
-          "prices": [60],
-          "image": "/menu/bakery/brownies.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": true,
           "isNew": false,
           "popular": true,
-          "tags": ["food", "popular"],
+          "tags": [
+            "food",
+            "popular"
+          ],
           "sortOrder": 3
         }
       ]
@@ -1169,13 +1513,18 @@
           "name": "Chocolate Cake",
           "name_ar": "شوكليت كيك",
           "description": "Indulgent layer cake frosted with rich Belgian chocolate fudge.",
-          "prices": [70],
-          "image": "/menu/desserts/chocolate_cake.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["food", "popular"],
+          "tags": [
+            "food",
+            "popular"
+          ],
           "sortOrder": 1
         },
         {
@@ -1183,13 +1532,18 @@
           "name": "Cheesecake",
           "name_ar": "تشيز كيك",
           "description": "Creamy New York-style cheesecake on a buttery biscuit base.",
-          "prices": [60],
-          "image": "/menu/desserts/cheesecake.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["food", "popular"],
+          "tags": [
+            "food",
+            "popular"
+          ],
           "sortOrder": 2
         },
         {
@@ -1197,13 +1551,19 @@
           "name": "Twix Tart",
           "name_ar": "تويكس تارت",
           "description": "Crisp tart pastry filled with gooey caramel and topped with chocolate.",
-          "prices": [60],
-          "image": "/menu/desserts/twix_tart.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1519869325930-281384150729?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": true,
           "isNew": true,
           "popular": false,
-          "tags": ["food", "new", "signature"],
+          "tags": [
+            "food",
+            "new",
+            "signature"
+          ],
           "sortOrder": 3
         },
         {
@@ -1211,13 +1571,17 @@
           "name": "Donuts",
           "name_ar": "دوناتس",
           "description": "Soft and fluffy yeast-raised donut glazed with premium chocolate toppings.",
-          "prices": [60],
-          "image": "/menu/desserts/donuts.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["food"],
+          "tags": [
+            "food"
+          ],
           "sortOrder": 4
         },
         {
@@ -1225,13 +1589,18 @@
           "name": "Tiramisu",
           "name_ar": "ترامسيو",
           "description": "Classic Italian dessert made with espresso-soaked ladyfingers and sweet mascarpone.",
-          "prices": [70],
-          "image": "/menu/desserts/tiramisu.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["food", "popular"],
+          "tags": [
+            "food",
+            "popular"
+          ],
           "sortOrder": 5
         }
       ]
@@ -1249,13 +1618,17 @@
           "name": "Orange Juice",
           "name_ar": "برتقان",
           "description": "Freshly squeezed 100% natural and refreshing orange juice.",
-          "prices": [50],
-          "image": "/menu/fresh_drinks/orange_juice.jpg",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 1
         },
         {
@@ -1263,13 +1636,17 @@
           "name": "Lemon Mint Juice",
           "name_ar": "ليمون نعناع",
           "description": "Freshly squeezed zesty lemon juice infused with cool garden mint.",
-          "prices": [50],
-          "image": "/menu/fresh_drinks/lemon_mint_juice.jpg",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 2
         },
         {
@@ -1277,13 +1654,18 @@
           "name": "Mango Juice",
           "name_ar": "مانجا",
           "description": "Thick, sweet, and pure juice made from ripe Egyptian mangoes.",
-          "prices": [60],
-          "image": "/menu/fresh_drinks/mango_juice.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1534080391025-09795d197360?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular"],
+          "tags": [
+            "cold",
+            "popular"
+          ],
           "sortOrder": 3
         },
         {
@@ -1291,13 +1673,17 @@
           "name": "Strawberry Juice",
           "name_ar": "فراوله",
           "description": "Sweet and refreshing juice blended from fresh handpicked strawberries.",
-          "prices": [60],
-          "image": "/menu/fresh_drinks/strawberry_juice.jpg",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1589733901241-5e514f27c514?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 4
         },
         {
@@ -1305,13 +1691,17 @@
           "name": "Peach Juice",
           "name_ar": "خوخ",
           "description": "Freshly blended juice made with sweet, aromatic ripe peaches.",
-          "prices": [65],
-          "image": "/menu/fresh_drinks/peach_juice.jpg",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 5
         },
         {
@@ -1319,13 +1709,18 @@
           "name": "Dates Milkshake",
           "name_ar": "بلح",
           "description": "Nutritious and naturally sweet milkshake blended with premium dates.",
-          "prices": [65],
-          "image": "/menu/fresh_drinks/dates_milkshake.jpg",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": true,
           "popular": false,
-          "tags": ["cold", "new"],
+          "tags": [
+            "cold",
+            "new"
+          ],
           "sortOrder": 6
         },
         {
@@ -1333,13 +1728,17 @@
           "name": "Cantaloupe Juice",
           "name_ar": "كنتالوب",
           "description": "Sweet, hydrating, and cooling juice made from fresh cantaloupe melon.",
-          "prices": [65],
-          "image": "/menu/fresh_drinks/cantaloupe_juice.jpg",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1571244856003-885547f292d3?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 7
         },
         {
@@ -1347,13 +1746,17 @@
           "name": "Watermelon Juice",
           "name_ar": "بطيخ",
           "description": "Thirst-quenching natural watermelon juice served ice cold.",
-          "prices": [50],
-          "image": "/menu/fresh_drinks/watermelon_juice.jpg",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 8
         },
         {
@@ -1361,13 +1764,17 @@
           "name": "Kiwi Juice",
           "name_ar": "كيوي",
           "description": "Tangy and refreshing juice blended from fresh green kiwis.",
-          "prices": [75],
-          "image": "/menu/fresh_drinks/kiwi_juice.jpg",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1585250941913-c9e42e5f381f?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": false,
-          "tags": ["cold"],
+          "tags": [
+            "cold"
+          ],
           "sortOrder": 9
         },
         {
@@ -1375,13 +1782,19 @@
           "name": "Avocado Juice",
           "name_ar": "افوكادو",
           "description": "Rich, creamy premium avocado blend sweetened with pure honey.",
-          "prices": [85],
-          "image": "/menu/fresh_drinks/avocado_juice.jpg",
+          "prices": [
+            85
+          ],
+          "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": true,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular", "signature"],
+          "tags": [
+            "cold",
+            "popular",
+            "signature"
+          ],
           "sortOrder": 10
         },
         {
@@ -1389,13 +1802,18 @@
           "name": "Cocktail Mix Juice",
           "name_ar": "ميكس",
           "description": "A delightful layered mix of fresh seasonal fruits and juices.",
-          "prices": [70],
-          "image": "/menu/fresh_drinks/mix_juice.jpg",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1497534446932-c925b458314e?w=500&auto=format&fit=crop&q=80",
           "available": true,
           "featured": false,
           "isNew": false,
           "popular": true,
-          "tags": ["cold", "popular"],
+          "tags": [
+            "cold",
+            "popular"
+          ],
           "sortOrder": 11
         }
       ]
