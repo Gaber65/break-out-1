@@ -3,24 +3,24 @@
    ============================================ */
 
 :root {
-  --bg-primary: #070709;
-  --bg-secondary: #0E0D11;
-  --bg-card: #141318;
-  --coffee-brown: #8C5E3C;
-  --dark-coffee: #2C1B17;
-  --gold: #E2B07E;
-  --gold-light: #F3D5B5;
-  --cream: #F9EED9;
+  --bg-primary: #0E0C0A;
+  --bg-secondary: #16120F;
+  --bg-card: #1E1A16;
+  --coffee-brown: #E06A1B;
+  --dark-coffee: #3F190E;
+  --gold: #F8981D;
+  --gold-light: #FFC076;
+  --cream: #FFF4E0;
   --white: #FFFFFF;
   --text-primary: #FAFAFA;
-  --text-secondary: #E0D5C7;
-  --text-muted: #A09689;
-  --accent-gradient: linear-gradient(135deg, #E2B07E 0%, #B88148 100%);
-  --glow: 0 0 35px rgba(226, 176, 126, 0.35);
-  --glow-strong: 0 0 70px rgba(226, 176, 126, 0.55);
-  --border: rgba(226, 176, 126, 0.2);
+  --text-secondary: #E9DCD0;
+  --text-muted: #B3A495;
+  --accent-gradient: linear-gradient(135deg, #F8981D 0%, #D31018 100%);
+  --glow: 0 0 35px rgba(248, 152, 29, 0.35);
+  --glow-strong: 0 0 70px rgba(248, 152, 29, 0.55);
+  --border: rgba(248, 152, 29, 0.2);
   --glass: rgba(255, 255, 255, 0.05);
-  --glass-border: rgba(226, 176, 126, 0.2);
+  --glass-border: rgba(248, 152, 29, 0.2);
   --radius: 20px;
   --radius-sm: 12px;
   --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -28,15 +28,24 @@
 
 [data-theme="light"] {
   --bg-primary: #FAF6F0;
-  --bg-secondary: #EFE7DC;
+  --bg-secondary: #F3EBE0;
   --bg-card: #FFFFFF;
-  --white: #1A1816;
-  --text-primary: #1A1816;
-  --text-secondary: #4A443D;
-  --text-muted: #7A7268;
+  --white: #1C1917;
+  --text-primary: #1C1917;
+  --text-secondary: #5C5248;
+  --text-muted: #8E8071;
   --glass: rgba(255, 255, 255, 0.85);
-  --glass-border: rgba(140, 94, 60, 0.25);
-  --border: rgba(140, 94, 60, 0.2);
+  --glass-border: rgba(248, 152, 29, 0.25);
+  --border: rgba(248, 152, 29, 0.2);
+}
+
+.brand-font,
+.nav-logo,
+.splash-logo,
+.footer-brand h3,
+.hero-content h1 {
+  font-family: 'Satisfy', 'Poppins', sans-serif !important;
+  text-transform: none !important;
 }
 
 * {
@@ -214,14 +223,16 @@ html[lang="ar"] textarea {
 }
 
 .splash-logo {
-  font-size: 42px;
-  font-weight: 800;
-  letter-spacing: 0.2em;
+  font-family: 'Satisfy', 'Poppins', sans-serif !important;
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: normal;
   background: var(--accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
   animation: logoReveal 0.8s ease 1.2s forwards;
+  text-transform: none !important;
 }
 
 @keyframes logoReveal {
@@ -337,14 +348,16 @@ nav.scrolled {
 }
 
 .nav-logo {
-  font-size: 22px;
-  font-weight: 800;
-  letter-spacing: 0.15em;
+  font-family: 'Satisfy', 'Poppins', sans-serif !important;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: normal;
   background: var(--accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
   position: relative;
+  text-transform: none !important;
 }
 
 .nav-logo::after {
@@ -538,17 +551,18 @@ nav.scrolled {
 }
 
 .hero h1 {
-  font-size: clamp(72px, 12vw, 160px);
-  font-weight: 800;
-  line-height: 0.95;
-  letter-spacing: -0.02em;
-  background: linear-gradient(135deg, #FFFFFF 0%, #F9EED9 45%, #E2B07E 90%);
+  font-family: 'Satisfy', 'Poppins', sans-serif !important;
+  font-size: clamp(64px, 10vw, 140px);
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: normal;
+  background: var(--accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
   animation: fadeUp 1s ease 0.5s forwards;
   margin-bottom: 20px;
-  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.8));
+  text-transform: none !important;
 }
 
 .hero-sub {
@@ -1652,7 +1666,7 @@ nav.scrolled {
 .instagram-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(111,78,55,0.8);
+  background: rgba(248, 152, 29, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;

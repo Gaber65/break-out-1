@@ -1,0 +1,19 @@
+<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Croissant Left Wing -->
+  <path d="M 55 100 C 40 88 38 72 50 60 C 58 52 70 55 70 72 C 70 85 64 95 55 100 Z" fill="#F8981D" />
+  <path d="M 68 92 C 50 88 46 112 72 112 C 80 112 86 100 86 88 C 86 80 76 80 68 92 Z" fill="#F8981D" />
+  
+  <!-- Croissant Right Wing -->
+  <path d="M 145 100 C 160 88 162 72 150 60 C 142 52 130 55 130 72 C 130 85 136 95 145 100 Z" fill="#F8981D" />
+  <path d="M 132 92 C 150 88 154 112 128 112 C 120 112 114 100 114 88 C 114 80 124 80 132 92 Z" fill="#F8981D" />
+
+  <!-- Cup Center Body -->
+  <path d="M 75 70 L 78 105 C 78 112 82 118 100 118 C 118 118 122 112 122 105 L 125 70 Z" fill="#F8981D" />
+  
+  <!-- Cup Rim / Coffee surface -->
+  <ellipse cx="100" cy="70" rx="25" ry="8" fill="#603813" stroke="#F8981D" stroke-width="4" />
+
+  <!-- Steam lines -->
+  <path d="M 94 52 C 90 44 98 36 94 28" stroke="#F8981D" stroke-width="4" stroke-linecap="round" fill="none" />
+  <path d="M 106 52 C 102 44 110 36 106 28" stroke="#F8981D" stroke-width="4" stroke-linecap="round" fill="none" />
+</svg>

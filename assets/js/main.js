@@ -362,37 +362,37 @@ function renderCategoryTabs() {
 function generatePlaceholderSvg(name, nameAr, categoryId) {
   let iconPath = '';
   if (categoryId === 'espresso_and_coffee' || categoryId === 'hot_drinks') {
-    iconPath = `<path d="M130 170h240v140c0 44-36 80-80 80h-80c-44 0-80-36-80-80V170z" fill="none" stroke="#e2b07e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M370 210h30c15 0 25 10 25 25v20c0 15-10 25-25 25h-30" fill="none" stroke="#e2b07e" stroke-width="12" stroke-linecap="round"/>
-                <path d="M90 410h320" stroke="#e2b07e" stroke-width="12" stroke-linecap="round"/>
-                <path d="M190 100c0 0 10-20 0-40M250 100c0 0 10-20 0-40M310 100c0 0 10-20 0-40" stroke="#e2b07e" stroke-width="10" stroke-linecap="round"/>`;
+    iconPath = `<path d="M130 170h240v140c0 44-36 80-80 80h-80c-44 0-80-36-80-80V170z" fill="none" stroke="#F8981D" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M370 210h30c15 0 25 10 25 25v20c0 15-10 25-25 25h-30" fill="none" stroke="#F8981D" stroke-width="12" stroke-linecap="round"/>
+                <path d="M90 410h320" stroke="#F8981D" stroke-width="12" stroke-linecap="round"/>
+                <path d="M190 100c0 0 10-20 0-40M250 100c0 0 10-20 0-40M310 100c0 0 10-20 0-40" stroke="#F8981D" stroke-width="10" stroke-linecap="round"/>`;
   } else if (categoryId === 'iced_latte' || categoryId === 'shakes' || categoryId === 'frappes' || categoryId === 'smoothies' || categoryId === 'fresh_drinks') {
-    iconPath = `<path d="M170 170h160l-25 210c-3 20-18 30-35 30h-76c-17 0-32-10-35-30L170 170z" fill="none" stroke="#e2b07e" stroke-width="12" stroke-linejoin="round"/>
-                <path d="M150 170h200" stroke="#e2b07e" stroke-width="14" stroke-linecap="round"/>
-                <path d="M250 170L280 60h20" fill="none" stroke="#e2b07e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>`;
+    iconPath = `<path d="M170 170h160l-25 210c-3 20-18 30-35 30h-76c-17 0-32-10-35-30L170 170z" fill="none" stroke="#F8981D" stroke-width="12" stroke-linejoin="round"/>
+                <path d="M150 170h200" stroke="#F8981D" stroke-width="14" stroke-linecap="round"/>
+                <path d="M250 170L280 60h20" fill="none" stroke="#F8981D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>`;
   } else if (categoryId === 'mix_soda') {
-    iconPath = `<path d="M120 120h260L250 250v110h40v16H210v-16h40V250L120 120z" fill="none" stroke="#e2b07e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="250" cy="160" r="12" fill="#e2b07e"/>
-                <path d="M180 80l40 40" stroke="#e2b07e" stroke-width="8" stroke-linecap="round"/>`;
+    iconPath = `<path d="M120 120h260L250 250v110h40v16H210v-16h40V250L120 120z" fill="none" stroke="#F8981D" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="250" cy="160" r="12" fill="#F8981D"/>
+                <path d="M180 80l40 40" stroke="#F8981D" stroke-width="8" stroke-linecap="round"/>`;
   } else if (categoryId === 'sandwiches') {
-    iconPath = `<path d="M110 200h280v50c0 10-8 18-18 18H128c-10 0-18-8-18-18v-50z" fill="none" stroke="#e2b07e" stroke-width="12" stroke-linejoin="round"/>
-                <path d="M110 200l140-70 140 70" fill="none" stroke="#e2b07e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M140 200h220M170 234h160" stroke="#e2b07e" stroke-width="8" stroke-linecap="round"/>`;
+    iconPath = `<path d="M110 200h280v50c0 10-8 18-18 18H128c-10 0-18-8-18-18v-50z" fill="none" stroke="#F8981D" stroke-width="12" stroke-linejoin="round"/>
+                <path d="M110 200l140-70 140 70" fill="none" stroke="#F8981D" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M140 200h220M170 234h160" stroke="#F8981D" stroke-width="8" stroke-linecap="round"/>`;
   } else {
-    iconPath = `<path d="M110 260l140-110 140 110v80c0 10-8 18-18 18H128c-10 0-18-8-18-18v-80z" fill="none" stroke="#e2b07e" stroke-width="12" stroke-linejoin="round"/>
-                <path d="M110 260h280" stroke="#e2b07e" stroke-width="12" stroke-linecap="round"/>
-                <circle cx="250" cy="110" r="16" fill="#e2b07e"/>`;
+    iconPath = `<path d="M110 260l140-110 140 110v80c0 10-8 18-18 18H128c-10 0-18-8-18-18v-80z" fill="none" stroke="#F8981D" stroke-width="12" stroke-linejoin="round"/>
+                <path d="M110 260h280" stroke="#F8981D" stroke-width="12" stroke-linecap="round"/>
+                <circle cx="250" cy="110" r="16" fill="#F8981D"/>`;
   }
 
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
-    <rect width="500" height="500" fill="#16161a"/>
-    <rect x="25" y="25" width="450" height="450" fill="none" stroke="#e2b07e" stroke-width="2" stroke-opacity="0.25" rx="16"/>
-    <circle cx="250" cy="220" r="110" fill="#e2b07e" fill-opacity="0.03"/>
+    <rect width="500" height="500" fill="#1E1A16"/>
+    <rect x="25" y="25" width="450" height="450" fill="none" stroke="#F8981D" stroke-width="2" stroke-opacity="0.25" rx="16"/>
+    <circle cx="250" cy="220" r="110" fill="#F8981D" fill-opacity="0.03"/>
     <g>${iconPath}</g>
-    <text x="250" y="85" font-family="'Poppins', sans-serif" font-size="13" font-weight="700" fill="#e2b07e" fill-opacity="0.5" text-anchor="middle" letter-spacing="5">BREAK OUT</text>
+    <text x="250" y="85" font-family="'Satisfy', cursive" font-size="28" fill="#D31018" fill-opacity="0.8" text-anchor="middle">Break Out</text>
     <text x="250" y="375" font-family="'Poppins', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">${name}</text>
-    <text x="250" y="415" font-family="'Cairo', sans-serif" font-size="18" font-weight="600" fill="#e2b07e" text-anchor="middle">${nameAr}</text>
-    <line x1="200" y1="440" x2="300" y2="440" stroke="#e2b07e" stroke-width="1.5" stroke-opacity="0.3"/>
+    <text x="250" y="415" font-family="'Cairo', sans-serif" font-size="18" font-weight="600" fill="#F8981D" text-anchor="middle">${nameAr}</text>
+    <line x1="200" y1="440" x2="300" y2="440" stroke="#F8981D" stroke-width="1.5" stroke-opacity="0.3"/>
     <text x="250" y="465" font-family="'Poppins', sans-serif" font-size="9" font-weight="600" fill="#ffffff" fill-opacity="0.2" text-anchor="middle" letter-spacing="2">NO IMAGE AVAILABLE</text>
   </svg>`.replace(/\s+/g, ' ').trim();
 
@@ -455,7 +455,7 @@ function renderProducts() {
 
   const itemsHtml = paginated.map(item => {
     const name = currentLang === 'ar' ? item.name_ar : item.name;
-    const desc = item.description || '';
+    const desc = currentLang === 'ar' ? '' : (item.description || '');
     
     let priceStr = '';
     if (item.prices.length === 1) {
@@ -579,7 +579,7 @@ window.openProductDetail = function(categoryId, itemId) {
   selectedSizeIndex = 0;
 
   const name = currentLang === 'ar' ? item.name_ar : item.name;
-  const desc = item.description || '';
+  const desc = currentLang === 'ar' ? '' : (item.description || '');
   
   let emoji = '☕';
   if (categoryId.includes('pizza') || categoryId.includes('bakery')) emoji = '🍕';
@@ -592,9 +592,6 @@ window.openProductDetail = function(categoryId, itemId) {
   const modalBadge = document.getElementById('modalBadge');
   const modalTitle = document.getElementById('modalTitle');
   const modalDesc = document.getElementById('modalDesc');
-  const modalIngredients = document.getElementById('modalIngredients');
-  const modalCalories = document.getElementById('modalCalories');
-  const modalCategory = document.getElementById('modalCategory');
 
   if (modalEmoji) modalEmoji.textContent = emoji;
   const modalImg = document.getElementById('modalProductImg');
@@ -611,11 +608,10 @@ window.openProductDetail = function(categoryId, itemId) {
     modalBadge.style.display = badge ? 'inline-block' : 'none';
   }
   if (modalTitle) modalTitle.textContent = name;
-  if (modalDesc) modalDesc.textContent = desc;
-  
-  if (modalIngredients) modalIngredients.textContent = currentLang === 'ar' ? 'مكونات ممتازة ومحضرة طازجة' : 'Premium freshly prepared ingredients';
-  if (modalCalories) modalCalories.textContent = '~180 kcal';
-  if (modalCategory) modalCategory.textContent = currentLang === 'ar' ? category.name_ar : category.name;
+  if (modalDesc) {
+    modalDesc.textContent = desc;
+    modalDesc.style.display = desc ? 'block' : 'none';
+  }
 
   updateModalPriceAndSizes();
 
