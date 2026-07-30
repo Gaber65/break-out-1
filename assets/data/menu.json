@@ -1817,6 +1817,70 @@
           "sortOrder": 11
         }
       ]
+    },
+    {
+      "id": "mix_blend",
+      "name": "Mix Blend",
+      "name_ar": "ميكس بليند",
+      "icon": "blender",
+      "coverImage": "/menu/categories/mix_blend.jpg",
+      "sortOrder": 12,
+      "items": [
+        {
+          "id": "moon_70",
+          "name": "Moon 70",
+          "name_ar": "موون ٧٠",
+          "description": "موون ٧٠",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1497534446932-c925b458314e?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": [
+            "cold"
+          ],
+          "sortOrder": 1
+        },
+        {
+          "id": "maroska_60",
+          "name": "Maroska 60",
+          "name_ar": "ماروسكا ٦٠",
+          "description": "ماروسكا ٦٠",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1497534446932-c925b458314e?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": [
+            "cold"
+          ],
+          "sortOrder": 2
+        },
+        {
+          "id": "x_60",
+          "name": "X",
+          "name_ar": "X",
+          "description": "X 60",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1497534446932-c925b458314e?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": false,
+          "popular": false,
+          "tags": [
+            "cold"
+          ],
+          "sortOrder": 3
+        }
+      ]
     }
   ],
   "missingImages": [
