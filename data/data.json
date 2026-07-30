@@ -1360,6 +1360,26 @@
           "description": "إضافة - تشكن فرايز موتزريلا"
         }
       ]
+    },
+    "mix_blend": {
+  "title": "ميكس بليند",
+  "image": "https://res.cloudinary.com/dznet5vfv/image/upload/v1776898270/WhatsApp_Image_2026-04-22_at_10.23.54_PM_1_ictzml.jpg",
+  "items": [
+    {
+      "name": "موون ٧٠",
+      "price": 70,
+      "currency": "EGP",
+      "image": "./assets/img.png",
+      "description": "موون ٧٠"
+    },
+    {
+      "name": "ماروسكا ٦٠",
+      "price": 60,
+      "currency": "EGP",
+      "image": "./assets/img.png",
+      "description": "ماروسكا ٦٠"
     }
+  ]
+}
   }
 }
