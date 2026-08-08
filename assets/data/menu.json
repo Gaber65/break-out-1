@@ -166,7 +166,7 @@
           "name_ar": "لاتيه",
           "description": "Rich espresso balanced with silky steamed milk and a light layer of foam.",
           "prices": [
-            75
+            55
           ],
           "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fc9f?w=500&auto=format&fit=crop&q=80",
           "available": true,
@@ -289,6 +289,198 @@
             "hot"
           ],
           "sortOrder": 15
+        },
+        {
+          "id": "espresso_and_coffee_j78p13rol",
+          "name": "قهوه عربى",
+          "name_ar": "قهوه عربى",
+          "description": "",
+          "prices": [
+            12
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 16
+        },
+        {
+          "id": "espresso_and_coffee_78c8q8680",
+          "name": "قهوه فانيليا",
+          "name_ar": "قهوه فانيليا",
+          "description": "",
+          "prices": [
+            35
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 17
+        },
+        {
+          "id": "espresso_and_coffee_6n8hew574",
+          "name": "قهوه فراوله",
+          "name_ar": "قهوه فراوله",
+          "description": "",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 18
+        },
+        {
+          "id": "espresso_and_coffee_gzudttwn1",
+          "name": "قهوه لوز",
+          "name_ar": "قهوه لوز",
+          "description": "",
+          "prices": [
+            35
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 19
+        },
+        {
+          "id": "espresso_and_coffee_3q3v37sf5",
+          "name": "قهوه موز",
+          "name_ar": "قهوه موز",
+          "description": "",
+          "prices": [
+            35
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 20
+        },
+        {
+          "id": "espresso_and_coffee_8mvcom14o",
+          "name": "قهوه موز دبل",
+          "name_ar": "قهوه موز دبل",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 21
+        },
+        {
+          "id": "espresso_and_coffee_6coe9td82",
+          "name": "كابتشينو D",
+          "name_ar": "كابتشينو D",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 22
+        },
+        {
+          "id": "espresso_and_coffee_hz15o7ght",
+          "name": "كابتشينو S",
+          "name_ar": "كابتشينو S",
+          "description": "",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 23
+        },
+        {
+          "id": "espresso_and_coffee_9qdbrj02s",
+          "name": "كراميل دوبل",
+          "name_ar": "كراميل دوبل",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 24
+        },
+        {
+          "id": "espresso_and_coffee_9u0mryrv5",
+          "name": "لاتيه دوبل",
+          "name_ar": "لاتيه دوبل",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 25
+        },
+        {
+          "id": "espresso_and_coffee_hcbqw41cx",
+          "name": "لاتيه ماتشا",
+          "name_ar": "لاتيه ماتشا",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 26
+        },
+        {
+          "id": "espresso_and_coffee_web7ee1ia",
+          "name": "امريكان كوفي D",
+          "name_ar": "امريكان كوفي D",
+          "description": "",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 27
         }
       ]
     },
@@ -435,7 +627,7 @@
           "name_ar": "هوت لوتس",
           "description": "Creamy hot milk drink blended with sweet Lotus Biscoff spread.",
           "prices": [
-            60
+            55
           ],
           "image": "https://images.unsplash.com/photo-1582241901509-64bf903cc376?w=500&auto=format&fit=crop&q=80",
           "available": true,
@@ -465,6 +657,710 @@
             "new"
           ],
           "sortOrder": 9
+        },
+        {
+          "id": "hot_drinks_tvh8ke6iu",
+          "name": "شاي نكهات",
+          "name_ar": "شاي نكهات",
+          "description": "",
+          "prices": [
+            20
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 10
+        },
+        {
+          "id": "hot_drinks_wtu4xu7tr",
+          "name": "قرفة",
+          "name_ar": "قرفة",
+          "description": "",
+          "prices": [
+            20
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 11
+        },
+        {
+          "id": "hot_drinks_83axerngc",
+          "name": "قرفة بحليب",
+          "name_ar": "قرفة بحليب",
+          "description": "",
+          "prices": [
+            35
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 12
+        },
+        {
+          "id": "hot_drinks_wnn8pvprf",
+          "name": "قرفة جنزبيل",
+          "name_ar": "قرفة جنزبيل",
+          "description": "",
+          "prices": [
+            20
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 13
+        },
+        {
+          "id": "hot_drinks_t7k5inpa8",
+          "name": "كركديه",
+          "name_ar": "كركديه",
+          "description": "",
+          "prices": [
+            15
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 14
+        },
+        {
+          "id": "hot_drinks_d0xr5lr5q",
+          "name": "كورتادوا",
+          "name_ar": "كورتادوا",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 15
+        },
+        {
+          "id": "hot_drinks_1dsk3sb4v",
+          "name": "كوفي ميكس",
+          "name_ar": "كوفي ميكس",
+          "description": "",
+          "prices": [
+            20
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 16
+        },
+        {
+          "id": "hot_drinks_363ffggk2",
+          "name": "كوفي ميكس حليب",
+          "name_ar": "كوفي ميكس حليب",
+          "description": "",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 17
+        },
+        {
+          "id": "hot_drinks_18q6spy2m",
+          "name": "كوكتيل أعشاب",
+          "name_ar": "كوكتيل أعشاب",
+          "description": "",
+          "prices": [
+            35
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 18
+        },
+        {
+          "id": "hot_drinks_rm200cet0",
+          "name": "ليمون سخن",
+          "name_ar": "ليمون سخن",
+          "description": "",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 19
+        },
+        {
+          "id": "hot_drinks_ay49zuggk",
+          "name": "موكا هوت",
+          "name_ar": "موكا هوت",
+          "description": "",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 20
+        },
+        {
+          "id": "hot_drinks_g15sg5r1r",
+          "name": "موكا هوت وايت",
+          "name_ar": "موكا هوت وايت",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 21
+        },
+        {
+          "id": "hot_drinks_cer13y0vj",
+          "name": "ميكياتو",
+          "name_ar": "ميكياتو",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 22
+        },
+        {
+          "id": "hot_drinks_51r4vri6q",
+          "name": "ميكياتو دوبل",
+          "name_ar": "ميكياتو دوبل",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 23
+        },
+        {
+          "id": "hot_drinks_lsqgn86f9",
+          "name": "نسكافيه",
+          "name_ar": "نسكافيه",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 24
+        },
+        {
+          "id": "hot_drinks_qxjptk9eq",
+          "name": "نسكافيه دوبل",
+          "name_ar": "نسكافيه دوبل",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 25
+        },
+        {
+          "id": "hot_drinks_nhzvbif4q",
+          "name": "نعناع",
+          "name_ar": "نعناع",
+          "description": "",
+          "prices": [
+            20
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 26
+        },
+        {
+          "id": "hot_drinks_ykkc01fq7",
+          "name": "هوت اوريو كافي",
+          "name_ar": "هوت اوريو كافي",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 27
+        },
+        {
+          "id": "hot_drinks_ae4xia6ia",
+          "name": "هوت بطاطا",
+          "name_ar": "هوت بطاطا",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 28
+        },
+        {
+          "id": "hot_drinks_83chz3jtl",
+          "name": "هوت بوريو",
+          "name_ar": "هوت بوريو",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 29
+        },
+        {
+          "id": "hot_drinks_mczjnrbhi",
+          "name": "هوت ريد فيلفيت",
+          "name_ar": "هوت ريد فيلفيت",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 30
+        },
+        {
+          "id": "hot_drinks_l3etw3z29",
+          "name": "هوت سولتيد كراميل",
+          "name_ar": "هوت سولتيد كراميل",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 31
+        },
+        {
+          "id": "hot_drinks_lh508e7e9",
+          "name": "هوت سيدر",
+          "name_ar": "هوت سيدر",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 32
+        },
+        {
+          "id": "hot_drinks_mzvz2zj0h",
+          "name": "هوت شوكليت بالفراولة",
+          "name_ar": "هوت شوكليت بالفراولة",
+          "description": "",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 33
+        },
+        {
+          "id": "hot_drinks_bfa7gu45b",
+          "name": "هوت شوكليت مارشميلو",
+          "name_ar": "هوت شوكليت مارشميلو",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 34
+        },
+        {
+          "id": "hot_drinks_br4etdou8",
+          "name": "هوت فستق",
+          "name_ar": "هوت فستق",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 35
+        },
+        {
+          "id": "hot_drinks_pjt91cj7e",
+          "name": "هوت كندر",
+          "name_ar": "هوت كندر",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 36
+        },
+        {
+          "id": "hot_drinks_twa64x8x6",
+          "name": "هوت كوكيز",
+          "name_ar": "هوت كوكيز",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 37
+        },
+        {
+          "id": "hot_drinks_6basb76sf",
+          "name": "هوت نوتيلا",
+          "name_ar": "هوت نوتيلا",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 38
+        },
+        {
+          "id": "hot_drinks_y0fas8gg7",
+          "name": "ينسون",
+          "name_ar": "ينسون",
+          "description": "",
+          "prices": [
+            20
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 39
+        },
+        {
+          "id": "hot_drinks_jkapcwwop",
+          "name": "ينسون نعناع عسل",
+          "name_ar": "ينسون نعناع عسل",
+          "description": "",
+          "prices": [
+            25
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 40
+        },
+        {
+          "id": "hot_drinks_wv6k07vn1",
+          "name": "جنزبيل",
+          "name_ar": "جنزبيل",
+          "description": "",
+          "prices": [
+            15
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 41
+        },
+        {
+          "id": "hot_drinks_5x3r5nyst",
+          "name": "جنزبيل حليب",
+          "name_ar": "جنزبيل حليب",
+          "description": "",
+          "prices": [
+            25
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 42
+        },
+        {
+          "id": "hot_drinks_8kb72e1xi",
+          "name": "جنزبيل ليمون",
+          "name_ar": "جنزبيل ليمون",
+          "description": "",
+          "prices": [
+            25
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 43
+        },
+        {
+          "id": "hot_drinks_5cyf35iee",
+          "name": "حليب",
+          "name_ar": "حليب",
+          "description": "",
+          "prices": [
+            20
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 44
+        },
+        {
+          "id": "hot_drinks_us342kq05",
+          "name": "سحلب علب",
+          "name_ar": "سحلب علب",
+          "description": "",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 45
+        },
+        {
+          "id": "hot_drinks_8emrx7ffd",
+          "name": "سحلب فستق",
+          "name_ar": "سحلب فستق",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 46
+        },
+        {
+          "id": "hot_drinks_ja4537gxv",
+          "name": "سحلب فواكه",
+          "name_ar": "سحلب فواكه",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 47
+        },
+        {
+          "id": "hot_drinks_r3el2ekr9",
+          "name": "سحلب لوتس",
+          "name_ar": "سحلب لوتس",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 48
+        },
+        {
+          "id": "hot_drinks_lr7s0i5gh",
+          "name": "سحلب مكسرات",
+          "name_ar": "سحلب مكسرات",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 49
+        },
+        {
+          "id": "hot_drinks_rbs9y25lb",
+          "name": "شاي اخضر",
+          "name_ar": "شاي اخضر",
+          "description": "",
+          "prices": [
+            20
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 50
+        },
+        {
+          "id": "hot_drinks_yiur919ou",
+          "name": "شاي بحليب",
+          "name_ar": "شاي بحليب",
+          "description": "",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 51
+        },
+        {
+          "id": "hot_drinks_s2xi3dkqq",
+          "name": "شاي ماتشا",
+          "name_ar": "شاي ماتشا",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 52
+        },
+        {
+          "id": "hot_drinks_bnugz6d49",
+          "name": "ماتشا",
+          "name_ar": "ماتشا",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 53
         }
       ]
     },
@@ -717,6 +1613,230 @@
             "popular"
           ],
           "sortOrder": 13
+        },
+        {
+          "id": "iced_latte_tvb1zybxd",
+          "name": "nescafe cold",
+          "name_ar": "nescafe cold",
+          "description": "",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 14
+        },
+        {
+          "id": "iced_latte_1a3pqg0di",
+          "name": "V60",
+          "name_ar": "V60",
+          "description": "",
+          "prices": [
+            80
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 15
+        },
+        {
+          "id": "iced_latte_b4bfvbui0",
+          "name": "ايس اسبانش لاتيه",
+          "name_ar": "ايس اسبانش لاتيه",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 16
+        },
+        {
+          "id": "iced_latte_qqi4b8p2m",
+          "name": "ايس امريكان",
+          "name_ar": "ايس امريكان",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 17
+        },
+        {
+          "id": "iced_latte_xjt5wxvs8",
+          "name": "ايس تي",
+          "name_ar": "ايس تي",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 18
+        },
+        {
+          "id": "iced_latte_418aqw9t5",
+          "name": "ايس سبانش لاتيه بليند",
+          "name_ar": "ايس سبانش لاتيه بليند",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 19
+        },
+        {
+          "id": "iced_latte_ut6yddbwr",
+          "name": "ايس سولتيد كراميل",
+          "name_ar": "ايس سولتيد كراميل",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 20
+        },
+        {
+          "id": "iced_latte_2ukqpcg19",
+          "name": "ايس كوفي",
+          "name_ar": "ايس كوفي",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 21
+        },
+        {
+          "id": "iced_latte_2v2gtusao",
+          "name": "ايس لاتيه",
+          "name_ar": "ايس لاتيه",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 22
+        },
+        {
+          "id": "iced_latte_y4ra3la4o",
+          "name": "ايس ليبتون",
+          "name_ar": "ايس ليبتون",
+          "description": "",
+          "prices": [
+            10
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 23
+        },
+        {
+          "id": "iced_latte_akds3nkt6",
+          "name": "ايس موكا",
+          "name_ar": "ايس موكا",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 24
+        },
+        {
+          "id": "iced_latte_kbypfbwhg",
+          "name": "ايس نسكافيه",
+          "name_ar": "ايس نسكافيه",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 25
+        },
+        {
+          "id": "iced_latte_4yb6fopqq",
+          "name": "ايس وايت موكا",
+          "name_ar": "ايس وايت موكا",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 26
+        },
+        {
+          "id": "iced_latte_8rrih0bpj",
+          "name": "بلو ايس لاتيه",
+          "name_ar": "بلو ايس لاتيه",
+          "description": "",
+          "prices": [
+            28
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 27
         }
       ]
     },
@@ -855,6 +1975,550 @@
             "cold"
           ],
           "sortOrder": 7
+        },
+        {
+          "id": "shakes_k3x7oyti7",
+          "name": "أوريو",
+          "name_ar": "أوريو",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 8
+        },
+        {
+          "id": "shakes_tokbmn6x7",
+          "name": "افوكادو",
+          "name_ar": "افوكادو",
+          "description": "",
+          "prices": [
+            80
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 9
+        },
+        {
+          "id": "shakes_fjb5zzuli",
+          "name": "افوكادو ميكس",
+          "name_ar": "افوكادو ميكس",
+          "description": "",
+          "prices": [
+            90
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 10
+        },
+        {
+          "id": "shakes_wds3xcaba",
+          "name": "براونيز شيك",
+          "name_ar": "براونيز شيك",
+          "description": "",
+          "prices": [
+            28
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 11
+        },
+        {
+          "id": "shakes_qn57nfg4d",
+          "name": "بلح بالحليب",
+          "name_ar": "بلح بالحليب",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 12
+        },
+        {
+          "id": "shakes_n5ywfppz1",
+          "name": "بوريو",
+          "name_ar": "بوريو",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 13
+        },
+        {
+          "id": "shakes_w46c7otcr",
+          "name": "بوريو ايس",
+          "name_ar": "بوريو ايس",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 14
+        },
+        {
+          "id": "shakes_blk1rp4a4",
+          "name": "بوريو سوداني",
+          "name_ar": "بوريو سوداني",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 15
+        },
+        {
+          "id": "shakes_xyfcwtbll",
+          "name": "بوريو قطع",
+          "name_ar": "بوريو قطع",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 16
+        },
+        {
+          "id": "shakes_udg6f0xpu",
+          "name": "ديت باتر فانيليا",
+          "name_ar": "ديت باتر فانيليا",
+          "description": "",
+          "prices": [
+            35
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 17
+        },
+        {
+          "id": "shakes_jvea1slrq",
+          "name": "زبادى عسل",
+          "name_ar": "زبادى عسل",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 18
+        },
+        {
+          "id": "shakes_4spk5dlvq",
+          "name": "زبادى فواكه",
+          "name_ar": "زبادى فواكه",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 19
+        },
+        {
+          "id": "shakes_t1gg1t8z5",
+          "name": "زبادى كراميل",
+          "name_ar": "زبادى كراميل",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 20
+        },
+        {
+          "id": "shakes_iahytztun",
+          "name": "كيت كات شيك",
+          "name_ar": "كيت كات شيك",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 21
+        },
+        {
+          "id": "shakes_72bg1jclo",
+          "name": "ميكس شوكليت large",
+          "name_ar": "ميكس شوكليت large",
+          "description": "",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 22
+        },
+        {
+          "id": "shakes_z5329nw86",
+          "name": "سوداني فانيليا",
+          "name_ar": "سوداني فانيليا",
+          "description": "",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 23
+        },
+        {
+          "id": "shakes_pak2vqz3a",
+          "name": "ميلك تشيك فانيليا",
+          "name_ar": "ميلك تشيك فانيليا",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 24
+        },
+        {
+          "id": "shakes_kye4ovztf",
+          "name": "ميلك تشيك ميكس توت",
+          "name_ar": "ميلك تشيك ميكس توت",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 25
+        },
+        {
+          "id": "shakes_ndevf1yzd",
+          "name": "ميلك شيك اوريو",
+          "name_ar": "ميلك شيك اوريو",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 26
+        },
+        {
+          "id": "shakes_g4o087zzj",
+          "name": "ميلك شيك بوب كورن",
+          "name_ar": "ميلك شيك بوب كورن",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 27
+        },
+        {
+          "id": "shakes_ervytnr4m",
+          "name": "ميلك شيك روشيه",
+          "name_ar": "ميلك شيك روشيه",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 28
+        },
+        {
+          "id": "shakes_qeh7grlrk",
+          "name": "ميلك شيك ريدفيلفيت",
+          "name_ar": "ميلك شيك ريدفيلفيت",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 29
+        },
+        {
+          "id": "shakes_1acab5m5q",
+          "name": "ميلك شيك سنكرز",
+          "name_ar": "ميلك شيك سنكرز",
+          "description": "",
+          "prices": [
+            80
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 30
+        },
+        {
+          "id": "shakes_kqfr45pct",
+          "name": "ميلك شيك شوكليت",
+          "name_ar": "ميلك شيك شوكليت",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 31
+        },
+        {
+          "id": "shakes_jcn9bmdxk",
+          "name": "ميلك شيك فراولة",
+          "name_ar": "ميلك شيك فراولة",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 32
+        },
+        {
+          "id": "shakes_l0jdkd1tm",
+          "name": "ميلك شيك فستق",
+          "name_ar": "ميلك شيك فستق",
+          "description": "",
+          "prices": [
+            80
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 33
+        },
+        {
+          "id": "shakes_1emclz2dl",
+          "name": "ميلك شيك كاجو",
+          "name_ar": "ميلك شيك كاجو",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 34
+        },
+        {
+          "id": "shakes_6egrtenxq",
+          "name": "ميلك شيك كراميل",
+          "name_ar": "ميلك شيك كراميل",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 35
+        },
+        {
+          "id": "shakes_2hwnv1717",
+          "name": "ميلك شيك كريز",
+          "name_ar": "ميلك شيك كريز",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 36
+        },
+        {
+          "id": "shakes_1ajromf05",
+          "name": "ميلك شيك كندر",
+          "name_ar": "ميلك شيك كندر",
+          "description": "",
+          "prices": [
+            80
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 37
+        },
+        {
+          "id": "shakes_1cjrdn1wc",
+          "name": "ميلك شيك كيت كات",
+          "name_ar": "ميلك شيك كيت كات",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 38
+        },
+        {
+          "id": "shakes_wecoo56la",
+          "name": "ميلك شيك لوتس",
+          "name_ar": "ميلك شيك لوتس",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 39
+        },
+        {
+          "id": "shakes_fv0t058i8",
+          "name": "ميلك شيك مانجو",
+          "name_ar": "ميلك شيك مانجو",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 40
+        },
+        {
+          "id": "shakes_6icahke7r",
+          "name": "ميلك شيك ميكس شوكليت",
+          "name_ar": "ميلك شيك ميكس شوكليت",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 41
         }
       ]
     },
@@ -1031,6 +2695,214 @@
             "popular"
           ],
           "sortOrder": 9
+        },
+        {
+          "id": "frappes_cia7nvapc",
+          "name": "فرابيه اوريو",
+          "name_ar": "فرابيه اوريو",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 10
+        },
+        {
+          "id": "frappes_yy06uo5s6",
+          "name": "فرابيه بندق",
+          "name_ar": "فرابيه بندق",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 11
+        },
+        {
+          "id": "frappes_9dhehhj3g",
+          "name": "فرابيه توت",
+          "name_ar": "فرابيه توت",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 12
+        },
+        {
+          "id": "frappes_op4mvqgri",
+          "name": "فرابيه شوكلت",
+          "name_ar": "فرابيه شوكلت",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 13
+        },
+        {
+          "id": "frappes_n3aikwc09",
+          "name": "فرابيه فانيليا",
+          "name_ar": "فرابيه فانيليا",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 14
+        },
+        {
+          "id": "frappes_oww2cu0wh",
+          "name": "فرابيه كراميل",
+          "name_ar": "فرابيه كراميل",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 15
+        },
+        {
+          "id": "frappes_vwip0ltte",
+          "name": "فرابيه لوتس",
+          "name_ar": "فرابيه لوتس",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 16
+        },
+        {
+          "id": "frappes_typgokin0",
+          "name": "فرابتشينو بندق",
+          "name_ar": "فرابتشينو بندق",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 17
+        },
+        {
+          "id": "frappes_lyv9daai1",
+          "name": "فرابتشينو فانيليا",
+          "name_ar": "فرابتشينو فانيليا",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 18
+        },
+        {
+          "id": "frappes_vonogonrs",
+          "name": "فرابتشينو كراميل",
+          "name_ar": "فرابتشينو كراميل",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 19
+        },
+        {
+          "id": "frappes_1gg7resmh",
+          "name": "فرابتشينو لوتس",
+          "name_ar": "فرابتشينو لوتس",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 20
+        },
+        {
+          "id": "frappes_qs37awlhx",
+          "name": "فرابيتشينو شوكليت",
+          "name_ar": "فرابيتشينو شوكليت",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 21
+        },
+        {
+          "id": "frappes_waez77o3i",
+          "name": "فرابيتشينو قهوة",
+          "name_ar": "فرابيتشينو قهوة",
+          "description": "",
+          "prices": [
+            25
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 22
         }
       ]
     },
@@ -1136,6 +3008,374 @@
             "cold"
           ],
           "sortOrder": 5
+        },
+        {
+          "id": "mix_soda_fs0n0ze11",
+          "name": "Break out كوكتيل",
+          "name_ar": "Break out كوكتيل",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 6
+        },
+        {
+          "id": "mix_soda_dh3gaufx5",
+          "name": "CUP تين شوكي",
+          "name_ar": "CUP تين شوكي",
+          "description": "",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 7
+        },
+        {
+          "id": "mix_soda_76ufl0ygs",
+          "name": "energy drink",
+          "name_ar": "energy drink",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 8
+        },
+        {
+          "id": "mix_soda_jjx1x27hp",
+          "name": "Power coctail",
+          "name_ar": "Power coctail",
+          "description": "",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 9
+        },
+        {
+          "id": "mix_soda_e7ls77sm4",
+          "name": "اسبرسو صودا",
+          "name_ar": "اسبرسو صودا",
+          "description": "",
+          "prices": [
+            25
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 10
+        },
+        {
+          "id": "mix_soda_syiuwxk1d",
+          "name": "باشون موخيتو",
+          "name_ar": "باشون موخيتو",
+          "description": "",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 11
+        },
+        {
+          "id": "mix_soda_x96zmjo8h",
+          "name": "باور بريك اوت",
+          "name_ar": "باور بريك اوت",
+          "description": "",
+          "prices": [
+            38
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 12
+        },
+        {
+          "id": "mix_soda_d40qv3318",
+          "name": "بطوط",
+          "name_ar": "بطوط",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 13
+        },
+        {
+          "id": "mix_soda_69i1ceji2",
+          "name": "بلو باشون",
+          "name_ar": "بلو باشون",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 14
+        },
+        {
+          "id": "mix_soda_wttq0zkdd",
+          "name": "بلو بوبا مينت",
+          "name_ar": "بلو بوبا مينت",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 15
+        },
+        {
+          "id": "mix_soda_s3eal80cl",
+          "name": "بلو صودا",
+          "name_ar": "بلو صودا",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 16
+        },
+        {
+          "id": "mix_soda_xxsc3g89i",
+          "name": "بينا صودا",
+          "name_ar": "بينا صودا",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 17
+        },
+        {
+          "id": "mix_soda_klz3hs702",
+          "name": "جرين موخيتو",
+          "name_ar": "جرين موخيتو",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 18
+        },
+        {
+          "id": "mix_soda_09ubv3g6n",
+          "name": "سباركلينج كوفي",
+          "name_ar": "سباركلينج كوفي",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 19
+        },
+        {
+          "id": "mix_soda_9orb5ppoa",
+          "name": "ستاربكس كانز",
+          "name_ar": "ستاربكس كانز",
+          "description": "",
+          "prices": [
+            160
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 20
+        },
+        {
+          "id": "mix_soda_81v4stscd",
+          "name": "سكوتش منت",
+          "name_ar": "سكوتش منت",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 21
+        },
+        {
+          "id": "mix_soda_9sxh4qcvn",
+          "name": "شيري كولا",
+          "name_ar": "شيري كولا",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 22
+        },
+        {
+          "id": "mix_soda_zy75o40g7",
+          "name": "صن شاين",
+          "name_ar": "صن شاين",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 23
+        },
+        {
+          "id": "mix_soda_6c4zztlp3",
+          "name": "كوكتيل",
+          "name_ar": "كوكتيل",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 24
+        },
+        {
+          "id": "mix_soda_0pwefdrb5",
+          "name": "كوكتيل اثينا",
+          "name_ar": "كوكتيل اثينا",
+          "description": "",
+          "prices": [
+            28
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 25
+        },
+        {
+          "id": "mix_soda_8psjp3nj2",
+          "name": "موتشي توت احمر",
+          "name_ar": "موتشي توت احمر",
+          "description": "",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 26
+        },
+        {
+          "id": "mix_soda_9p7bjchbd",
+          "name": "ميكس صودا",
+          "name_ar": "ميكس صودا",
+          "description": "",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 27
+        },
+        {
+          "id": "mix_soda_ec0aaaq0b",
+          "name": "ميكس عصير",
+          "name_ar": "ميكس عصير",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 28
         }
       ]
     },
@@ -1329,6 +3569,246 @@
             "cold"
           ],
           "sortOrder": 10
+        },
+        {
+          "id": "smoothies_dnk80e13s",
+          "name": "سموزي اناناس",
+          "name_ar": "سموزي اناناس",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 11
+        },
+        {
+          "id": "smoothies_e32ik7upr",
+          "name": "سموزي برتقال",
+          "name_ar": "سموزي برتقال",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 12
+        },
+        {
+          "id": "smoothies_4n5eyg13i",
+          "name": "سموزي بطيخ",
+          "name_ar": "سموزي بطيخ",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 13
+        },
+        {
+          "id": "smoothies_2qdp9tz2r",
+          "name": "سموزي توت",
+          "name_ar": "سموزي توت",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 14
+        },
+        {
+          "id": "smoothies_4t6b5bt1f",
+          "name": "سموزي جوافه",
+          "name_ar": "سموزي جوافه",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 15
+        },
+        {
+          "id": "smoothies_ueykpt0t8",
+          "name": "سموزي خوخ",
+          "name_ar": "سموزي خوخ",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 16
+        },
+        {
+          "id": "smoothies_a3ewrea2r",
+          "name": "سموزي فراوله",
+          "name_ar": "سموزي فراوله",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 17
+        },
+        {
+          "id": "smoothies_gohqqmhp4",
+          "name": "سموزي كنتالوب",
+          "name_ar": "سموزي كنتالوب",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 18
+        },
+        {
+          "id": "smoothies_vt5ko4y1o",
+          "name": "سموزي كولا",
+          "name_ar": "سموزي كولا",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 19
+        },
+        {
+          "id": "smoothies_861qr71vt",
+          "name": "سموزي كيوى",
+          "name_ar": "سموزي كيوى",
+          "description": "",
+          "prices": [
+            80
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 20
+        },
+        {
+          "id": "smoothies_yr9s20n4a",
+          "name": "سموزي ليمون",
+          "name_ar": "سموزي ليمون",
+          "description": "",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 21
+        },
+        {
+          "id": "smoothies_4r3saljcs",
+          "name": "سموزي ليمون نعناع",
+          "name_ar": "سموزي ليمون نعناع",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 22
+        },
+        {
+          "id": "smoothies_iwtq8u15l",
+          "name": "سموزي مانجا",
+          "name_ar": "سموزي مانجا",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 23
+        },
+        {
+          "id": "smoothies_akv4peh02",
+          "name": "سموزي يوسفي",
+          "name_ar": "سموزي يوسفي",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 24
+        },
+        {
+          "id": "smoothies_jofidzs6u",
+          "name": "عصائر سموزى",
+          "name_ar": "عصائر سموزى",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 25
         }
       ]
     },
@@ -1431,6 +3911,150 @@
             "popular"
           ],
           "sortOrder": 5
+        },
+        {
+          "id": "sandwiches_pyl0oobjo",
+          "name": "ستدوتش كيري روزبيف",
+          "name_ar": "ستدوتش كيري روزبيف",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 6
+        },
+        {
+          "id": "sandwiches_sxe1qqki2",
+          "name": "ستربس",
+          "name_ar": "ستربس",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 7
+        },
+        {
+          "id": "sandwiches_ziguhaoha",
+          "name": "سندوتش تركي مدخن",
+          "name_ar": "سندوتش تركي مدخن",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 8
+        },
+        {
+          "id": "sandwiches_sq4qm8fo0",
+          "name": "سندوتش روز بيف",
+          "name_ar": "سندوتش روز بيف",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 9
+        },
+        {
+          "id": "sandwiches_783xm14el",
+          "name": "سندوتش رومي",
+          "name_ar": "سندوتش رومي",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 10
+        },
+        {
+          "id": "sandwiches_moblpqo2h",
+          "name": "سندوتش كيري تركي",
+          "name_ar": "سندوتش كيري تركي",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 11
+        },
+        {
+          "id": "sandwiches_qiay64fhw",
+          "name": "فيليه",
+          "name_ar": "فيليه",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 12
+        },
+        {
+          "id": "sandwiches_7b20jw449",
+          "name": "مسحب",
+          "name_ar": "مسحب",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 13
+        },
+        {
+          "id": "sandwiches_a6d1oelci",
+          "name": "ميكس تركي روز",
+          "name_ar": "ميكس تركي روز",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 14
         }
       ]
     },
@@ -1497,6 +4121,150 @@
             "popular"
           ],
           "sortOrder": 3
+        },
+        {
+          "id": "bakery_1js9mpl03",
+          "name": "باتيه جبنه",
+          "name_ar": "باتيه جبنه",
+          "description": "",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 4
+        },
+        {
+          "id": "bakery_d4dzbrsbf",
+          "name": "باتيه سوسيس",
+          "name_ar": "باتيه سوسيس",
+          "description": "",
+          "prices": [
+            43
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 5
+        },
+        {
+          "id": "bakery_bva4rrehp",
+          "name": "بطاطس شيدر",
+          "name_ar": "بطاطس شيدر",
+          "description": "",
+          "prices": [
+            35
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 6
+        },
+        {
+          "id": "bakery_9j6upjna8",
+          "name": "حلاوة قشطة",
+          "name_ar": "حلاوة قشطة",
+          "description": "",
+          "prices": [
+            35
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 7
+        },
+        {
+          "id": "bakery_37cqtfa5f",
+          "name": "مربي قشطة",
+          "name_ar": "مربي قشطة",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 8
+        },
+        {
+          "id": "bakery_vm9bkferi",
+          "name": "ميكس حلو (حلاوة قشطة نوتيلا)",
+          "name_ar": "ميكس حلو (حلاوة قشطة نوتيلا)",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 9
+        },
+        {
+          "id": "bakery_to0zsmhxm",
+          "name": "ميكس حلو (حلاوة نوتيلا قشطة)",
+          "name_ar": "ميكس حلو (حلاوة نوتيلا قشطة)",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 10
+        },
+        {
+          "id": "bakery_xsjw7yzcm",
+          "name": "كيري تركي",
+          "name_ar": "كيري تركي",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 11
+        },
+        {
+          "id": "bakery_758gf4ukp",
+          "name": "كيري روز بيف",
+          "name_ar": "كيري روز بيف",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 12
         }
       ]
     },
@@ -1533,7 +4301,7 @@
           "name_ar": "تشيز كيك",
           "description": "Creamy New York-style cheesecake on a buttery biscuit base.",
           "prices": [
-            60
+            55
           ],
           "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=500&auto=format&fit=crop&q=80",
           "available": true,
@@ -1552,7 +4320,7 @@
           "name_ar": "تويكس تارت",
           "description": "Crisp tart pastry filled with gooey caramel and topped with chocolate.",
           "prices": [
-            60
+            40
           ],
           "image": "https://images.unsplash.com/photo-1519869325930-281384150729?w=500&auto=format&fit=crop&q=80",
           "available": true,
@@ -1602,6 +4370,1174 @@
             "popular"
           ],
           "sortOrder": 5
+        },
+        {
+          "id": "desserts_gkxzr2yaz",
+          "name": "جار",
+          "name_ar": "جار",
+          "description": "",
+          "prices": [
+            35
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 6
+        },
+        {
+          "id": "desserts_9cjuwsrsk",
+          "name": "جار بريك اوت",
+          "name_ar": "جار بريك اوت",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 7
+        },
+        {
+          "id": "desserts_zsly5k7jw",
+          "name": "جار روشيه",
+          "name_ar": "جار روشيه",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 8
+        },
+        {
+          "id": "desserts_snfuku0w2",
+          "name": "جار فستق",
+          "name_ar": "جار فستق",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 9
+        },
+        {
+          "id": "desserts_fsxponhcq",
+          "name": "جار وافل",
+          "name_ar": "جار وافل",
+          "description": "",
+          "prices": [
+            25
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 10
+        },
+        {
+          "id": "desserts_lj81zs490",
+          "name": "جار( نوتيلا-كراميل-توت)",
+          "name_ar": "جار( نوتيلا-كراميل-توت)",
+          "description": "",
+          "prices": [
+            20
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 11
+        },
+        {
+          "id": "desserts_mv9a1dw2v",
+          "name": "دونتس",
+          "name_ar": "دونتس",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 12
+        },
+        {
+          "id": "desserts_5zc1knzrr",
+          "name": "دونتس لوتس",
+          "name_ar": "دونتس لوتس",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 13
+        },
+        {
+          "id": "desserts_vk6291lww",
+          "name": "ديسباسيتو",
+          "name_ar": "ديسباسيتو",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 14
+        },
+        {
+          "id": "desserts_u40by6lfq",
+          "name": "ديسباسيتو فستق",
+          "name_ar": "ديسباسيتو فستق",
+          "description": "",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 15
+        },
+        {
+          "id": "desserts_d873jw0pi",
+          "name": "ديسباسيتو فواكه",
+          "name_ar": "ديسباسيتو فواكه",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 16
+        },
+        {
+          "id": "desserts_twet3d2zg",
+          "name": "ديسباسيتو لوتس",
+          "name_ar": "ديسباسيتو لوتس",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 17
+        },
+        {
+          "id": "desserts_2qj55afzv",
+          "name": "ريد فيلفيت",
+          "name_ar": "ريد فيلفيت",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 18
+        },
+        {
+          "id": "desserts_6o0lmclz3",
+          "name": "سان سبستيان",
+          "name_ar": "سان سبستيان",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 19
+        },
+        {
+          "id": "desserts_few8dbhc4",
+          "name": "سينابون",
+          "name_ar": "سينابون",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 20
+        },
+        {
+          "id": "desserts_yddfg1y6u",
+          "name": "سينابون فستق",
+          "name_ar": "سينابون فستق",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 21
+        },
+        {
+          "id": "desserts_d7ngmka59",
+          "name": "سينابون لوتس",
+          "name_ar": "سينابون لوتس",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 22
+        },
+        {
+          "id": "desserts_n052iw640",
+          "name": "شوكلت كيك",
+          "name_ar": "شوكلت كيك",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 23
+        },
+        {
+          "id": "desserts_xjch845tx",
+          "name": "طاجن روشيه",
+          "name_ar": "طاجن روشيه",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 24
+        },
+        {
+          "id": "desserts_urbrbuemv",
+          "name": "طاجن لوتس",
+          "name_ar": "طاجن لوتس",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 25
+        },
+        {
+          "id": "desserts_nui4me1qw",
+          "name": "طاجن ميكس",
+          "name_ar": "طاجن ميكس",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 26
+        },
+        {
+          "id": "desserts_ue9mnlhnz",
+          "name": "طاجن نوتيلا",
+          "name_ar": "طاجن نوتيلا",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 27
+        },
+        {
+          "id": "desserts_z1fokzld9",
+          "name": "طاجن وافل",
+          "name_ar": "طاجن وافل",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 28
+        },
+        {
+          "id": "desserts_3wefvgxv4",
+          "name": "فادج كيك",
+          "name_ar": "فادج كيك",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 29
+        },
+        {
+          "id": "desserts_y7yytkhb4",
+          "name": "قطعة براونيز",
+          "name_ar": "قطعة براونيز",
+          "description": "",
+          "prices": [
+            25
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 30
+        },
+        {
+          "id": "desserts_qbqclbgr8",
+          "name": "كب كيك",
+          "name_ar": "كب كيك",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 31
+        },
+        {
+          "id": "desserts_w5bkfa7y6",
+          "name": "كرواسون سادة",
+          "name_ar": "كرواسون سادة",
+          "description": "",
+          "prices": [
+            30
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 32
+        },
+        {
+          "id": "desserts_1a3o98bak",
+          "name": "كرواسون شوكلاتة",
+          "name_ar": "كرواسون شوكلاتة",
+          "description": "",
+          "prices": [
+            35
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 33
+        },
+        {
+          "id": "desserts_mf39mxwx3",
+          "name": "كرواسون شيدر",
+          "name_ar": "كرواسون شيدر",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 34
+        },
+        {
+          "id": "desserts_7nq1raco5",
+          "name": "كرواسون فستق",
+          "name_ar": "كرواسون فستق",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 35
+        },
+        {
+          "id": "desserts_9jz3dq5x2",
+          "name": "كرواسون لوتس",
+          "name_ar": "كرواسون لوتس",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 36
+        },
+        {
+          "id": "desserts_kl90vzc0b",
+          "name": "كنافه فراولة",
+          "name_ar": "كنافه فراولة",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 37
+        },
+        {
+          "id": "desserts_jist6a3j3",
+          "name": "كنافه فستق",
+          "name_ar": "كنافه فستق",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 38
+        },
+        {
+          "id": "desserts_obqru8ztg",
+          "name": "كنافه لوتس",
+          "name_ar": "كنافه لوتس",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 39
+        },
+        {
+          "id": "desserts_9lua8w4ty",
+          "name": "كنافه مانجه",
+          "name_ar": "كنافه مانجه",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 40
+        },
+        {
+          "id": "desserts_lj9bfunlx",
+          "name": "كنافه نوتيلا",
+          "name_ar": "كنافه نوتيلا",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 41
+        },
+        {
+          "id": "desserts_v24s09xj2",
+          "name": "كوكيز كريسماس",
+          "name_ar": "كوكيز كريسماس",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 42
+        },
+        {
+          "id": "desserts_mbgv82fif",
+          "name": "كوكيز لوتس",
+          "name_ar": "كوكيز لوتس",
+          "description": "",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 43
+        },
+        {
+          "id": "desserts_t8wd5vamg",
+          "name": "كوكيز ميني",
+          "name_ar": "كوكيز ميني",
+          "description": "",
+          "prices": [
+            10
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 44
+        },
+        {
+          "id": "desserts_dbm12p0dr",
+          "name": "كوكيز نوتيلا",
+          "name_ar": "كوكيز نوتيلا",
+          "description": "",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 45
+        },
+        {
+          "id": "desserts_1y0v2tk39",
+          "name": "كيك لوتس",
+          "name_ar": "كيك لوتس",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 46
+        },
+        {
+          "id": "desserts_1k3c27hll",
+          "name": "كيكه ياباني",
+          "name_ar": "كيكه ياباني",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 47
+        },
+        {
+          "id": "desserts_j44nyji68",
+          "name": "مولتن كيك",
+          "name_ar": "مولتن كيك",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 48
+        },
+        {
+          "id": "desserts_7b0g02f3n",
+          "name": "نوتيلا كيك",
+          "name_ar": "نوتيلا كيك",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 49
+        },
+        {
+          "id": "desserts_gxp2644ln",
+          "name": "وافل روشيه",
+          "name_ar": "وافل روشيه",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 50
+        },
+        {
+          "id": "desserts_dvgbwbgt7",
+          "name": "وافل سمكة",
+          "name_ar": "وافل سمكة",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 51
+        },
+        {
+          "id": "desserts_3d7r6zvvp",
+          "name": "وافل سمكة فستق",
+          "name_ar": "وافل سمكة فستق",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 52
+        },
+        {
+          "id": "desserts_0ikz97m1b",
+          "name": "وافل سمكة لوتس",
+          "name_ar": "وافل سمكة لوتس",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 53
+        },
+        {
+          "id": "desserts_exkfvkhpq",
+          "name": "وافل سنكرز",
+          "name_ar": "وافل سنكرز",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 54
+        },
+        {
+          "id": "desserts_wb2lszwbd",
+          "name": "وافل فستق",
+          "name_ar": "وافل فستق",
+          "description": "",
+          "prices": [
+            80
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 55
+        },
+        {
+          "id": "desserts_swpxav2i6",
+          "name": "وافل فواكه",
+          "name_ar": "وافل فواكه",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 56
+        },
+        {
+          "id": "desserts_xf1t34rkc",
+          "name": "وافل فور سيزون",
+          "name_ar": "وافل فور سيزون",
+          "description": "",
+          "prices": [
+            80
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 57
+        },
+        {
+          "id": "desserts_zc7gsjxke",
+          "name": "وافل كندر",
+          "name_ar": "وافل كندر",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 58
+        },
+        {
+          "id": "desserts_trir85y16",
+          "name": "وافل كيت كات",
+          "name_ar": "وافل كيت كات",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 59
+        },
+        {
+          "id": "desserts_esrjlxqde",
+          "name": "وافل لوتس",
+          "name_ar": "وافل لوتس",
+          "description": "",
+          "prices": [
+            65
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 60
+        },
+        {
+          "id": "desserts_p37cuh19k",
+          "name": "وافل موز",
+          "name_ar": "وافل موز",
+          "description": "",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 61
+        },
+        {
+          "id": "desserts_x21s60a15",
+          "name": "وافل ميكس شوكليت",
+          "name_ar": "وافل ميكس شوكليت",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 62
+        },
+        {
+          "id": "desserts_ldytfmf8a",
+          "name": "وافل نوتيلا",
+          "name_ar": "وافل نوتيلا",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 63
+        },
+        {
+          "id": "desserts_hj5mzpdl6",
+          "name": "وافل وايت",
+          "name_ar": "وافل وايت",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 64
+        },
+        {
+          "id": "desserts_753os4tgq",
+          "name": "وافل (سنكرز- كيت كات-كندر)",
+          "name_ar": "وافل (سنكرز- كيت كات-كندر)",
+          "description": "",
+          "prices": [
+            85
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 65
+        },
+        {
+          "id": "desserts_paog5w1y7",
+          "name": "honey cake",
+          "name_ar": "honey cake",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 66
+        },
+        {
+          "id": "desserts_ocu8jazuu",
+          "name": "raffelo cake",
+          "name_ar": "raffelo cake",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 67
+        },
+        {
+          "id": "desserts_s8k5i22te",
+          "name": "slice waffle",
+          "name_ar": "slice waffle",
+          "description": "",
+          "prices": [
+            10
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 68
+        },
+        {
+          "id": "desserts_keplxtyd6",
+          "name": "ام علي سادة",
+          "name_ar": "ام علي سادة",
+          "description": "",
+          "prices": [
+            35
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 69
+        },
+        {
+          "id": "desserts_r9uqblkh9",
+          "name": "ام علي مكسرات",
+          "name_ar": "ام علي مكسرات",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 70
+        },
+        {
+          "id": "desserts_swg7s1fot",
+          "name": "انجلش كيك",
+          "name_ar": "انجلش كيك",
+          "description": "",
+          "prices": [
+            35
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 71
+        },
+        {
+          "id": "desserts_3ydp4u8qx",
+          "name": "بوكس بريك اوت",
+          "name_ar": "بوكس بريك اوت",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 72
+        },
+        {
+          "id": "desserts_u3llxnzr1",
+          "name": "تشيز كيك فستق",
+          "name_ar": "تشيز كيك فستق",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 73
+        },
+        {
+          "id": "desserts_zg2riprhe",
+          "name": "تويكس فستق",
+          "name_ar": "تويكس فستق",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 74
+        },
+        {
+          "id": "desserts_k4rjxt7fr",
+          "name": "تويكس كريم كراميل",
+          "name_ar": "تويكس كريم كراميل",
+          "description": "",
+          "prices": [
+            35
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 75
+        },
+        {
+          "id": "desserts_h6tvro0ko",
+          "name": "تويكس لوتس",
+          "name_ar": "تويكس لوتس",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 76
+        },
+        {
+          "id": "desserts_tp72aycm4",
+          "name": "تيرامسيو",
+          "name_ar": "تيرامسيو",
+          "description": "",
+          "prices": [
+            60
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 77
+        },
+        {
+          "id": "desserts_u30hrp7v1",
+          "name": "ايس كريم",
+          "name_ar": "ايس كريم",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 78
         }
       ]
     },
@@ -1815,6 +5751,342 @@
             "popular"
           ],
           "sortOrder": 11
+        },
+        {
+          "id": "fresh_drinks_407acuwrp",
+          "name": "عصير اناناس",
+          "name_ar": "عصير اناناس",
+          "description": "",
+          "prices": [
+            20
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 12
+        },
+        {
+          "id": "fresh_drinks_hb980ku15",
+          "name": "عصير برتقال",
+          "name_ar": "عصير برتقال",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 13
+        },
+        {
+          "id": "fresh_drinks_i3j8chxxp",
+          "name": "عصير بطيخ",
+          "name_ar": "عصير بطيخ",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 14
+        },
+        {
+          "id": "fresh_drinks_twxqtrey5",
+          "name": "عصير تين شوكي",
+          "name_ar": "عصير تين شوكي",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 15
+        },
+        {
+          "id": "fresh_drinks_52llzzivp",
+          "name": "عصير جوافة",
+          "name_ar": "عصير جوافة",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 16
+        },
+        {
+          "id": "fresh_drinks_s5e3jpj1w",
+          "name": "عصير خوخ",
+          "name_ar": "عصير خوخ",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 17
+        },
+        {
+          "id": "fresh_drinks_ld1qmwxw4",
+          "name": "عصير رمان",
+          "name_ar": "عصير رمان",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 18
+        },
+        {
+          "id": "fresh_drinks_7ldtp1s9u",
+          "name": "عصير فراولة",
+          "name_ar": "عصير فراولة",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 19
+        },
+        {
+          "id": "fresh_drinks_sjopa546s",
+          "name": "عصير كنتالوب",
+          "name_ar": "عصير كنتالوب",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 20
+        },
+        {
+          "id": "fresh_drinks_w2r0cmiwa",
+          "name": "عصير كنتالوب بالحليب",
+          "name_ar": "عصير كنتالوب بالحليب",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 21
+        },
+        {
+          "id": "fresh_drinks_hjl918j6y",
+          "name": "عصير كيوي بالحليب",
+          "name_ar": "عصير كيوي بالحليب",
+          "description": "",
+          "prices": [
+            80
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 22
+        },
+        {
+          "id": "fresh_drinks_0l4bh1nhx",
+          "name": "عصير كيوي بالعسل",
+          "name_ar": "عصير كيوي بالعسل",
+          "description": "",
+          "prices": [
+            75
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 23
+        },
+        {
+          "id": "fresh_drinks_olrgpmtpw",
+          "name": "عصير مانجو",
+          "name_ar": "عصير مانجو",
+          "description": "",
+          "prices": [
+            55
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 24
+        },
+        {
+          "id": "fresh_drinks_rw68ww8sz",
+          "name": "عصير مشمش",
+          "name_ar": "عصير مشمش",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 25
+        },
+        {
+          "id": "fresh_drinks_emjv2qqog",
+          "name": "عصير موز بالحليب",
+          "name_ar": "عصير موز بالحليب",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 26
+        },
+        {
+          "id": "fresh_drinks_vyeemsgpp",
+          "name": "عصير يوسفي",
+          "name_ar": "عصير يوسفي",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 27
+        },
+        {
+          "id": "fresh_drinks_m2aw2mupr",
+          "name": "عصيركيوي",
+          "name_ar": "عصيركيوي",
+          "description": "",
+          "prices": [
+            70
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 28
+        },
+        {
+          "id": "fresh_drinks_fa9ljzytl",
+          "name": "جوافة بالحليب",
+          "name_ar": "جوافة بالحليب",
+          "description": "",
+          "prices": [
+            45
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 29
+        },
+        {
+          "id": "fresh_drinks_qb1tsfkw0",
+          "name": "ليمون",
+          "name_ar": "ليمون",
+          "description": "",
+          "prices": [
+            40
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 30
+        },
+        {
+          "id": "fresh_drinks_k4wlhfea6",
+          "name": "ليمون بالنعناع",
+          "name_ar": "ليمون بالنعناع",
+          "description": "",
+          "prices": [
+            50
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 31
+        },
+        {
+          "id": "fresh_drinks_3phxrvt95",
+          "name": "برتقال بالليمون",
+          "name_ar": "برتقال بالليمون",
+          "description": "",
+          "prices": [
+            20
+          ],
+          "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=80",
+          "available": true,
+          "featured": false,
+          "isNew": true,
+          "popular": false,
+          "tags": [],
+          "sortOrder": 32
         }
       ]
     },
