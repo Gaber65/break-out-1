@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>لوحة التحكم | Break Out Cafe Dashboard</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;600;700;800&family=Cairo:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icons (Font Awesome 6) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/admin.css" />
+</head>
+
+<body>
+
+  <div class="admin-layout">
+
+    <!-- ─── SIDEBAR ────────────────────────────────────────── -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <img src="assets/images/logo.png" alt="Break Out" class="sidebar-logo" />
+        <div class="sidebar-title">
+          <h2>Break Out</h2>
+          <span>لوحة الإدارة السحابية</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-tab="overview">
+          <i>📊</i>
+          <span>نظرة عامة</span>
+        </button>
+
+        <button class="nav-item" data-tab="products">
+          <i>☕</i>
+          <span>إدارة المنتجات</span>
+          <span class="nav-badge" id="badgeProdCount">0</span>
+        </button>
+
+        <button class="nav-item" data-tab="categories">
+          <i>📁</i>
+          <span>إدارة الفئات</span>
+          <span class="nav-badge" id="badgeCatCount">0</span>
+        </button>
+
+        <button class="nav-item" data-tab="offers">
+          <i>🎁</i>
+          <span>العروض والخصومات</span>
+          <span class="nav-badge" id="badgeOfferCount">0</span>
+        </button>
+
+        <button class="nav-item" data-tab="database">
+          <i>⚙️</i>
+          <span>إعدادات الربط والـ Sheet</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <a href="index.html" target="_blank" class="view-live-btn">
+          <i class="iconly-boldShow"></i>
+          <span>معاينة المنيو الحي ↗</span>
+        </a>
+        <button onclick="handleLogout()" class="logout-btn" title="تسجيل الخروج">
+          <span>🔒 تسجيل الخروج</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- ─── MAIN WRAPPER ──────────────────────────────────── -->
+    <div class="main-wrapper">
+
+      <!-- Top Header -->
+      <header class="top-bar">
+        <div class="top-bar-title">
+          <button id="mobileMenuToggle" class="btn btn-secondary btn-icon" style="display:none;"
+            title="القائمة">☰</button>
+          <h1 id="pageTitle">نظرة عامة</h1>
+          <div id="connectionStatus" class="connection-status">
+            <span id="connectionDot" class="status-dot"></span>
+            <span id="connectionText">جاري الاتصال...</span>
+          </div>
+        </div>
+
+        <div class="top-bar-actions">
+          <button onclick="loadData(true)" class="btn btn-secondary btn-sm" title="إعادة تحميل البيانات">
+            <i>🔄</i>
+            <span>تحديث فوري</span>
+          </button>
+          <button onclick="openAddProductModal()" class="btn btn-primary btn-sm">
+            <i>➕</i>
+            <span>إضافة منتج جديد</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Content Body -->
+      <main class="content-body">
+
+        <!-- ─── TAB 1: OVERVIEW ───────────────────────────── -->
+        <section id="tab-overview" class="tab-pane active">
+          <!-- Metrics Grid -->
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <div class="metric-icon">☕</div>
+              <div class="metric-info">
+                <h3>إجمالي المنتجات</h3>
+                <div class="value" id="statTotalProducts">0</div>
+              </div>
+            </div>
+
+            <div class="metric-card">
+              <div class="metric-icon" style="background:var(--green-dim); color:var(--green);">✅</div>
+              <div class="metric-info">
+                <h3>المنتجات المتوفرة</h3>
+                <div class="value" id="statAvailableProducts">0</div>
+              </div>
+            </div>
+
+            <div class="metric-card">
+              <div class="metric-icon" style="background:var(--blue-dim); color:var(--blue);">📁</div>
+              <div class="metric-info">
+                <h3>عدد الفئات</h3>
+                <div class="value" id="statTotalCategories">0</div>
+              </div>
+            </div>
+
+            <div class="metric-card">
+              <div class="metric-icon" style="background:rgba(235, 107, 86, 0.15); color:#FF6B6B;">🎁</div>
+              <div class="metric-info">
+                <h3>العروض النشطة</h3>
+                <div class="value" id="statTotalOffers">0</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Actions & Status Banner -->
+          <div
+            style="background:var(--card-gradient); border:1px solid var(--border); border-radius:var(--radius); padding:28px; margin-bottom:28px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+              <div>
+                <h2 style="font-size:18px; color:var(--gold); margin-bottom:6px;">مرحباً بك في لوحة تحكم بريك أوت كافيه
+                  ☕</h2>
+                <p style="color:var(--text-muted); font-size:13px;">جميع التعديلات على الأسعار، المنتجات، الفئات،
+                  والعروض تُحفظ وتنعكس مباشرة وبشكل حي على Google Sheets وصفحة المنيو.</p>
+              </div>
+              <div style="display:flex; gap:10px; flex-wrap:wrap;">
+                <button onclick="document.querySelector('[data-tab=products]').click()" class="btn btn-primary">
+                  <span>تصفح وتعديل المنتجات</span>
+                </button>
+                <button onclick="openAddOfferModal()" class="btn btn-secondary">
+                  <span>إنشاء عرض خصم جديد</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ─── TAB 2: PRODUCTS MANAGER ───────────────────── -->
+        <section id="tab-products" class="tab-pane">
+          <!-- Toolbar -->
+          <div class="toolbar">
+            <div class="search-box">
+              <span class="search-icon">🔍</span>
+              <input type="text" id="prodSearchInput" placeholder="بحث بالاسم العربي أو الإنجليزي أو الوسم..." />
+            </div>
+
+            <div class="filter-group">
+              <select id="prodCategoryFilter" class="select-input">
+                <option value="all">جميع الفئات</option>
+              </select>
+
+              <select id="prodStatusFilter" class="select-input">
+                <option value="all">جميع الحالات</option>
+                <option value="available">المتوفر فقط</option>
+                <option value="unavailable">غير المتوفر</option>
+                <option value="popular">المفضل (Popular)</option>
+                <option value="new">الجديد (New)</option>
+                <option value="featured">المميز (Featured)</option>
+              </select>
+
+              <button onclick="openAddProductModal()" class="btn btn-primary">
+                <i>➕</i>
+                <span>إضافة منتج</span>
+              </button>
+            </div>
+          </div>
+
+          <div
+            style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; font-size:13px; color:var(--text-muted);">
+            <span id="productsFilteredCount">جاري تحميل المنتجات...</span>
+            <span style="font-size:12px; color:var(--gold);">💡 اضغط على السعر لأي منتج لتعديله فوريـاً!</span>
+          </div>
+
+          <!-- Products Table -->
+          <div class="table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>المنتج</th>
+                  <th>الفئة</th>
+                  <th>السعر (ج.م)</th>
+                  <th>التوفر</th>
+                  <th>الشارات (Badges)</th>
+                  <th>الإجراءات</th>
+                </tr>
+              </thead>
+              <tbody id="productsTableBody">
+                <!-- Rendered via JS -->
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Pagination -->
+          <div id="productsPagination"></div>
+        </section>
+
+        <!-- ─── TAB 3: CATEGORIES MANAGER ─────────────────── -->
+        <section id="tab-categories" class="tab-pane">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px;">
+            <div>
+              <h2 style="font-size:18px; color:#fff; margin-bottom:4px;">فئات المنيو (Categories)</h2>
+              <p style="font-size:13px; color:var(--text-muted);">إدارة أقسام المنيو وترتيب ظهورها في الموقع</p>
+            </div>
+            <button onclick="openAddCategoryModal()" class="btn btn-primary">
+              <i>➕</i>
+              <span>إضافة فئة جديدة</span>
+            </button>
+          </div>
+
+          <div class="categories-grid" id="categoriesGridContainer">
+            <!-- Rendered via JS -->
+          </div>
+        </section>
+
+        <!-- ─── TAB 4: OFFERS & PROMOTIONS ────────────────── -->
+        <section id="tab-offers" class="tab-pane">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px;">
+            <div>
+              <h2 style="font-size:18px; color:#fff; margin-bottom:4px;">العروض الترويجية والخصومات (Offers)</h2>
+              <p style="font-size:13px; color:var(--text-muted);">إنشاء خصومات على فئات كاملة أو منتجات محددة مع إمكانية
+                تحديد مدة زمنية</p>
+            </div>
+            <button onclick="openAddOfferModal()" class="btn btn-primary">
+              <i>➕</i>
+              <span>إضافة عرض جديد</span>
+            </button>
+          </div>
+
+          <div class="offers-grid" id="offersGridContainer">
+            <!-- Rendered via JS -->
+          </div>
+        </section>
+
+        <!-- ─── TAB 5: DATABASE & SYNC ────────────────────── -->
+        <section id="tab-database" class="tab-pane">
+          <div style="max-width:800px; margin:0 auto; display:flex; flex-direction:column; gap:24px;">
+
+            <!-- API URL Settings Card -->
+            <div
+              style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:24px;">
+              <h3 style="font-size:16px; color:var(--gold); margin-bottom:12px;">🔗 رابط Google Apps Script Web App</h3>
+              <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">
+                هذا هو الرابط الذي يقوم بالربط المباشر بين لوحة التحكم وGoogle Sheets.
+              </p>
+              <div style="display:flex; gap:10px;">
+                <input type="text" id="settingsApiUrl" class="form-input" style="direction:ltr; font-family:monospace;"
+                  placeholder="https://script.google.com/macros/s/.../exec" />
+                <button onclick="saveApiUrlSetting()" class="btn btn-primary" style="white-space:nowrap;">حفظ
+                  الرابط</button>
+              </div>
+            </div>
+
+            <!-- JSON Bulk Seed Card -->
+            <div
+              style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:24px;">
+              <h3 style="font-size:16px; color:var(--gold); margin-bottom:12px;">🚀 رفع وتغذية البيانات من menu.json إلى
+                Google Sheets</h3>
+              <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">
+                يقوم هذا الزر برفع كامل المنيو الحالي (380+ منتج بجميع فئاتهم وأسعارهم وصورهم) إلى Google Sheets دفعة
+                واحدة.
+              </p>
+              <button onclick="handleBulkSeedFromJson()" class="btn btn-success">
+                <i>⬆️</i>
+                <span>رفع بيانات menu.json إلى Google Sheets الآن</span>
+              </button>
+            </div>
+
+            <!-- Password Management Card -->
+            <div
+              style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:24px;">
+              <h3 style="font-size:16px; color:var(--gold); margin-bottom:12px;">🔐 تغيير كلمة مرور لوحة التحكم</h3>
+              <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">
+                لحماية لوحة التحكم من وصول أي شخص غير مصرح له، يمكنك تغيير كلمة المرور هنا في أي وقت.
+              </p>
+              <form onsubmit="handleChangePassword(event)"
+                style="display:flex; flex-direction:column; gap:14px; max-width:480px;">
+                <div class="form-group">
+                  <label>كلمة المرور الحالية *</label>
+                  <input type="password" id="currentPassInput" class="form-input" required placeholder="••••••••" />
+                </div>
+                <div class="form-group">
+                  <label>كلمة المرور الجديدة *</label>
+                  <input type="password" id="newPassInput" class="form-input" required
+                    placeholder="أدخل كلمة المرور الجديدة" />
+                </div>
+                <div class="form-group">
+                  <label>تأكيد كلمة المرور الجديدة *</label>
+                  <input type="password" id="confirmPassInput" class="form-input" required
+                    placeholder="أعد كتابة كلمة المرور الجديدة" />
+                </div>
+                <button type="submit" class="btn btn-primary" style="align-self:flex-start;">حفظ كلمة المرور
+                  الجديدة</button>
+              </form>
+            </div>
+
+            <!-- Backup & Export Card -->
+            <div
+              style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:24px;">
+              <h3 style="font-size:16px; color:var(--gold); margin-bottom:12px;">💾 تصدير نسخة احتياطية (Backup)</h3>
+              <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">
+                تحميل نسخة احتياطية كاملة من قاعدة البيانات الحالية بصيغة JSON على جهازك.
+              </p>
+              <button onclick="exportDatabaseToJson()" class="btn btn-secondary">
+                <i>📥</i>
+                <span>تحميل نسخة احتياطية JSON</span>
+              </button>
+            </div>
+
+          </div>
+        </section>
+
+      </main>
+    </div>
+
+  </div>
+
+  <!-- ─── MODAL 1: ADD / EDIT PRODUCT ───────────────────── -->
+  <div id="productModal" class="modal-backdrop">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="productModalTitle">إضافة منتج جديد</h3>
+        <button class="modal-close" onclick="closeModal('productModal')">✕</button>
+      </div>
+
+      <form onsubmit="handleSaveProduct(event)">
+        <div class="modal-body">
+          <input type="hidden" id="prodModalId" />
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>الاسم بالعربي *</label>
+              <input type="text" id="prodModalNameAr" class="form-input" required
+                placeholder="مثال: لاتيه مثلج بالفانيليا" />
+            </div>
+            <div class="form-group">
+              <label>الاسم بالإنجليزي *</label>
+              <input type="text" id="prodModalName" class="form-input" required
+                placeholder="مثال: Iced Vanilla Latte" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>الفئة (Category) *</label>
+              <select id="prodModalCategory" class="form-select" required></select>
+            </div>
+            <div class="form-group">
+              <label>ترتيب الظهور</label>
+              <input type="number" id="prodModalSort" class="form-input" value="1" min="1" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>الأسعار (لو المنتج به أحجام متعددة اضغط إضافة حجم) *</label>
+            <div id="priceInputsContainer" class="price-inputs-list"></div>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="addPriceInputRow()"
+              style="align-self:flex-start; margin-top:4px;">
+              + إضافة حجم/سعر آخر
+            </button>
+          </div>
+
+          <div class="form-group">
+            <label>الوصف (Description)</label>
+            <textarea id="prodModalDesc" class="form-textarea" placeholder="وصف المنتج والمكونات..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label>رابط الصورة (Image URL)</label>
+            <div class="image-preview-container">
+              <img id="modalImagePreview" src="assets/images/logo.png" alt="معاينة" class="preview-img-box"
+                onerror="this.src='assets/images/logo.png'" />
+              <input type="url" id="prodModalImage" class="form-input" style="direction:ltr;"
+                placeholder="https://images.pexels.com/..." />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>الوسوم (مفصولة بفاصلة، مثال: hot, popular, signature)</label>
+            <input type="text" id="prodModalTags" class="form-input" placeholder="hot, popular" />
+          </div>
+
+          <div class="form-group">
+            <label>خيارات وحالة المنتج:</label>
+            <div class="form-checkbox-row">
+              <label class="checkbox-label">
+                <input type="checkbox" id="prodModalAvailable" checked />
+                <span>متوفر في المنيو (Available)</span>
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="prodModalPopular" />
+                <span>⭐ مفضل (Popular)</span>
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="prodModalNew" />
+                <span>✨ جديد (New)</span>
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="prodModalFeatured" />
+                <span>🔥 مميز (Featured)</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeModal('productModal')">إلغاء</button>
+          <button type="submit" class="btn btn-primary">حفظ في Google Sheets</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ─── MODAL 2: ADD / EDIT CATEGORY ──────────────────── -->
+  <div id="categoryModal" class="modal-backdrop">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="categoryModalTitle">إضافة فئة جديدة</h3>
+        <button class="modal-close" onclick="closeModal('categoryModal')">✕</button>
+      </div>
+
+      <form onsubmit="handleSaveCategory(event)">
+        <div class="modal-body">
+          <div class="form-group">
+            <label>معرف الفئة (ID بالإنجليزية وبدون مسافات) *</label>
+            <input type="text" id="catModalId" class="form-input" style="direction:ltr;" required
+              placeholder="مثال: signature_drinks" />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>الاسم بالعربي *</label>
+              <input type="text" id="catModalNameAr" class="form-input" required placeholder="مثال: مشروبات مميزة" />
+            </div>
+            <div class="form-group">
+              <label>الاسم بالإنجليزي *</label>
+              <input type="text" id="catModalName" class="form-input" required placeholder="مثال: Signature Drinks" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>رمز الأيقونة</label>
+              <input type="text" id="catModalIcon" class="form-input" value="coffee"
+                placeholder="coffee, bakery, desserts..." />
+            </div>
+            <div class="form-group">
+              <label>ترتيب الظهور</label>
+              <input type="number" id="catModalSort" class="form-input" value="1" min="1" />
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeModal('categoryModal')">إلغاء</button>
+          <button type="submit" class="btn btn-primary">حفظ الفئة</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ─── MODAL 3: ADD / EDIT OFFER ─────────────────────── -->
+  <div id="offerModal" class="modal-backdrop">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="offerModalTitle">إنشاء عرض ترويجي</h3>
+        <button class="modal-close" onclick="closeModal('offerModal')">✕</button>
+      </div>
+
+      <form onsubmit="handleSaveOffer(event)">
+        <div class="modal-body">
+          <input type="hidden" id="offerModalId" />
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>عنوان العرض بالعربي *</label>
+              <input type="text" id="offerModalTitleArInput" class="form-input" required
+                placeholder="مثال: خصم 20% على جميع مشروبات الشيكس" />
+            </div>
+            <div class="form-group">
+              <label>عنوان العرض بالإنجليزي</label>
+              <input type="text" id="offerModalTitleInput" class="form-input"
+                placeholder="مثال: 20% Off on all Shakes" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>نوع تطبيق العرض *</label>
+              <select id="offerModalType" class="form-select">
+                <option value="category">على فئة محددة</option>
+                <option value="all">على كل المنيو</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>الفئة المشمولة</label>
+              <select id="offerTargetCategory" class="form-select"></select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>نوع الخصم *</label>
+              <select id="offerModalDiscountType" class="form-select">
+                <option value="percentage">نسبة مئوية (%)</option>
+                <option value="fixed">مبلغ ثابت (ج.م)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>قيمة الخصم *</label>
+              <input type="number" step="any" id="offerModalDiscountVal" class="form-input" required value="20" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>النص التسويقي للشارة (Badge Text)</label>
+            <input type="text" id="offerModalBadge" class="form-input" placeholder="مثال: خصم 20% لفترة محدودة" />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>تاريخ البدء</label>
+              <input type="date" id="offerModalStart" class="form-input" />
+            </div>
+            <div class="form-group">
+              <label>تاريخ الانتهاء</label>
+              <input type="date" id="offerModalEnd" class="form-input" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="checkbox-label">
+              <input type="checkbox" id="offerModalActive" checked />
+              <span>العرض مفعل ونشط حالياً في المنيو</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeModal('offerModal')">إلغاء</button>
+          <button type="submit" class="btn btn-primary">حفظ العرض</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ─── SECURITY LOGIN SCREEN ────────────────────────── -->
+  <div id="loginOverlay" class="login-overlay">
+    <div class="login-card">
+      <div class="login-brand">
+        <img src="assets/images/logo.png" alt="Break Out" class="login-logo" />
+        <h2>Break Out Cafe</h2>
+        <p>لوحة التحكم السحابية الآمنة</p>
+      </div>
+
+      <form id="loginForm" onsubmit="handleLogin(event)">
+        <div class="login-form-group">
+          <label for="adminPasswordInput">كلمة مرور الإدارة</label>
+          <div class="password-input-wrapper">
+            <input type="password" id="adminPasswordInput" class="form-input" placeholder="أدخل كلمة المرور..." required
+              autofocus autocomplete="current-password" />
+            <button type="button" class="toggle-password-btn"
+              onclick="togglePasswordVisibility('adminPasswordInput', this)" title="إظهار / إخفاء">👁️</button>
+          </div>
+        </div>
+
+        <div class="login-remember-row">
+          <label class="checkbox-label" style="font-size:13px; display:flex; align-items:center; gap:8px;">
+            <input type="checkbox" id="rememberMeCheck" checked />
+            <span>تذكر تسجيل الدخول على هذا الجهاز</span>
+          </label>
+        </div>
+
+        <div id="loginErrorMsg" class="login-error-msg" style="display:none;"></div>
+
+        <button type="submit" class="btn btn-primary login-submit-btn">
+          <i>🔓</i>
+          <span>دخول للوحة التحكم</span>
+        </button>
+      </form>
+
+
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/admin.js"></script>
+</body>
+
+</html>
