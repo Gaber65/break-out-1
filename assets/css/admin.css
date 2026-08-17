@@ -1213,3 +1213,18 @@ input:checked + .slider:before {
   }
 }
 
+/* ─── FONTAWESOME ICON MAPPING ───────────────────────────── */
+.iconly-boldBuy::before { content: "\f07a"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.iconly-boldCategory::before { content: "\f5fd"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.iconly-boldLocation::before { content: "\f3c5"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.iconly-boldCall::before { content: "\f095"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.iconly-boldTime-Circle::before { content: "\f017"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.iconly-boldPlus::before { content: "\f067"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.iconly-boldDelete::before { content: "\f2ed"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.iconly-boldTick-Square::before { content: "\f058"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.iconly-boldShow::before { content: "\f08e"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.iconly-boldEdit::before { content: "\f044"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.iconly-boldArrow---Left-2::before { content: "\f053"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.iconly-boldArrow---Right-2::before { content: "\f054"; font-family: "Font Awesome 6 Free"; font-weight: 900; }
+
+

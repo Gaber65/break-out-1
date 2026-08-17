@@ -738,7 +738,11 @@ window.openCart = function() {
   const modal = document.getElementById('cartModal');
   const drawer = modal?.querySelector('.cart-drawer');
   if (!modal || !drawer) return;
-  modal.style.display = 'flex';
+  
+  syncCartUI();
+  modal.style.display = 'block';
+  document.body.style.overflow = 'hidden';
+  
   requestAnimationFrame(() => {
     modal.classList.remove('hidden');
     modal.classList.add('is-visible');
@@ -750,12 +754,15 @@ window.closeCart = function() {
   const modal = document.getElementById('cartModal');
   const drawer = modal?.querySelector('.cart-drawer');
   if (!modal || !drawer) return;
+  
   modal.classList.remove('is-visible');
-  drawer.style.transform = currentLang === 'ar' ? 'translateX(-100%)' : 'translateX(100%)';
+  drawer.style.transform = 'translateX(100%)';
+  document.body.style.overflow = '';
+  
   setTimeout(() => {
     modal.style.display = 'none';
     modal.classList.add('hidden');
-  }, 400);
+  }, 350);
 };
 
 window.addToCart = function(categoryId, itemId, sizeIndex) {
