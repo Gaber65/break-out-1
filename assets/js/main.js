@@ -211,6 +211,7 @@ function initCounters() {
 // ─── DYNAMIC MENU & CART ENGINE ─────────────────
 
 let allCategories = [];
+let allOffers = [];
 let cart = JSON.parse(localStorage.getItem('breakout_cart')) || [];
 let activeCategoryTab = '';
 let activeTag = 'all';
@@ -291,23 +292,66 @@ function initMenu() {
 
 async function fetchMenuData() {
   try {
-    const response = await fetch('assets/data/menu.json');
-    if (!response.ok) throw new Error('Failed to load menu data payload');
-    const data = await response.json();
+    let data;
+    if (window.ApiClient) {
+      data = await ApiClient.getMenu();
+    } else {
+      const response = await fetch('assets/data/menu.json');
+      if (!response.ok) throw new Error('Failed to load menu data payload');
+      data = await response.json();
+    }
+
     allCategories = data.categories || [];
+    allOffers = data.offers || [];
     
     // Set first category active by default
-    if (allCategories.length > 0) {
+    if (allCategories.length > 0 && !activeCategoryTab) {
       activeCategoryTab = allCategories[0].id;
     }
     
     renderCategoryTabs();
     renderProducts();
+    renderActiveOffersBanner();
     syncCartUI();
     initDeliveryFields();
   } catch (err) {
     console.error('❌ Failed to fetch menu database:', err);
   }
+}
+
+function renderActiveOffersBanner() {
+  const banner = document.getElementById('activeOffersBanner');
+  if (!banner) return;
+
+  const validOffers = (allOffers || []).filter(o => o.active !== false && o.active !== 'FALSE');
+  if (validOffers.length === 0) {
+    banner.style.display = 'none';
+    return;
+  }
+
+  banner.style.display = 'block';
+  banner.innerHTML = `
+    <div style="display:flex; align-items:center; justify-content:center; gap:12px; flex-wrap:wrap; text-align:center;">
+      <span style="font-size:22px;">🎁</span>
+      <div>
+        <strong style="color:var(--gold); font-size:15px; display:block; margin-bottom:2px;">عروض وخصومات مميزة سارية الآن!</strong>
+        <span style="color:var(--text-secondary); font-size:13px;">
+          ${validOffers.map(o => `✨ ${o.title_ar || o.title}`).join(' | ')}
+        </span>
+      </div>
+    </div>
+  `;
+}
+
+function getOfferForItem(item, categoryId) {
+  if (!allOffers || allOffers.length === 0) return null;
+  return allOffers.find(o => {
+    if (o.active === false || o.active === 'FALSE') return false;
+    if (o.type === 'category' && (o.target === categoryId || o.target === 'all')) return true;
+    if (o.type === 'all') return true;
+    if (o.type === 'product' && o.target === item.id) return true;
+    return false;
+  });
 }
 
 function getCategoryIconHtml(catId) {
@@ -456,7 +500,9 @@ function renderProducts() {
   const itemsHtml = paginated.map(item => {
     const name = currentLang === 'ar' ? item.name_ar : item.name;
     const desc = currentLang === 'ar' ? '' : (item.description || '');
-    
+    const isAvailable = item.available !== false && item.available !== 'FALSE';
+    const itemOffer = getOfferForItem(item, item.categoryId);
+
     let priceStr = '';
     if (item.prices.length === 1) {
       priceStr = `${item.prices[0]} ${currentLang === 'ar' ? 'ج.م' : 'EGP'}`;
@@ -471,8 +517,14 @@ function renderProducts() {
     const safeNameAr = (item.name_ar || item.name).replace(/'/g, "\\'");
     const imgUrl = item.image || generatePlaceholderSvg(item.name, item.name_ar || item.name, item.categoryId);
 
+    const offerBadgeHtml = itemOffer ? `
+      <span class="badge" style="background:linear-gradient(135deg,#FF416C,#FF4B2B); color:#fff; font-size:11px; padding:2px 8px; border-radius:12px;">
+        🎁 ${itemOffer.badge_text || (currentLang === 'ar' ? 'عرض خاص' : 'Special Offer')}
+      </span>
+    ` : '';
+
     return `
-      <div class="menu-item reveal" data-name="${item.name}" onclick="openProductDetail('${item.categoryId}', '${item.id}')" style="cursor: pointer;">
+      <div class="menu-item reveal ${!isAvailable ? 'item-unavailable' : ''}" data-name="${item.name}" onclick="openProductDetail('${item.categoryId}', '${item.id}')" style="cursor: pointer; ${!isAvailable ? 'opacity:0.6;' : ''}">
         <div class="menu-item-image-wrapper">
           <img src="${imgUrl}" alt="${name}" class="menu-item-img" onerror="this.onerror=null; this.src=generatePlaceholderSvg('${safeName}', '${safeNameAr}', '${item.categoryId}');">
         </div>
@@ -485,14 +537,18 @@ function renderProducts() {
           <div class="menu-stars">★★★★★</div>
           <p class="menu-item-desc">${desc}</p>
           <div class="menu-item-footer">
-            <div class="menu-item-badges">
+            <div class="menu-item-badges" style="display:flex; gap:6px; flex-wrap:wrap;">
+              ${offerBadgeHtml}
               ${badge ? `<span class="badge ${badgeClass}">${badge}</span>` : ''}
+              ${!isAvailable ? `<span class="badge" style="background:rgba(255,82,82,0.15); color:#ff5252; border:1px solid rgba(255,82,82,0.3); font-size:10px;">${currentLang === 'ar' ? 'غير متوفر حالياً' : 'Unavailable'}</span>` : ''}
             </div>
             <div style="display: flex; gap: 8px;">
-              <button class="menu-add-btn" onclick="event.stopPropagation(); quickAddToCart('${item.categoryId}', '${item.id}')" style="background:var(--accent-gradient); border:none; color:var(--bg-primary); padding:6px 12px; border-radius:50px; font-weight:bold; font-size:12px; cursor:pointer; display:flex; align-items:center; gap:4px;">
-                <i class="iconly-boldPlus" style="font-size:10px;"></i>
-                <span>${currentLang === 'ar' ? 'أضف' : 'Add'}</span>
-              </button>
+              ${isAvailable ? `
+                <button class="menu-add-btn" onclick="event.stopPropagation(); quickAddToCart('${item.categoryId}', '${item.id}')" style="background:var(--accent-gradient); border:none; color:var(--bg-primary); padding:6px 12px; border-radius:50px; font-weight:bold; font-size:12px; cursor:pointer; display:flex; align-items:center; gap:4px;">
+                  <i class="iconly-boldPlus" style="font-size:10px;"></i>
+                  <span>${currentLang === 'ar' ? 'أضف' : 'Add'}</span>
+                </button>
+              ` : ''}
             </div>
           </div>
         </div>

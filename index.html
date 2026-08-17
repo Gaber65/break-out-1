@@ -117,6 +117,9 @@
       قهوة مختصة، مشروبات مميزة، وحلويات تخلي يومك أحلى.</p>
   </div>
 
+  <!-- ACTIVE PROMO OFFERS BANNER -->
+  <div id="activeOffersBanner" class="reveal reveal-delay-1" style="display:none; max-width:850px; margin:0 auto 28px auto; padding:14px 22px; background:linear-gradient(135deg, rgba(248,152,29,0.12) 0%, rgba(211,16,24,0.12) 100%); border:1px solid rgba(248,152,29,0.35); border-radius:16px; box-shadow:0 8px 24px rgba(248,152,29,0.08);"></div>
+
   <!-- SPACCA CONTROLS TOOLBAR -->
   <div class="spacca-toolbar reveal reveal-delay-1">
     <!-- Live Search -->
@@ -280,8 +283,11 @@
     </div>
   </div>
 
-  <div class="footer-bottom">
+  <div class="footer-bottom" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
     <p>© 2026 <a href="https://www.facebook.com/YASmarketingagency">Yas Marketing Agency</a>. جميع الحقوق محفوظة.</p>
+    <a href="admin.html" target="_blank" style="color: var(--text-muted); font-size: 12px; text-decoration: none; display: flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--border); transition: var(--transition);" onmouseover="this.style.color='var(--gold)'; this.style.borderColor='var(--gold)';" onmouseout="this.style.color='var(--text-muted)'; this.style.borderColor='var(--border)';">
+      <span>🔐 لوحة التحكم</span>
+    </a>
   </div>
 </footer>
 
@@ -319,88 +325,81 @@
         <div class="size-options-grid" id="modalSizeOptions" style="display: flex; gap: 10px;"></div>
       </div>
 
-
-      <div class="spacca-modal-footer">
-        <div class="spacca-modal-price" id="modalPrice">85 ج.م</div>
-        <button id="modalAddToCartBtn" class="btn-primary" data-i18n="add_to_cart">🛒 أضف إلى السلة</button>
+      <div class="spacca-modal-actions" style="display: flex; align-items: center; justify-content: space-between; margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border);">
+        <div class="spacca-modal-price" id="modalPrice" style="font-size: 20px; font-weight: 800; color: var(--gold); font-family: 'Poppins', sans-serif;">0 ج.م</div>
+        <button id="modalAddToCartBtn" onclick="addModalItemToCart()" class="btn-primary" style="padding: 10px 24px; border-radius: 50px; font-weight: bold; border: none; cursor: pointer; display: flex; align-items: center; gap: 8px;">
+          <i class="iconly-boldBuy"></i>
+          <span data-i18n="add_to_cart">أضف للسلة</span>
+        </button>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ─── CART DRAWER ────────────────────────── -->
-<div id="cartModal" class="cart-drawer-modal hidden" style="position: fixed; inset: 0; z-index: 99999; display: none; align-items: center; justify-content: flex-end; background: rgba(0,0,0,0.5); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);">
-  <div class="cart-drawer-overlay" onclick="closeCart()" style="position: absolute; inset: 0; cursor: pointer;"></div>
-  <div class="cart-drawer" style="position: relative; width: 100%; max-width: 450px; height: 100%; background: var(--bg-card); box-shadow: -10px 0 30px rgba(0,0,0,0.5); display: flex; flex-direction: column; transform: translateX(100%); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);">
-    <div class="cart-drawer-header" style="padding: 24px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between;">
-      <h3 data-i18n="cart_title_drawer" style="font-family: inherit; font-size: 22px; font-weight: bold; color: var(--gold);">سلة الطلبات</h3>
-      <button onclick="closeCart()" class="cart-drawer-close" aria-label="إغلاق السلة" style="background: none; border: none; color: var(--text-muted); font-size: 20px; cursor: pointer;">✕</button>
+<!-- ─── FLOATING CART DRAWER ─────────────── -->
+<div id="cartDrawer" class="cart-drawer-overlay hidden" style="position: fixed; inset: 0; z-index: 99999; display: none; background: rgba(0,0,0,0.6); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);">
+  <div class="cart-drawer-backdrop" onclick="closeCart()" style="position: absolute; inset: 0;"></div>
+  <div class="cart-drawer" style="position: absolute; top: 0; bottom: 0; right: 0; width: 100%; max-width: 420px; background: var(--bg-card); border-left: 1px solid var(--border); box-shadow: -10px 0 30px rgba(0,0,0,0.5); display: flex; flex-direction: column; transform: translateX(100%); transition: transform 0.3s ease;">
+    
+    <div class="cart-drawer-header" style="padding: 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <i class="iconly-boldBuy" style="color: var(--gold); font-size: 22px;"></i>
+        <h3 data-i18n="cart_title_drawer" style="font-family: inherit; font-size: 18px; font-weight: bold; margin: 0;">سلة طلباتك</h3>
+      </div>
+      <button onclick="closeCart()" style="background: none; border: none; color: var(--text-muted); font-size: 20px; cursor: pointer; padding: 4px;">&times;</button>
     </div>
 
-    <div id="cartItems" class="cart-drawer-items" style="flex: 1; overflow-y: auto; padding: 24px; display: flex; flex-direction: column; gap: 16px;"></div>
-
-    <div id="emptyCart" class="cart-drawer-empty" style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px; text-align: center; gap: 10px;">
-      <div class="empty-cart-icon" style="font-size: 50px; opacity: 0.3;">🛒</div>
-      <p class="empty-cart-text" data-i18n="cart_empty" style="font-weight: bold; color: var(--text-secondary);">السلة فارغة حالياً</p>
-      <p class="empty-cart-subtext" data-i18n="cart_empty_sub" style="font-size: 13px; color: var(--text-muted);">قم بإضافة مجموعة من المشروبات أو الحلويات الفاخرة.</p>
+    <div id="cartItemsList" class="cart-drawer-body" style="flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
+      <!-- Dynamic cart items -->
     </div>
 
-    <div id="cartCheckout" class="cart-drawer-checkout" style="display: none; padding: 24px; border-top: 1px solid var(--border); background: var(--bg-secondary); overflow-y: auto; max-height: 60%;">
-      <div class="cart-total-row" style="display: flex; justify-content: space-between; font-weight: bold; font-size: 18px; color: var(--text-primary); margin-bottom: 20px;">
-        <span data-i18n="cart_total_label">الإجمالي الصافي</span>
-        <span id="cartTotal">0 ج.م</span>
+    <div class="cart-drawer-footer" style="padding: 20px; border-top: 1px solid var(--border); background: var(--bg-secondary);">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <span data-i18n="total_amount" style="font-size: 14px; font-weight: bold; color: var(--text-muted);">المجموع الإجمالي:</span>
+        <span id="cartTotalSum" style="font-size: 20px; font-weight: 800; color: var(--gold); font-family: 'Poppins', sans-serif;">0 ج.م</span>
       </div>
 
-      <div class="checkout-form-group" style="margin-bottom: 16px;">
-        <label class="checkout-form-label" data-i18n="label_branch" style="display: block; font-size: 12px; font-weight: bold; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase;">اختر الفرع</label>
-        <select id="branchSelect" class="checkout-form-select" style="width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-card); color: var(--text-primary); font-family: inherit; font-size: 14px;">
-          <option value="nile_corniche" data-i18n="branch_nile_corniche">فرع كورنيش النيل : قبل مدخل أبو سليم</option>
-          <option value="abdelsalam_aref" data-i18n="branch_abdelsalam_aref">فرع شارع عبدالسلام عارف : بجوار سامسونج</option>
-          <option value="sports_club" data-i18n="branch_sports_club">فرع النادي الرياضي</option>
-          <option value="east" data-i18n="branch_east">فرع الشرق</option>
+      <!-- Branch Selection -->
+      <div class="checkout-form-group" style="margin-bottom: 12px;">
+        <label class="checkout-form-label" data-i18n="select_branch" style="display: block; font-size: 12px; font-weight: bold; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase;">اختر الفرع الأقرب إليك</label>
+        <select id="checkoutBranch" class="checkout-form-select" style="width: 100%; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-card); color: var(--text-primary); font-family: inherit; font-size: 13px;">
+          <option value="فرع كورنيش النيل : قبل مدخل أبو سليم" data-i18n="branch_nile_corniche">فرع كورنيش النيل : قبل مدخل أبو سليم</option>
+          <option value="فرع شارع عبدالسلام عارف : بجوار سامسونج" data-i18n="branch_abdelsalam_aref">فرع شارع عبدالسلام عارف : بجوار سامسونج</option>
+          <option value="فرع النادي الرياضي" data-i18n="branch_sports_club">فرع النادي الرياضي</option>
+          <option value="فرع الشرق" data-i18n="branch_east">فرع الشرق</option>
         </select>
       </div>
 
-      <div class="checkout-type-toggle" style="display: flex; gap: 10px; margin-bottom: 16px;">
-        <label class="checkout-type-option" style="flex: 1; cursor: pointer; text-align: center;">
-          <input type="radio" name="orderType" value="pickup" checked onchange="toggleDeliveryFields()" style="display: none;">
-          <div class="toggle-card" style="padding: 10px; border: 1px solid var(--border); border-radius: 12px; font-size: 12px; font-weight: bold; color: var(--text-secondary); transition: all 0.3s ease;">استلام من الفرع</div>
-        </label>
-        <label class="checkout-type-option" style="flex: 1; cursor: pointer; text-align: center;">
-          <input type="radio" name="orderType" value="delivery" onchange="toggleDeliveryFields()" style="display: none;">
-          <div class="toggle-card" style="padding: 10px; border: 1px solid var(--border); border-radius: 12px; font-size: 12px; font-weight: bold; color: var(--text-secondary); transition: all 0.3s ease;">توصيل</div>
-        </label>
+      <!-- Order Type -->
+      <div class="checkout-form-group" style="margin-bottom: 12px;">
+        <label class="checkout-form-label" data-i18n="order_type_label" style="display: block; font-size: 12px; font-weight: bold; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase;">طريقة الاستلام</label>
+        <div style="display: flex; gap: 10px;">
+          <label style="flex: 1; display: flex; align-items: center; gap: 6px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg-card); cursor: pointer; font-size: 13px;">
+            <input type="radio" name="orderType" value="dine_in" checked onchange="toggleOrderTypeFields(this.value)" />
+            <span data-i18n="order_type_dine_in">استلام من الفرع</span>
+          </label>
+          <label style="flex: 1; display: flex; align-items: center; gap: 6px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg-card); cursor: pointer; font-size: 13px;">
+            <input type="radio" name="orderType" value="delivery" onchange="toggleOrderTypeFields(this.value)" />
+            <span data-i18n="order_type_delivery">توصيل دليفري</span>
+          </label>
+        </div>
       </div>
 
-      <div id="deliveryFields" class="checkout-delivery-fields" style="max-height: 0; opacity: 0; overflow: hidden; transition: all 0.4s ease; display: flex; flex-direction: column; gap: 16px;">
+      <!-- Delivery Details Section -->
+      <div id="deliveryFieldsSection" style="display: none; flex-direction: column; gap: 10px; margin-bottom: 12px;">
         <div class="checkout-form-group">
           <label class="checkout-form-label" data-i18n="label_governorate" style="display: block; font-size: 12px; font-weight: bold; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase;">المحافظة</label>
-          <select id="governorateSelect" class="checkout-form-select" style="width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-card); color: var(--text-primary); font-family: inherit; font-size: 14px;">
-            <option value="" data-i18n="select_governorate">-- اختر المحافظة --</option>
+          <select id="deliveryGovernorate" class="checkout-form-select" style="width: 100%; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-card); color: var(--text-primary); font-family: inherit; font-size: 13px;">
             <option value="بني سويف" data-i18n="gov_beni_suef">بني سويف</option>
             <option value="القاهرة" data-i18n="gov_cairo">القاهرة</option>
             <option value="الجيزة" data-i18n="gov_giza">الجيزة</option>
           </select>
         </div>
-        <div class="checkout-form-group">
-          <label class="checkout-form-label" data-i18n="label_address" style="display: block; font-size: 12px; font-weight: bold; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase;">العنوان بالتفصيل</label>
-          <textarea id="deliveryAddress" class="checkout-form-textarea" placeholder="الشارع، البناية، الشقة..." style="width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-card); color: var(--text-primary); font-family: inherit; font-size: 14px; resize: none; height: 70px;"></textarea>
-        </div>
       </div>
-
-      <div class="checkout-form-group" style="margin-bottom: 20px; margin-top: 16px;">
-        <label class="checkout-form-label" data-i18n="label_notes" style="display: block; font-size: 12px; font-weight: bold; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase;">ملاحظات إضافية (اختياري)</label>
-        <textarea id="customerNotes" class="checkout-form-textarea" placeholder="أي طلبات خاصة..." style="width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-card); color: var(--text-primary); font-family: inherit; font-size: 14px; resize: none; height: 60px;"></textarea>
-      </div>
-
-      <p id="cartError" class="checkout-error-msg" style="display: none; color: #ff5252; font-size: 12px; font-weight: bold; margin-bottom: 12px;"></p>
-
-      <button onclick="sendOrder()" class="checkout-submit-btn" data-i18n="btn_submit_order" style="width: 100%; padding: 14px; background: var(--accent-gradient); border: none; border-radius: 12px; color: var(--bg-primary); font-family: inherit; font-size: 15px; font-weight: bold; cursor: pointer; transition: var(--transition);">
-        إرسال وتأكيد الطلب عبر واتساب
-      </button>
     </div>
   </div>
 </div>
+
 <!-- ─── PHONE VERIFICATION MODAL ───────────── -->
 <div id="phoneModal" class="phone-modal-container hidden" style="position: fixed; inset: 0; z-index: 999999; display: none; align-items: center; justify-content: center; background: rgba(0,0,0,0.6); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); padding: 16px; opacity: 0; transition: opacity 0.3s ease;">
   <div class="phone-modal-overlay" onclick="closePhoneModal(true)" style="position: absolute; inset: 0;"></div>
@@ -423,6 +422,7 @@
 </div>
 
 <!-- ─── SCRIPTS ──────────────────────────── -->
+<script src="assets/js/config.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
